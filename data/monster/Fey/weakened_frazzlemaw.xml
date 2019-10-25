@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <monster name="Weakened Frazzlemaw" nameDescription="a weakened frazzlemaw" race="blood" experience="1000" speed="150" manacost="450">
 	<health now="1200" max="1200"/>
-	<look type="594" corpse="22567"/>
+	<look type="594" corpse="20233"/>
 	<targetchange interval="4000" chance="10"/>
 	<flags>
 		<flag summonable="0"/>
@@ -61,23 +61,24 @@
 		<voice sentence="Mmmwhamwhamwhah, mwaaah!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
-		<item id="2152" countmax="7" chance="100000"/><!-- platinum coin -->
-		<item id="2225" chance="10400"/><!-- piece of iron -->
-		<item id="2229" chance="12680"/><!-- skull -->
-		<item id="2230" chance="10000"/><!-- bone -->
-		<item id="2231" chance="5500"/><!-- big bone -->
-		<item id="2667" countmax="3" chance="6750"/><!-- fish -->
-		<item id="2671" countmax="2" chance="6000"/><!-- ham -->
-		<item id="5880" chance="700"/><!-- iron ore -->
-		<item id="5895" chance="900"/><!-- fish fin -->
-		<item id="7418" chance="700"/><!-- nightmare blade -->
-		<item id="7590" countmax="3" chance="15000"/><!-- great mana potion -->
-		<item id="7591" countmax="2" chance="15000"/><!-- great health potion -->
-		<item id="11306" chance="1460"/><!-- sai -->
-		<item id="22396" chance="450"/><!-- cluster of solace -->
-		<item id="22532" chance="18760"/><!-- frazzle tongue -->
-		<item id="22533" chance="16000"/><!-- frazzle skin -->
+		<item name="gold coin" countmax="100" chance="100000"/>
+		<item name="platinum coin" countmax="1" chance="60830"/>
 		<item name="fairy wings" chance="30100"/>
+		<item id="3114" chance="12680"/><!-- skull -->
+		<item name="frazzle tongue" chance="11340"/>
+		<item name="frazzle skin" chance="10140"/>
+		<item name="remains of a fish" chance="9920"/>
+		<item id="3115" chance="9830"/><!-- bone -->
+		<item name="great health potion" countmax="2" chance="9800"/>
+		<item name="great mana potion" countmax="3" chance="9690"/>
+		<item id="3578" countmax="3" chance="6570"/><!-- fish -->
+		<item name="ham" countmax="2" chance="5930"/>
+		<item id="3116" chance="5290"/><!-- big bone -->
+		<item name="fish fin" chance="5120"/>
+		<item name="piece of iron" chance="5080"/>
+		<item name="iron ore" chance="2610"/>
+		<item name="nightmare blade" chance="370"/>
+		<item name="sai" chance="290"/>
+		<item name="cluster of solace" chance="220"/>
 	</loot>
 </monster>

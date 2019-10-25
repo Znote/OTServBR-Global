@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Metal Gargoyle" nameDescription="a metal gargoyle" race="energy" experience="1400" speed="95">
 	<health now="2100" max="2100"/>
-	<look type="601" corpse="23347"/>
+	<look type="601" corpse="20976"/>
   <targetchange interval="2000" chance="5"/>
   <flags>
     <flag summonable="0"/>
@@ -47,18 +47,19 @@
 		<voice sentence="clonk"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="200" chance="100000"/><!-- gold coin -->
-		<item id="24124" chance="1490"/><!-- bronze gear wheel -->
-		<item id="23564" chance="17160"/><!-- metal jaw -->
-		<item id="2152" countmax="2" chance="43280"/><!-- platinum coin -->
-		<item id="7588" countmax="2" chance="9700"/><!-- strong health potion -->
-		<item id="7589" countmax="2" chance="9700"/><!-- strong mana potion -->
-		<item id="23542" chance="1490"/><!-- metal bat -->
-		<item id="2167" chance="2240"/><!-- energy ring -->
-		<item id="2168" chance="750"/><!-- life ring -->
-		<item id="11227" chance="2240"/><!-- shiny stone -->
-		<item id="23540" chance="1490"/><!-- metal spats -->
-		<item id="23539" chance="1490"/><!-- alloy legs -->
-		<item id="9810" chance="2990"/><!-- rusty armor(rare) -->
+		<item name="gold coin" countmax="233" chance="100000"/>
+		<item name="metal jaw" chance="17770"/>
+		<item name="strong health potion" countmax="2" chance="8990"/>
+		<item name="strong mana potion" countmax="2" chance="8980"/>
+		<item name="metal spats" chance="3000"/>
+		<item name="bronze gear wheel" chance="2550"/>
+		<item name="shiny stone" chance="1400"/>
+		<item name="alloy legs" chance="1030"/>
+		<item name="metal bat" chance="940"/>
+		<item name="underworld rod" chance="860"/>
+		<item name="life ring" chance="530"/>
+		<item name="iron ore" chance="520"/>
+		<item name="energy ring" chance="490"/>
+		<item name="slightly rusted armor" chance="20"/>
 	</loot>
 </monster>
