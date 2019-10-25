@@ -959,6 +959,8 @@
 	<monster name="Frost Dragon" file="Dragons/frost_dragon.xml"/>
 	<monster name="Frost Dragon Hatchling" file="Dragons/frost_dragon_hatchling.xml"/>
 	<monster name="Undead Dragon" file="Dragons/undead_dragon.xml"/>
+	<monster name="Wounded Cave Draptor" file="Dragons/wounded_cave_draptor.xml"/>
+	
 	<monster name="Wyrm" file="Dragons/wyrm.xml"/>
 	<monster name="Ghastly Dragon" file="Dragons/ghastly_dragon.xml"/>
 	<monster name="Draptor" file="Dragons/draptor.xml"/>
@@ -973,6 +975,7 @@
 	<monster name="Minion of Gaz'haragoth" file="Dreamhaunters/minion_of_gaz'haragoth.xml"/>
 	<monster name="Nightmare of Gaz'haragoth" file="Dreamhaunters/nightmare_of_gaz'haragoth.xml"/>
 	<monster name="Retching Horror" file="Dreamhaunters/retching_horror.xml"/>
+	<monster name="Shimmying Butterfly" file="Dreamhaunters/shimmying_butterfly.xml"/>
 	<monster name="Shiversleep" file="Dreamhaunters/shiversleep.xml"/>
 	<monster name="Shock Head" file="Dreamhaunters/shock_head.xml"/>
 	<monster name="Sight of Surrender" file="Dreamhaunters/sight_of_surrender.xml"/>
