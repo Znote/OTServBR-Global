@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Minotaur Amazon" nameDescription="a minotaur amazon" race="blood" experience="2200" speed="125">
 	<health now="2600" max="2600"/>
-	<look type="608" corpse="23371"/>
+	<look type="608" corpse="21000"/>
 	<targetchange interval="2000" chance="11"/>
 	<flags>
 		<flag summonable="0"/>
@@ -53,29 +53,30 @@
 		<voice sentence="You won't hurt us!"/>
 	</voices>
 	<loot>
-		<item id="7368" countmax="5" chance="3040"/>		<!-- assassin star -->
-		<item id="23575" chance="19830"/>		<!-- cowbell -->
-		<item id="2148" countmax="196" chance="100000"/>	<!-- gold coin -->
-		<item id="2671" chance="60780"/>		<!-- ham -->
-		<item id="2666" chance="4920"/>		<!-- meat -->
-		<item id="2152" countmax="3" chance="62080"/>		<!-- platinum coin -->
-		<item id="9971" chance="290"/>			<!-- gold ingot -->
-		<item id="5878" chance="17950"/>		<!-- minotaur leather -->
-		<item id="7591" chance="7670"/>		<!-- great health potion -->
-		<item id="7590" chance="7380"/>		<!-- great mana potion -->
-		<item id="12428" countmax="2" chance="6800"/>		<!-- minotaur horn -->
-		<item id="2214" chance="3040"/>						<!-- ring of healing -->
-		<item id="2147" countmax="2" chance="5500"/>		<!-- small ruby -->
-		<item id="9970" countmax="2" chance="900"/>		<!-- small topaz -->
-		<item id="2150" countmax="2" chance="970"/>		<!-- small amethyst -->
-		<item id="2149" countmax="2" chance="4050"/>		<!-- small emerald -->
-		<item id="23546" chance="3040"/>					<!-- mino shield -->
-		<item id="23545" chance="1740"/>					<!-- mino lance -->
-		<item id="5911" chance="710"/>		<!-- red piece of cloth -->
-		<item id="2156" chance="430"/>						<!-- red gem -->
-		<item id="2197" subtype="5" chance="850"/>			<!-- stone skin amulet -->
-		<item id="2154" chance="870"/>						<!-- yellow gem -->
-		<item id="2475" chance="1160"/>						<!-- warrior helmet -->
-		<item id="7443" chance="720"/>			<!-- bullseye potion -->
+		<item name="gold coin" countmin="5" countmax="199" chance="100000"/>
+		<item name="platinum coin" countmax="3" chance="64980"/>
+		<item name="ham" chance="59470"/>
+		<item name="cowbell" chance="19660"/>
+		<item name="minotaur leather" chance="16570"/>
+		<item name="great mana potion" chance="7050"/>
+		<item name="great health potion" chance="6590"/>
+		<item name="meat" chance="6570"/>
+		<item name="minotaur horn" countmax="2" chance="5300"/>
+		<item name="small ruby" countmin="1" countmax="2" chance="5170"/>
+		<item name="small topaz" countmin="1" countmax="2" chance="5020"/>
+		<item name="small amethyst" countmin="1" countmax="2" chance="4880"/>
+		<item name="small emerald" countmin="1" countmax="2" chance="4460"/>
+		<item name="mino shield" chance="3750"/>			
+		<item name="assassin star" countmin="1" countmax="5" chance="2980"/>
+		<item name="ring of healing" chance="2400"/>				
+		<item name="mino lance" chance="1740"/>			
+		<item name="stone skin amulet" subtype="5" chance="860"/>	
+		<item name="bullseye potion" chance="850"/>	
+		<item name="warrior helmet" chance="750"/>				
+		<item name="red piece of cloth" chance="620"/>
+		<item name="yellow gem" chance="580"/>				
+		<item name="gold ingot" chance="580"/>	
+		<item name="red gem" chance="460"/>				
+		<item name="minotaur trophy" chance="230"/>
 	</loot>
 </monster>

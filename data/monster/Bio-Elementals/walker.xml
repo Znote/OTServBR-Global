@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Walker" nameDescription="a walker" race="energy" experience="2200" speed="150">
 	<health now="3000" max="3000"/>
-	<look type="605" corpse="23343"/>
+	<look type="605" corpse="20992"/>
   <targetchange interval="2000" chance="5"/>
   <flags>
     <flag summonable="0"/>
@@ -39,16 +39,17 @@
 	<immunity lifedrain="1"/>
   </immunities>
 	<loot>
-		<item id="23569" chance="3548"/><!-- metal toe -->
-		<item id="23541" chance="1490"/><!-- gearwheel chain -->
-		<item id="2148" countmax="200" chance="100000"/><!-- gold coin -->
-		<item id="2152" countmax="3" chance="51610"/><!-- platinum coin -->
-		<item id="9970" countmax="3" chance="16130"/><!-- small topaz -->
-		<item id="2149" countmax="2" chance="6450"/><!-- small emerald -->
-		<item id="8472" chance="3230"/><!-- great spirit potion -->
-		<item id="7591" chance="3230"/><!-- great health potion -->
-		<item id="7590" chance="2300"/><!-- great mana potion -->
-		<item id="23540" chance="1780"/><!-- metal spats -->
-		<item id="2645" chance="450"/><!-- steel boots -->
+		<item name="gold coin" countmin="1" countmax="199" chance="100000"/>
+		<item name="platinum coin" countmin="1" countmax="3" chance="52910"/>
+		<item name="metal toe" chance="20900"/>
+		<item name="small topaz" chance="10210"/>
+		<item name="great health potion" chance="8470"/>
+		<item name="great spirit potion" chance="7670"/>
+		<item name="small amethyst" chance="4390"/>
+		<item name="small emerald" chance="4290"/>
+		<item name="metal spats" chance="3760"/>
+		<item name="gearwheel chain" chance="2280"/>
+		<item name="crystal mace" chance="740"/>
+		<item name="steel boots" chance="530"/>
 	</loot>
 </monster>

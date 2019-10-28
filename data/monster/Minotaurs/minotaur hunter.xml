@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Minotaur Hunter" nameDescription="a minotaur hunter" race="blood" experience="1700" speed="115">
 	<health now="1400" max="1400"/>
-	<look type="612" corpse="23466"/>
+	<look type="612" corpse="21095"/>
 	<targetchange interval="2000" chance="11"/>
 	<flags>
 		<flag summonable="0"/>
@@ -60,26 +60,26 @@
 		<voice sentence="You'll make a fine trophy!"/>
 	</voices>
 	<loot>
-		<item id="2260" countmax="2" chance="13600"/>	<!-- blank rune -->
-		<item id="2148" countmax="199" chance="99500"/>	<!-- gold coin -->
-		<item id="3965" countmax="5" chance="14880"/>	<!-- hunting spear -->
-		<item id="2152" countmax="3" chance="33890"/>	<!-- platinum coin -->
-		<item id="7378" countmax="5" chance="11410"/>	<!-- royal spear -->
-		<item id="7588" countmax="2" chance="10350"/>	<!-- strong health potion -->
-		<item id="7589" countmax="2" chance="10620"/>	<!-- strong mana potion -->
-		<item id="5944" chance="7430"/>					<!-- soul orb -->
-		<item id="5878" chance="5030"/>					<!-- minotaur leather -->
-		<item id="12428" countmax="2" chance="4720"/>	<!-- minotaur horn -->
-		<item id="2147" countmax="3" chance="2640"/>	<!-- small ruby -->
-		<item id="2150" countmax="3" chance="2580"/>	<!-- small amethyst -->
-		<item id="2165" chance="2220"/>					<!-- stealth ring -->
-		<item id="5912" chance="1670"/>					<!-- blue piece of cloth -->
-		<item id="5910" chance="1420"/>					<!-- green piece of cloth -->
-		<item id="5911" chance="1360"/>					<!-- red piece of cloth -->
-		<item id="23546" chance="640"/>					<!-- mino shield -->
-		<item id="2154" chance="470"/>					<!-- yellow gem -->
-		<item id="2156" chance="400"/>					<!-- red gem -->
-		<item id="7401" chance="190"/>					<!-- minotaur trophy -->
-		<item id="23537" chance="170"/>					<!-- mooh'tah plate -->
+		<item name="gold coin" countmax="199" chance="99460"/>
+		<item name="platinum coin" countmax="3" chance="35000"/>
+		<item name="hunting spear" countmax="5" chance="15000"/>
+		<item name="blank rune" countmax="2" chance="14970"/>
+		<item name="royal spear" countmax="5" chance="11760"/>
+		<item name="strong mana potion" countmax="2" chance="10160"/>
+		<item name="strong health potion" countmax="2" chance="9880"/>
+		<item name="soul orb" chance="7030"/>
+		<item name="minotaur horn" countmax="2" chance="5030"/>
+		<item name="minotaur leather" chance="4850"/>
+		<item name="small ruby" countmax="3" chance="2540"/>
+		<item name="small amethyst" countmax="3" chance="2440"/>
+		<item name="stealth ring" chance="2400"/>
+		<item name="green piece of cloth" chance="1540"/>
+		<item name="blue piece of cloth" chance="1510"/>
+		<item name="red piece of cloth" chance="1480"/>
+		<item name="mino shield" chance="750"/>
+		<item name="yellow gem" chance="560"/>
+		<item name="red gem" chance="530"/>
+		<item name="minotaur trophy" chance="160"/>
+		<item name="mooh'tah plate" chance="100"/>
 	</loot>
 </monster>
