@@ -361,3 +361,4 @@ data/world/otservbr.otbm
 config.lua
 tfs.exe
 data/items/items-SID.otb
+*.ini
