@@ -1227,6 +1227,7 @@
 	<monster name="Leviathan" file="Serpents/leviathan.xml"/>
 	<monster name="Lizard Abomination" file="Serpents/lizard_abomination.xml"/>
 	<monster name="Sacred Snake" file="Serpents/sacred_snake.xml"/>
+	<monster name="Lonely Snake" file="Serpents/lonely_snake.xml"/>
 	<monster name="Sea Serpent" file="Serpents/sea_serpent.xml"/>
 	<monster name="Seacrest Serpent" file="Serpents/seacrest_serpent.xml"/>
 	<monster name="Serpent Spawn" file="Serpents/serpent_spawn.xml"/>
