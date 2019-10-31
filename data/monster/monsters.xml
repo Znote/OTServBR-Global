@@ -315,7 +315,7 @@
 	<monster name="Frost Servant" file="Cryo-Elementals/frost_servant.xml"/>
 	<monster name="Frozen Minion" file="Cryo-Elementals/frozen_minion.xml"/>
 	<monster name="Hirintror" file="Cryo-Elementals/hirintror.xml"/>
-	<monster name="Ice Golem" file="Cryo-Elementals/Ice Golem.xml"/>
+	<monster name="Ice Golem" file="Cryo-Elementals/ice_golem.xml"/>
 	<monster name="Ice Overlord" file="Cryo-Elementals/ice_overlord.xml"/>
 	<monster name="Icicle" file="Cryo-Elementals/icicle.xml"/>
 	<monster name="Melting Frozen Horror" file="Cryo-Elementals/melting_frozen_horror.xml"/>
@@ -627,7 +627,7 @@
 	<monster name="Cat" file="Felines/cat.xml"/>
 	<monster name="Lion" file="Felines/lion.xml"/>
 	<monster name="Midnight Panther" file="Felines/midnight_panther.xml"/>
-	<monster name="Noble Lion" file="Oramond/noble_lion.xml"/>
+	<monster name="Noble Lion" file="Felines/noble_lion.xml"/>
 	<monster name="Roaring Lion" file="Felines/roaring_lion.xml"/>
 	<monster name="Tiger" file="Felines/tiger.xml"/>
 	<monster name="Zomba" file="Felines/zomba.xml"/>
@@ -691,7 +691,7 @@
 	<monster name="Muddy Earth Elemental" file="Geo-Elementals/muddy_earth_elemental.xml"/>
 	<monster name="Rocko" file="Geo-Elementals/rocko.xml"/>
 	<monster name="Rocky" file="Geo-Elementals/rocky.xml"/>
-	<monster name="Shard Of Corruption" file="Geo-Elementals/shard_of _corruption.xml"/>
+	<monster name="Shard Of Corruption" file="Geo-Elementals/shard_of_corruption.xml"/>
 	<monster name="Spirit of Earth" file="Geo-Elementals/spirit_of_earth.xml"/>
 	<monster name="Stone Devourer" file="Geo-Elementals/stone_devourer.xml"/>
 	<monster name="Stone Golem" file="Geo-Elementals/stone_golem.xml"/>
@@ -757,8 +757,8 @@
 	<monster name="Muglex Clan Scavenger" file="Goblins/muglex_clan_scavenger.xml"/>
 	
 	<!-- Hands -->
-	<monster name="Gravedigger" file="Demons/gravedigger.xml"/>
-	<monster name="Hand of Cursed Fate" file="Demons/hand_of_cursed_fate.xml"/>
+	<monster name="Gravedigger" file="Hands/gravedigger.xml"/>
+	<monster name="Hand of Cursed Fate" file="Hands/hand_of_cursed_fate.xml"/>
 	<monster name="The Handmaiden" file="Hands/the_handmaiden.xml"/>
 	
 	<!-- High Class Lizards -->
@@ -990,9 +990,9 @@
 
 	<!-- Mutated Mammals -->
 	<monster name="Esmeralda" file="Mutated Mammals/esmeralda.xml"/>
-	<monster name="Mutated Human" file="Mutated/mutated_human.xml"/>
-	<monster name="Mutated Rat" file="Mutated/mutated_rat.xml"/>
-	<monster name="Mutated Tiger" file="Mutated/mutated_tiger.xml"/>
+	<monster name="Mutated Human" file="Mutated Mammals/mutated_human.xml"/>
+	<monster name="Mutated Rat" file="Mutated Mammals/mutated_rat.xml"/>
+	<monster name="Mutated Tiger" file="Mutated Mammals/mutated_tiger.xml"/>
 	
 	<!-- Myriapods -->
 	<monster name="Centipede" file="Myriapods/centipede.xml"/>
@@ -1067,6 +1067,7 @@
 	<monster name="Donkey" file="Others/donkey.xml"/>
 	<monster name="Dorokoll The Mystic" file="Others/dorokoll_the_mystic.xml"/>
 	<monster name="Dorokoll The Mystic STOP" file="Others/dorokoll_the_mystic_stop.xml"/>
+	<monster name="Electric Sparks" file="Others/electric_sparks.xml"/>
 	<monster name="Eliz The Unyielding" file="Others/eliz_the_unyielding.xml"/>
 	<monster name="Eliz The Unyielding STOP" file="Others/eliz_the_unyielding_stop.xml"/>
 	<monster name="Eshtaba The Conjurer" file="Others/eshtaba_the_conjurer.xml"/>
@@ -1082,6 +1083,7 @@
 	<monster name="Oberon's Ire" file="Others/oberions_ire.xml"/>
 	<monster name="Oberon's Spite" file="Others/oberions_spite.xml"/>
 	<monster name="Thorn Steed" file="Others/thorn_steed.xml"/>
+	<monster name="Void" file="Others/void.xml"/>
 
 	<!-- Outlaws -->
 	<monster name="Achad" file="Outlaws/achad.xml"/>
