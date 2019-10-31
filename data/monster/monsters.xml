@@ -717,6 +717,7 @@
 	<monster name="Souleater" file="Ghosts/souleater.xml"/>
 	<monster name="Spectre" file="Ghosts/spectre.xml"/>
 	<monster name="Stolen Soul" file="Ghosts/stolen_soul.xml"/>
+	<monster name="Tainted Soul" file="Ghosts/tainted_soul.xml"/>
 	<monster name="Tarnished Spirit" file="Ghosts/tarnished_spirit.xml"/>
 	<monster name="Time Keeper" file="Ghosts/time_keeper.xml"/>
 	<monster name="Tormented Ghost" file="Ghosts/tormented_ghost.xml"/>
