@@ -535,7 +535,8 @@
 	<monster name="Dworc Fleshhunter" file="Dworcs/dworc_fleshhunter.xml"/>
 	<monster name="Dworc Venomsniper" file="Dworcs/dworc_venomsniper.xml"/>
 	<monster name="Dworc Voodoomaster" file="Dworcs/dworc_voodoomaster.xml"/>
-
+	<monster name="Oodok Witchmaster" file="Dworcs/oodok_witchmaster.xml"/>
+	
 	<!-- Event Creatures -->
 	<monster name="Animated Snowman" file="Event Creatures/animated_snowman.xml"/>
 	<monster name="Bones" file="Event Creatures/bones.xml"/>
@@ -1090,6 +1091,7 @@
 	<monster name="Achad" file="Outlaws/achad.xml"/>
 	<monster name="Adventurer" file="Outlaws/adventurer.xml"/>
 	<monster name="Angry Adventurer" file="Outlaws/angry_adventurer.xml"/>
+	<monster name="Arthom The Hunter" file="Outlaws/arthom_the_hunter.xml"/>
 	<monster name="Assassin" file="Outlaws/assassin.xml"/>
 	<monster name="Bandit" file="Outlaws/bandit.xml"/>
 	<monster name="Black Knight" file="Outlaws/black_knight.xml"/>
