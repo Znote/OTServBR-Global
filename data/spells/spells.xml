@@ -1177,8 +1177,8 @@
 	<instant name="energy pulse explosion" words="###401" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/energy pulse explosion.lua"/>
 	<instant name="glooth-generator summon" words="###402" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/glooth-generator summon.lua"/>
 	<instant name="minotaur wallbreaker walkthrough" words="###403" aggressive="1" blockwalls="0" needtarget="0" needlearn="1" script="monster/minotaur wallbreaker walkthrough.lua"/>
-	<instant name="renegade knight" words="##404" aggressive="0" blockwalls="1" needtarget="0" needlearn="1" script="monster/renegade knight.lua" />
-	<instant name="vile grandmaster" words="##405" aggressive="0" blockwalls="1" needtarget="0" needlearn="1" script="monster/vile grandmaster.lua" />
+	<instant name="yellow spark(exori)" words="##404" aggressive="0" blockwalls="1" needtarget="0" needlearn="1" script="monster/yellow_spark(exori).lua" />
+	<instant name="vile groundshaker" words="##405" aggressive="0" blockwalls="1" needtarget="0" needlearn="1" script="monster/vile_groundshaker.lua" />
 	<instant name="twisted shaper ice" words="###406" direction="1" aggressive="1" blockwalls="1" needtarget="0" range="3" needlearn="1" script="monster/twisted shaper ice.lua" />
 	<instant name="shulgrax summon" words="###407" aggressive="1" blockwalls="1" needlearn="1" script="monster/shulgrax summon.lua"/>
 	<instant name="tarbaz tp" words="###408" aggressive="1" blockwalls="1" needlearn="1" script="monster/tarbaz tp.lua"/>
