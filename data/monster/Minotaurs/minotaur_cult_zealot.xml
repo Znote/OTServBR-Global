@@ -53,7 +53,7 @@
 		<item name="small diamond" countmax="2" chance="2900"/>
 		<item name="small amethyst" countmax="2" chance="2610"/>
 		<item name="red piece of cloth" chance="2460"/>
-		<!-- <item name="minotaur trophy" chance="220"/> -->
+		<item id="7401" chance="220"/><!-- minotaur trophy -->
 		<item name="red gem" chance="70"/>
 		<item name="minotaur leather" chance="4780"/>
 		<item name="minotaur horn" countmax="2" chance="2320"/>

@@ -17,6 +17,7 @@
 		<flag runonhealth="30"/>
 		<flag canwalkonenergy="0"/>
 		<flag canwalkonpoison="0"/>
+		<flag canwalkonfire="1"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-300"/>
@@ -30,8 +31,9 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="-20"/>
+		<element earthPercent="-10"/>
 		<element energyPercent="-10"/>
+		<element deathPercent="10"/>
 	</elements>
 	<immunities>
 		<immunity invisible="1"/>

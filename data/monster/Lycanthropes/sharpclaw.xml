@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Sharpclaw" nameDescription="a sharpclaw" race="blood" experience="3000" speed="250" script="rewardboss.lua">
 	<health now="3300" max="3300"/>
-	<look type="1031" corpse="24723"/>
+	<look type="1031" corpse="22067"/>
 	<targetchange interval="4000" chance="10"/>
 	<flags>
 		<flag preyable="0"/>
@@ -17,6 +17,9 @@
 		<flag targetdistance="0"/>
 		<flag staticattack="90"/>
 		<flag runonhealth="0"/>
+		<flag canwalkonenergy="1"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonpoison="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-290"/>
@@ -45,39 +48,35 @@
 		<voice sentence="Never underestimate a badger!"/>
 	</voices>
 	<elements>
-		<element physicalPercent="50"/>
-		<element energyPercent="50"/>
-		<element earthPercent="70"/>
-		<element firePercent="50"/>
-		<element deathPercent="50"/>
-		<element icePercent="50"/>
-		<element holyPercent="50"/>
+		<element firePercent="-5"/>
+		<element energyPercent="10"/>
+		<element icePercent="10"/>
+		<element deathPercent="20"/>
+		<element earthPercent="50"/>
 	</elements>
 	<immunities>
 		<immunity invisible="1"/>
 		<immunity paralyze="1"/>
 	</immunities>
-	<summons maxSummons="2">
+	<summons maxSummons="1">
 		<summon name="Werebadger" interval="2000" chance="20"/>
 	</summons>
 	<loot>
-		<item name="Gold Coin" countmax="100" chance="13600000"/>
-		<item name="Gold Coin" countmax="100" chance="13600000"/>
-		<item name="Platinum Coin" countmax="10" chance="13600000"/>
-		<item name="Brown Mushroom" countmax="9" chance="13600000"/>
-		<item name="Onyx Chip" countmax="9" chance="13600000"/>
-		<item name="Small Enchanted Amethyst" countmax="9" chance="13600000"/>
-		<item name="Beetroot" countmax="9" chance="13600000"/>
-		<item name="Great Mana Potion" countmax="9" chance="13600000"/>
-		<item name="Platinum Amulet" chance="13600000"/>
-		<item name="Ring of Healing" chance="13600000"/>
-		<item name="Troll Green" countmax="9" chance="13600000"/>
-		<item name="Ultimate Mana Potion" countmax="9" chance="13600000"/>
-		<item name="Werebadger Claws" countmax="9" chance="13600000"/>
-		<item name="Werebadger Skull" countmax="9" chance="13600000"/>
-		<item name="Badger Boots" chance="400"/>
-		<item name="Underworld Rod" chance="400"/>
-		<item name="Wand of Voodoo" chance="400"/>
-		<item name="Wolf Backpack" chance="250"/>
+		<item name="werebadger claws" chance="100000"/>
+		<item name="werebadger skull" chance="100000"/>
+		<item name="platinum coin" countmax="5" chance="100000"/>
+		<item name="gold coin" countmax="60" chance="79060"/>
+		<item name="onyx chip" countmax="3" chance="76700"/>
+		<item name="great mana potion" chance="38940"/>
+		<item name="beetroot" chance="24190"/>
+		<item name="small enchanted amethyst" countmax="3" chance="23300"/>
+		<item name="badger boots" chance="22420"/>
+		<item name="ultimate mana potion" chance="15340"/>
+		<item name="underworld rod" chance="7370"/>
+		<item name="wand of voodoo" chance="5600"/>
+		<item name="troll green" chance="3240"/>
+		<item name="moonlight crystal" chance="2650"/>
+		<item name="silver token" chance="2360"/>
+		<item name="wolf backpack" chance="290"/>
 	</loot>
 </monster>

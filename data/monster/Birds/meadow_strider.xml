@@ -37,6 +37,6 @@
 		<item name="mace" chance="8330"/>
 		<item name="longsword" chance="7640"/>
 		<item name="hatchet" chance="6640"/>
-		<item name="rope" chance="4540"/>
+		<item id="3003" chance="5720"/> <!-- rope -->
 	</loot>
 </monster>

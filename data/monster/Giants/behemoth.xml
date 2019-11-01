@@ -47,7 +47,7 @@
 		<voice sentence="Crush the intruders!"/>
 	</voices>
 	<loot>
-		<item name="amphora" chance="100"/>
+		<item id="2893" chance="100"/>
 		<item name="crystal necklace" chance="2530"/>
 		<item name="gold coin" countmax="100" chance="595300"/>
 		<item name="gold coin" countmax="99" chance="40000"/>

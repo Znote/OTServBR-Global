@@ -52,6 +52,6 @@
 		<item name="pointed rabbitslayer" chance="1000"/>
 		<item name="helmet of nature" chance="60000"/>
 		<item name="odd hat" chance="1000"/>
-		<item name="the shield Nevermourn" chance="2000"/>
+		<item id="9401" chance="2000"/><!-- shield Nevermourn -->
 	</loot>
 </monster>

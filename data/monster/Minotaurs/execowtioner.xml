@@ -53,7 +53,7 @@
 		<item name="platinum coin" countmax="3" chance="65600"/>
 		<item name="execowtioner mask" chance="16370"/>
 		<item name="minotaur leather" chance="15710"/>
-		<item name="7591" chance="great health potion10500"/>
+		<item name="great health potion" chance="10500"/>
 		<item name="great mana potion" chance="10020"/>
 		<item name="meat" chance="8130"/>
 		<item name="small ruby" countmax="2" chance="5300"/>
@@ -66,6 +66,6 @@
 		<item name="titan axe" chance="620"/>
 		<item name="butcher's axe" chance="540"/>
 		<item name="gold ingot" chance="430"/>
-		<item name="minotaur trophy" chance="370"/>
+		<item id="7401" chance="370"/><!-- minotaur trophy -->
 	</loot>
 </monster>

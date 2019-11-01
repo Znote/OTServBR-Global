@@ -70,6 +70,6 @@
 		<item name="fishing rod" chance="800"/>
 		<item id="7633" chance="780"/><!-- giant shimmering pearl -->
 		<item name="small sapphire" chance="770"/>
-		<item name="white pealr" chance="750"/>
+		<item name="white pearl" chance="750"/>
 	</loot>
 </monster>

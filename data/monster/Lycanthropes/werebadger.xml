@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Werebadger" nameDescription="a werebadger" race="blood" experience="1600" speed="130">
 	<health now="1700" max="1700"/>
-	<look type="729" corpse="24723"/>
+	<look type="729" corpse="22067"/>
 	<targetchange interval="4000" chance="10"/>
 	<flags>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -15,10 +15,13 @@
 		<flag targetdistance="1"/>
 		<flag staticattack="80"/>
 		<flag runonhealth="275"/>
+		<flag canwalkonenergy="1"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonpoison="1"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="50" attack="60" poison="140"/>
-		<attack name="lifedrain" interval="2000" chance="20" countmax="5" range="7" target="1" min="-21" max="-150">
+		<attack name="melee" interval="2000" skill="50" min="0" max="-170"/>
+		<attack name="lifedrain" interval="2000" chance="20" countmax="5" range="7" target="1" min="0" max="-100">
 			<attribute key="shootEffect" value="earth"/>
 			<attribute key="areaEffect" value="carniphila"/>
 		</attack>
@@ -28,8 +31,8 @@
 		<attack name="speed" interval="4000" chance="20" radius="7" target="1" speedchange="-100">
 			<attribute key="areaEffect" value="poff"/>
 		</attack>
-	</attacks>
-	<defenses armor="30" defense="30">
+	</attacks><!-- need revision or create spells -->
+	<defenses armor="31" defense="0">
 		<defense name="healing" interval="2000" chance="25" min="50" max="100">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
@@ -38,12 +41,15 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element icePercent="20"/>
-		<element firePercent="-10"/>
-		<element energyPercent="-10"/>
+		<element holyPercent="-5"/>
+		<element firePercent="-5"/>
+		<element icePercent="-5"/>
+		<element physicalPercent="5"/>
+		<element energyPercent="5"/>
+		<element deathPercent="40"/>
+		<element earthPercent="50"/>
 	</elements>
 	<immunities>
-		<immunity earth="1"/>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
@@ -51,22 +57,24 @@
 		<voice sentence="SNUFFLE"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="242" chance="97000"/>	<!-- gold coin -->
-		<item id="2152" countmax="5" chance="18200"/>				<!-- fish -->
-		<item id="8845" chance="2000"/>				<!-- Beetroot -->
-		<item id="2789" chance="2000"/>				<!-- Brown Mushroom -->
-		<item id="7620" chance="2210"/>					<!-- Mana Potion -->
-		<item id="7589" chance="1200"/>					<!-- Strong Mana Potion, -->
-		<item id="2805" chance="1900"/>					<!-- Troll Green -->
-		<item id="24707" chance="950"/>					<!-- Life Ring -->
-		<item id="24711" chance="780"/>					<!-- werebadger skull -->
-		<item id="24742" chance="200"/>					<!-- badger boots -->
-		<item id="2171" chance="160"/>					<!-- Platinum Amulet  -->
-		<item id="2214" chance="430"/>					<!-- Ring of Healing -->
-		<item id="8910" chance="220"/>					<!-- Underworld Rod -->
-		<item id="8922" chance="200"/>					<!-- Wand of Voodoo -->
-	<item id="24739" chance="150"/>					<!-- moonlight crystals -->
-	<item id="24716" chance="200"/>					<!-- werewolf amulet -->
-	<item id="24757" chance="100"/>					<!-- Werebadger Trophy -->
+		<item name="platinum coin" countmin="1" countmax="3" chance="100000"/>
+		<item name="gold coin" countmin="1" countmax="75" chance="79960"/>
+        <item name="beetroot" chance="25960"/>
+		<item name="werebadger claws" chance="14580"/>
+		<item name="werebadger skull" chance="14330"/>
+		<item name="brown mushroom" chance="8030"/>
+		<item name="troll green" chance="5320"/>
+		<item name="mana potion" chance="5150"/>
+        <item name="strong mana potion" chance="4040"/>
+		<item name="moonlight crystal" chance="2410"/>
+		<item name="great mana potion" chance="1880"/>
+		<item name="small enchanted amethyst" chance="1600"/>
+		<item name="ring of healing" chance="1000"/>
+		<item name="badger boots" chance="880"/>
+		<item name="werewolf amulet" chance="720"/>
+		<item name="wand of voodoo" chance="510"/>
+		<item name="platinum amulet" chance="420"/>
+		<item name="underworld rod" chance="330"/>
+	    <item id="22101" chance="280"/><!-- werebadger trophy -->
 	</loot>
 </monster>

@@ -29,7 +29,7 @@
 		<item name="gold coin" countmax="12" chance="100000"/>
 		<item name="white mushroom" countmax="4" chance="18200"/>
 		<item name="simple arrow" countmax="10" chance="9480"/>
-		<item name="rope" chance="5720"/>
+		<item id="3003" chance="5720"/> <!-- rope -->
 		<item name="studded armor" chance="4920"/>
 		<item name="hatchet" chance="3070"/>
 		<item name="studded shield" chance="2670"/>

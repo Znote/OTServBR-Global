@@ -10,7 +10,7 @@
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-				<flag isblockable="0"/>
+		<flag isblockable="0"/>
 		<flag canpushitems="1"/>
 		<flag canpushcreatures="1"/>
 		<flag targetdistance="4"/>
@@ -79,7 +79,7 @@
 		<item name="mino shield" chance="750"/>
 		<item name="yellow gem" chance="560"/>
 		<item name="red gem" chance="530"/>
-		<item name="minotaur trophy" chance="160"/>
+		<item id="7401" chance="160"/><!-- minotaur trophy -->
 		<item name="mooh'tah plate" chance="100"/>
 	</loot>
 </monster>

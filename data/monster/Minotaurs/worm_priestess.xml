@@ -62,7 +62,7 @@
 		<item name="strong mana potion" chance="12270"/>
 		<item name="snakebite rod" chance="11910"/>
 		<item name="taurus mace" chance="5090"/>
-		<item name="torch" chance="4970"/>
+		<item id="2920" chance="4970"/> <!-- torch -->
 		<item name="minotaur leather" chance="4940"/>
 		<item name="minotaur horn" countmax="2" chance="2900"/>
 		<item name="small amethyst" countmax="2" chance="2600"/>
@@ -74,9 +74,9 @@
 		<item name="blue piece of cloth" chance="1570"/>
 		<item name="underworld rod" chance="1530"/>
 		<item name="red piece of cloth" chance="1490"/>
-		<item name="green piece of cloth " chance="1460"/>
+		<item name="green piece of cloth" chance="1460"/>
 		<item name="yellow gem" chance="520"/>
 		<item name="red gem" chance="480"/>
-		<item name="minotaur trophy" chance="140"/>
+		<item id="7401" chance="140"/><!-- minotaur trophy -->
 	</loot>
 </monster>

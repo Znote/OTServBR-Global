@@ -67,6 +67,6 @@
 		<item name="yellow gem" chance="650"/>			
 		<item name="gold ingot" chance="510"/>			
 		<item name="chaos mace" chance="450"/>
-		<item name="minotaur trophy" chance="340"/>
+		<item id="7401" chance="340"/><!-- minotaur trophy -->
 	</loot>
 </monster>

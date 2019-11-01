@@ -56,7 +56,7 @@
 		<item name="small emerald" countmax="2" chance="3410"/>
 		<item name="small amethyst" countmax="2" chance="2950"/>
 		<item name="red piece of cloth" chance="810"/>
-		<!-- <item name="minotaur trophy" chance="220"/> -->
+		<item id="7401" chance="220"/><!-- minotaur trophy -->
 		<item name="ham" chance="59410"/>
 		<item name="bronze amulet" chance="15140"/>
 		<item name="mino shield" chance="12670"/>

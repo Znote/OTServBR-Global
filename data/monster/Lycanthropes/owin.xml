@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Owin" nameDescription="Owin" race="blood" experience="5000 " speed="150">
 	<health now="9600" max="9600"/>
-	<look type="721" corpse="24722"/>
+	<look type="721" corpse="22124"/>
 	<targetchange interval="4000" chance="10"/>
 	<flags>
 		<flag summonable="0"/>

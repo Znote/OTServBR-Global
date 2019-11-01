@@ -71,7 +71,7 @@
 		<item id="8309" countmax="5" chance="5260"/><!-- nails -->
 		<item name="iron ore" chance="1920"/>
 		<item name="dwarven ring" chance="1210"/>
-		<item name="crystal pedestal" chance="1080"/>
+		<item id="9066" chance="1080"/><!-- crystal pedestal (green) -->
 		<item id="3061" chance="1000"/><!-- life crystal -->
 		<item name="berserk potion" chance="900"/>
 		<item name="club ring" chance="810"/>

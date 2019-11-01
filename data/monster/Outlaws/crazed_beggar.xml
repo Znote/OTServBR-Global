@@ -46,7 +46,7 @@
 		<item name="meat" chance="9670"/>
 		<item name="wooden spoon" chance="9480"/>
 		<item name="wooden hammer" chance="6630"/>
-		<item name="rolling pin" chance="4990"/>
+		<item id="3473" chance="4990"/><!-- rolling pin -->
 		<item name="red rose" chance="4910"/>
 		<item name="sling herb" chance="560"/>
 		<item name="rum flask" chance="490"/>
