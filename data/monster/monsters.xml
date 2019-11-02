@@ -1478,6 +1478,7 @@
 	<monster name="Enlightened of the Cult" file="Voodoo Cultists/enlightened_of_the_cult.xml"/>
 	<monster name="Grandfather Tridian" file="Voodoo Cultists/grandfather_tridian.xml"/>
 	<monster name="Novice of the Cult" file="Voodoo Cultists/novice_of_the_cult.xml"/>
+	<monster name="Tzumrah The Dazzler" file="Voodoo Cultists/tzumrah_the_dazzler.xml"/>
 	
 	<!-- Wyrms -->
 	<monster name="Elder Wyrm" file="Wyrms/elder_wyrm.xml"/>
