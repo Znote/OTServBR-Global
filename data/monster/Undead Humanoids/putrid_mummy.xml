@@ -45,15 +45,16 @@
 		<voice sentence="We will make you one of us!"/>
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="62" chance="60870"/>
-		<!-- <item name="broken flask" chance="8950"/> -->
-		<item id="13472" chance="3840"/> <!-- PHARAOH BANNER -->
-		<item name="black pearl" chance="1280"/>
-		<item name="little bowl of myrrh" chance="13550"/>
-		<item name="single human eye" chance="8950"/>
-		<item name="green gem" chance="3070"/>
-		<item name="green bandage" chance="1100"/>
-		<item name="scarab coin" countmax="3" chance="8180"/>
-		<item name="poison dagger" chance="1530"/>
+		<item name="gold coin" countmax="62" chance="63000"/>
+		<item name="little bowl of myrrh" chance="14390"/>
+		<item name="green bandage" chance="11760"/>
+		<item name="single human eye" chance="10280"/>
+		<item id="3117" chance="9430"/><!-- broken flask -->
+		<item name="scarab coin" countmax="3" chance="8860"/>
+		<item id="12483" chance="2690"/><!-- pharaoh banner -->
+		<item name="green gem" chance="2270"/>
+		<item name="black pearl" chance="990"/>
+		<item name="poison dagger" chance="780"/>
+		<item name="mini mummy" chance="200"/>
 	</loot>
 </monster>
