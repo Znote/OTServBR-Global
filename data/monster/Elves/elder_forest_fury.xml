@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <monster name="Elder Forest Fury" nameDescription="an elder forest fury" race="blood" experience="330" speed="120">
 	<health now="670" max="670"/>
-	<look type="569" corpse="19042"/>
+	<look type="569" corpse="22135"/>
 	<targetchange interval="4000" chance="10"/>
 	<flags>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="0"/>
+		<flag illusionable="1"/>
 		<flag pushable="0"/>
 		<flag convinceable="0"/>
 		<flag canpushitems="1"/>
@@ -29,9 +29,9 @@
 	</attacks>
 	<defenses armor="25" defense="25"/>
 	<elements>
-		<element deathPercent="40"/>
-		<element holyPercent="10"/>
 		<element firePercent="-5"/>
+		<element holyPercent="10"/>
+		<element deathPercent="40"/>
 	</elements>
 	<voices interval="5000" chance="10">
 		<voice sentence="To arms, sisters!"/>

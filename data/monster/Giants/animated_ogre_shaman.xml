@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Animated Ogre Shaman" nameDescription="an animated ogre shaman" race="blood" experience="625" speed="240">
 	<health now="800" max="800"/>
-	<look type="859" corpse="24795"/>
+	<look type="859" corpse="22139"/>
 	<targetchange interval="4000" chance="10"/>
 	<flags>
 		<flag preyable="0"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag illusionable="1"/>
+		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
 		<flag canpushitems="1"/>
@@ -16,7 +16,9 @@
 		<flag targetdistance="4"/>
 		<flag staticattack="90"/>
 		<flag runonhealth="0"/>
-		<flag respawntype="night"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonpoison="1"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-269" fire="6"/>
@@ -30,21 +32,22 @@
 			<attribute key="areaEffect" value="carniphila"/>
 		</attack>
 	</attacks>
-	<defenses armor="20" defense="20">
+	<defenses armor="30" defense="30">
 		<defense name="healing" interval="2000" chance="10" min="80" max="95">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
 	<elements>
 		<element holyPercent="-10"/>
-		<element icePercent="10"/>
-		<element firePercent="10"/>
-		<element energyPercent="10"/>
+		<element firePercent="20"/>
+		<element energyPercent="20"/>
+		<element icePercent="20"/>
 	</elements>
 	<immunities>
 		<immunity death="1"/>
 		<immunity earth="1"/>
 		<immunity invisible="1"/>
+		<immunity paralyze="1"/>
 	</immunities>
 	<summons maxSummons="2">
 		<summon name="Dworc Fleshhunter" interval="1000" chance="30" max="1"/>
@@ -61,26 +64,26 @@
 		<summon name="Dworc Voodoomaster" interval="2000" chance="20" max="1"/>
 	</summons>
 	<loot>
-		<item id="2148" countmax="130" chance="92000"/>	<!-- gold coin -->
-		<item id="24850" countmax="3" chance="1200"/>					<!-- Opal -->
-		<item id="24841" countmax="2" chance="6200"/>					<!--  pickle -->
-		<item id="2147" countmax="2" chance="2200"/>					<!-- small ruby -->
-		<item id="2144" countmax="2" chance="1200"/>					<!-- black pearl -->
-		<item id="20111" chance="3200"/>					<!-- bone fetish -->
-		<item id="12408" chance="1200"/>					<!-- broken shamanic staff -->
-		<item id="2687" countmax="7" chance="2200"/>					<!-- Cookies -->
-		<item id="2185" chance="800"/>					<!-- necrotic rod -->
-		<item id="24844" chance="3200"/>					<!-- Ogre Ear Stud -->
-		<item id="24845" chance="2200"/>					<!--   Ogre Nose Ring -->
-		<item id="24840" chance="1200"/>					<!-- Shamanic Talisman -->
-		<item id="2229" chance="1200"/>					<!-- Skull  -->
-		<item id="24847" chance="1200"/>					<!--  Skull Fetish -->
-		<item id="7589" countmax="3" chance="1000"/>					<!--  SMP -->
-		<item id="2188" chance="600"/>					<!-- wand of decay -->
-		<item id="2031" chance="500"/>					<!-- water skin -->
-		<item id="24839" chance="300"/>					<!-- Ogre Scepta -->
-		<item id="24848" chance="300"/>					<!-- Shamanic Mask -->
-		<item id="3955" chance="100"/>					<!-- voodoo doll -->
-		<item id="3952" countmax="2" chance="100"/>					<!-- Didgeridoo -->
+		<item name="gold coin" countmax="90" chance="100000"/>
+		<item name="strong mana potion" chance="15770"/>
+		<item name="ogre ear stud" chance="14000"/>	
+		<item name="skull fetish" chance="10820"/>
+		<item name="shamanic talisman" chance="10550"/>
+		<item name="ogre nose ring" chance="10000"/>
+		<item id="3114" chance="25000"/><!-- skull -->
+		<item name="prickly pear" countmax="2" chance="9090"/>
+		<item name="broken shamanic staff" chance="6860"/>
+		<item name="bone fetish" chance="4910"/>
+		<item name="small ruby" countmax="3" chance="2950"/>
+		<item name="black pearl" chance="2590"/>	
+		<item name="necrotic rod" chance="2550"/>
+		<item name="waterskin" chance="2360"/>
+		<item name="wand of decay" chance="2230"/>
+		<item name="opal" countmax="2" chance="1640"/>
+		<item name="onyx chip" chance="1320"/>
+		<item name="shamanic mask" chance="910"/>
+		<item name="ogre scepta" chance="590"/>
+		<item name="didgeridoo" chance="500"/>
+		<item id="3002" chance="2360"/><!-- voodoo doll -->
 	</loot>
 </monster>
