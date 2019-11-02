@@ -63,10 +63,6 @@
 	<event type="death" name="DragonEssence" script="quests/first dragon/dragon essence.lua" />
 	<event type="death" name="FirstDragon" script="quests/first dragon/first dragon death.lua" />
 
-	<!-- Grimvale Quest -->
-	<event type="death" name="feroxaDeath" script="bosses/feroxaTransform.lua"/>
-	<event type="think" name="feroxaTrasnform" script="bosses/feroxaTransform.lua"/>
-
 	<!-- forgotten knowledge -->
 	<event type="healthchange" name="HealthForgotten" script="quests/forgotten knowledge/healthchange forgotten.lua"/>
 	<event type="death" name="PossessedTree" script="quests/forgotten knowledge/possessed tree.lua"/>

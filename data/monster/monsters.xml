@@ -885,10 +885,10 @@
 	<monster name="Darkfang" file="Lycanthropes/darkfang.xml"/>
 	<monster name="Doomhowl" file="Lycanthropes/doomhowl.xml"/>
 	<monster name="Feroxa" file="Lycanthropes/feroxa.xml"/>
-	<monster name="Feroxa2" file="Lycanthropes/feroxa2.xml"/>
-	<monster name="Feroxa3" file="Lycanthropes/feroxa3.xml"/>
-	<monster name="Feroxa4" file="Lycanthropes/feroxa4.xml"/>
-	<monster name="Feroxa5" file="Lycanthropes/feroxa5.xml"/>
+	<monster name="Feroxa Werewolf Imune" file="Lycanthropes/feroxa_werewolf_imune.xml"/>
+	<monster name="Feroxa Werewolf Killable" file="Lycanthropes/feroxa_werewolf_killable.xml"/>
+	<monster name="Feroxa Weak Form" file="Lycanthropes/feroxa_weak_form.xml"/>
+	<monster name="Feroxa Gloom Wolf" file="Lycanthropes/feroxa_gloom_wolf.xml"/>
 	<monster name="Hemming" file="Lycanthropes/hemming.xml"/>
 	<monster name="Owin" file="Lycanthropes/owin.xml"/>
 	<monster name="Shadowpelt" file="Lycanthropes/shadowpelt.xml"/>

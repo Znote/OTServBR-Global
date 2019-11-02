@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Feroxa" nameDescription="Feroxa" experience="0" speed="400" race="blood">
-	<health now="130000" max="130000"/>
+<monster name="Feroxa" nameDescription="Feroxa" experience="0" speed="350" race="blood">
+	<health now="50000" max="50000"/>
 	<targetchange speed="2000" chance="2"/>
-	<look type="716" head="57" body="76" legs="77" feet="57" corpse="0"/>
+	<look type="731" head="57" body="76" legs="77" feet="57" corpse="0"/>
 	<flags>
 		<flag preyable="0"/>
 		<flag summonable="0"/>
@@ -18,39 +18,39 @@
 		<flag runonhealth="0"/>
 	</flags>
 	<script>
-		<event name="feroxaDeath"/>
+		<event name="Feroxa"/>
 	</script>
 	<attacks>
 		<attack name="melee" interval="2000" min="-1400" max="-1800"/>
-		<attack name="death" interval="2000" chance="20" radius="6" target="0" min="-700" max="-1250">
+		<attack name="death" interval="2000" chance="20" radius="6" target="0" min="-700" max="-1050">
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
 		<attack name="manadrain" interval="2000" chance="20" length="9" spread="1" min="-700" max="-1250">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</attack>
-		<attack name="physical" interval="2000" chance="20" range="6" target="1" min="-700" max="-1250">
-			<attribute key="shootEffect" value="arrow"/>
-			<attribute key="areaEffect" value="explosionarea"/>
+		<attack name="physical" interval="2000" chance="20" radius="7" min="-450" max="-700">
+			<attribute key="areaEffect" value="yellowspark"/>
 		</attack>
 	</attacks>
 	<defenses armor="50" defense="55">
 		<defense name="speed" interval="2000" chance="12" speedchange="1250" duration="10000">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>
-		<defense name="feroxa summon" interval="2000" chance="20"/>
+		<defense name="outfit" interval="2000" chance="20" monster="were wolf" duration="5000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
 	</defenses>
-	<elements>
-		<element physicalPercent="30"/>
-		<element deathPercent="30"/>
-		<element icePercent="30"/>
-		<element firePercent="30"/>
-		<element earthPercent="30"/>
-		<element energyPercent="30"/>
-		<element holyPercent="30"/>
-	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 		<immunity drunk="1"/>
+		<immunity fire="1"/>
+		<immunity ice="1"/>
+		<immunity energy="1"/>
+		<immunity earth="1"/>
+		<immunity physical="1"/>
+		<immunity death="1"/>
+		<immunity holy="1"/>
+		<immunity drown="1"/>
 	</immunities>
 </monster>
