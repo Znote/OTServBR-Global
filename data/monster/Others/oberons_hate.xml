@@ -21,14 +21,14 @@
 		<flag canWalkOnPoison="0"/>
 	</flags>
 	<attacks>
-	<attack name="melee" interval="1400" min="150" max="800"/>
-	 	<summons maxSummons="3">
+		<attack name="melee" interval="1400" min="150" max="800"/>
+		<summons maxSummons="3">
 	<summon name="Falcon knight" interval="2000" chance="70"/>
 	</summons>
 	</attacks>
 	<defenses armor="82" defense="50">
 	<defense name="healing" interval="1400" chance="20" min="400" max="550">
-		<attribute key="areaEffect" value="blueshimmer"/>
+			<attribute key="areaEffect" value="blueshimmer"/>
 	</defense>
 	</defenses>
 		 <summons maxSummons="1">

@@ -19,13 +19,13 @@
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-400"/>
 		<attack name="Stalagmite" interval="2000" chance="15" range="7" length="6" spread="3" min="-190" max="-300">
-		<attribute key="shootEffect" value="poison"/>
+			<attribute key="shootEffect" value="poison"/>
 		</attack>
 		<attack name="death" interval="2000" chance="15" range="3" length="6" spread="3" min="-70" max="-160">
-		<attribute key="areaEffect" value="mortarea"/>
+			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
 		<attack name="fire" interval="2000" chance="15" range="3" length="6" spread="3" min="-90" max="-160">
-		<attribute key="areaEffect" value="fire"/>
+			<attribute key="areaEffect" value="fire"/>
 		</attack>
 		<attack name="Stone Shower" interval="2000" chance="10" range="7" min="-230" max="-450"/>
 	</attacks>
@@ -46,20 +46,17 @@
 		<voice sentence="naps naps naps!"/>
 	</voices>
 	<loot>
-	<!--Sempre-->
-		<item name="Small Enchanted Sapphire" chance="11910"/>
-		<item name="Small Enchanted Ruby" chance="9040"/>
-		<item name="Violet Gem" chance="7750"/>
-		<item name="Lump of Dirt" chance="10190"/>
-		<item name="Tunnel Tyrant Head" chance="24100"/>
-		<item name="Tunnel Tyrant Shell" chance="12480"/>
-		<!--semi raro-->
-			<item name="Green Gem" chance="2300"/>
-			<item name="Blue Gem" chance="3010"/>
-			<item name="Crystal Mace" chance="1580"/>
-			<item name="Energy Vein" chance="3010"/>
-			<!--raro-->
-					<item name="Crystalline Armor" chance="860"/>
-					<item name="Suspicious Device" chance="1290"/>
+		<item name="small enchanted sapphire" chance="11910"/>
+		<item name="small enchanted ruby" chance="9040"/>
+		<item name="violet gem" chance="7750"/>
+		<item name="lump of dirt" chance="10190"/>
+		<item name="tunnel tyrant head" chance="24100"/>
+		<item name="tunnel tyrant shell" chance="12480"/>
+		<item name="green gem" chance="2300"/>
+		<item name="blue gem" chance="3010"/>
+		<item name="crystal mace" chance="1580"/>
+		<item name="energy vein" chance="3010"/>
+		<item name="crystalline armor" chance="860"/>
+		<item name="suspicious device" chance="1290"/>
 	</loot>
 </monster>

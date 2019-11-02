@@ -24,7 +24,7 @@
 		<attack name="ice" interval="1000" chance="15" range="7" min="-100" max="-200">
 			<attribute key="shootEffect" value="ice"/>
 		</attack>
-			<attack name="ice" interval="1000" chance="10" range="7" min="-200" max="-780">
+		<attack name="ice" interval="1000" chance="10" range="7" min="-200" max="-780">
 			<attribute key="shootEffect" value="smallice"/>
 			<attribute key="areaEffect" value="iceattack"/>
 		</attack>

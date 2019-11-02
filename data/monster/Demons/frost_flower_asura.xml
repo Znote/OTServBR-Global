@@ -43,8 +43,8 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="242" chance="97000"/>	            <!-- gold coin -->
- 		<item id="2148" countmax="102" chance="97000"/>	            <!-- gold coin -->
-		<item id="2656" chance="2000"/>					<!-- Blue Robe -->
+		<item id="2148" countmax="242" chance="97000"/><!-- gold coin -->
+		<item id="2148" countmax="102" chance="97000"/><!-- gold coin -->
+		<item id="2656" chance="2000"/><!-- Blue Robe -->
 	</loot>
 </monster>

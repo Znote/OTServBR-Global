@@ -59,13 +59,13 @@
 	<loot>
 		<item name="platinum coin" countmin="1" countmax="3" chance="100000"/>
 		<item name="gold coin" countmin="1" countmax="75" chance="79960"/>
-        <item name="beetroot" chance="25960"/>
+ 		<item name="beetroot" chance="25960"/>
 		<item name="werebadger claws" chance="14580"/>
 		<item name="werebadger skull" chance="14330"/>
 		<item name="brown mushroom" chance="8030"/>
 		<item name="troll green" chance="5320"/>
 		<item name="mana potion" chance="5150"/>
-        <item name="strong mana potion" chance="4040"/>
+ 		<item name="strong mana potion" chance="4040"/>
 		<item name="moonlight crystal" chance="2410"/>
 		<item name="great mana potion" chance="1880"/>
 		<item name="small enchanted amethyst" chance="1600"/>
@@ -75,6 +75,6 @@
 		<item name="wand of voodoo" chance="510"/>
 		<item name="platinum amulet" chance="420"/>
 		<item name="underworld rod" chance="330"/>
-	    <item id="22101" chance="280"/><!-- werebadger trophy -->
+		<item id="22101" chance="280"/><!-- werebadger trophy -->
 	</loot>
 </monster>

@@ -120,7 +120,7 @@
 		<item name="skull helmet" chance="80000"/> 
 		<item name="golden legs" chance="30000"/> 
 		<item name="unrealized dream" countmin="1" countmax="3" chance="30000"/> 
-		<item id="282" chance="80000"/> <!-- giant shimmering pearl -->
+		<item id="282" chance="80000"/><!-- giant shimmering pearl -->
 		<item name="crude umbral axe" chance="5000"/> 
 		<item name="crude umbral chopper" chance="5000"/> 
 		<item name="crude umbral blade" chance="5000"/> 

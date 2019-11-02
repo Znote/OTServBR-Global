@@ -61,7 +61,7 @@
 		<item name="vampire lord token" chance="100000"/>
 		<item name="strong health potion" chance="10170"/>
 		<item name="vampire shield" chance="10170"/>
-		<item id="2229" chance="10170"/> <!-- skull -->
+		<item id="2229" chance="10170"/><!-- skull -->
 		<item name="black pearl" chance="8900" countmax="2"/>
 		<item name="ring of healing" chance="5008"/>
 		<item name="platinum coin" chance="5008" countmax="5"/>

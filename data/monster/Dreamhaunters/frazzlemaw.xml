@@ -68,7 +68,7 @@
 		<item name="great mana potion" countmax="3" chance="14880"/>
 		<item name="great health potion" countmax="2" chance="14860"/>
 		<item id="3114" chance="12100"/><!-- skull -->
-		<item id="5951" chance="10080"/> <!-- fish tail -->
+		<item id="5951" chance="10080"/><!-- fish tail -->
 		<item name="remains of a fish" chance="10070"/>
 		<item name="banana skin" chance="10040"/>
 		<item id="3115" chance="9940"/><!-- bone -->

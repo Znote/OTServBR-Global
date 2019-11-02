@@ -19,7 +19,7 @@
 <attacks>
 		<attack name="melee" interval="2000" min="-120" max="-200"/>
 		<attack name="physical" interval="2000" chance="60" range="3" target="1" min="-70" max="-230">
-		<attribute key="shootEffect" value="arrow"/>
+			<attribute key="shootEffect" value="arrow"/>
 		</attack>
 	</attacks>
 	<elements>

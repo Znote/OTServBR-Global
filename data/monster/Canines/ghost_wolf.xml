@@ -22,10 +22,10 @@
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-80"/>
 	</attacks>
-	<attack name="lifedrain" interval="1000" chance="15" range="1" min="-20" max="-30">
+		<attack name="lifedrain" interval="1000" chance="15" range="1" min="-20" max="-30">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
-	<attack name="death" interval="2000" chance="50" range="7" min="-30" max="-60">
+		<attack name="death" interval="2000" chance="50" range="7" min="-30" max="-60">
 			<attribute key="shootEffect" value="suddendeath"/>
 			<attribute key="areaEffect" value="mortarea"/>
 			<attribute key="areaEffect" value="smallclouds"/>

@@ -39,19 +39,19 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-	    <item name="Platinum Coin" countmax="12" chance="100000"/>
-		<item id="34696" countmax="3" chance="15750"/> <!-- Ice Flower -->
-		<item name="Dream Essence Egg" chance="13700"/>
-		<item name="Elvish Talisman" chance="4790"/>
-		<item name="Knight Legs" chance="4450"/>
-		<item name="Glacier Kilt" chance="4110"/>
-		<item name="Glacier Shoes" chance="3770"/>
-		<item name="Ice Rapier" chance="3770"/>
-		<item name="Spellbook of Mind Control" chance="2400"/>
-		<item name="Crown Shield" chance="1710"/>
-		<item name="Wood Cape" chance="1710"/>
-		<item id="26185" chance="1370"/> <!-- Ring of Blue Plasma -->
-		<item name="Tower Shield" chance="680"/>
-		<item id="26199" chance="680"/> <!-- Collar of Green Plasma -->
+		<item name="platinum coin" countmax="12" chance="100000"/>
+		<item id="34696" countmax="3" chance="15750"/><!-- ice flower -->
+		<item name="dream essence egg" chance="13700"/>
+		<item name="elvish talisman" chance="4790"/>
+		<item name="knight legs" chance="4450"/>
+		<item name="glacier kilt" chance="4110"/>
+		<item name="glacier shoes" chance="3770"/>
+		<item name="ice rapier" chance="3770"/>
+		<item name="spellbook of mind control" chance="2400"/>
+		<item name="crown shield" chance="1710"/>
+		<item name="wood cape" chance="1710"/>
+		<item id="26185" chance="1370"/><!-- ring of blue plasma -->
+		<item name="tower shield" chance="680"/>
+		<item id="26199" chance="680"/><!-- collar of green plasma -->
 	</loot>
 </monster>

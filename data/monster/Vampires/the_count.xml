@@ -47,7 +47,7 @@
 		<item name="gold coin" countmax="94" chance="66670"/>
 		<item name="ring of the count" chance="100000"/>
 		<item name="vampire shield" chance="10170"/>
-		<item id="2229" chance="10170"/> <!-- skull -->
+		<item id="2229" chance="10170"/><!-- skull -->
 		<item name="war hammer" chance="2300"/>
 	</loot>
 </monster>

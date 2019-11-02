@@ -38,22 +38,22 @@
 		<immunity earth="1"/>
 	</immunities>
 	<loot>
-		<item id="33316" countmax="3" chance="10000"/> <!-- Book Page -->
-		<item name="Platinum Coin" countmax="10" chance="10000"/>
-		<item id="33313" countmax="3" chance="10000"/><!-- Silken Bookmark -->
-		<item name="Small Diamond" countmax="7" chance="10000"/>
-		<item name="Small Stone" countmax="7" chance="10000"/>
-		<item name="Small Topaz" countmax="7" chance="10000"/>
-		<item name="Protection Amulet" chance="10000"/>
-		<item name="Terra Boots" chance="350"/>
-		<item name="Terra Hood" chance="600"/>
-		<item name="Diamond Sceptre" chance="600"/>
-		<item name="Terra Mantle" chance="250"/>
-		<item name="Terra Legs" chance="250"/>
-		<item name="Terra Amulet" chance="500"/>
-		<item name="Stone Skin Amulet" chance="350"/>
-		<item name="Springsprout Rod" chance="350"/>
-		<item name="Sacred Tree Amulet" chance="350"/>
-		<item name="Swamplair Armor" chance="250"/>
+		<item id="33316" countmax="3" chance="10000"/><!-- book page -->
+		<item name="platinum coin" countmax="10" chance="10000"/>
+		<item id="33313" countmax="3" chance="10000"/><!-- silken bookmark -->
+		<item name="small diamond" countmax="7" chance="10000"/>
+		<item name="small stone" countmax="7" chance="10000"/>
+		<item name="small topaz" countmax="7" chance="10000"/>
+		<item name="protection amulet" chance="10000"/>
+		<item name="terra boots" chance="350"/>
+		<item name="terra hood" chance="600"/>
+		<item name="diamond sceptre" chance="600"/>
+		<item name="terra mantle" chance="250"/>
+		<item name="terra legs" chance="250"/>
+		<item name="terra amulet" chance="500"/>
+		<item name="stone skin amulet" chance="350"/>
+		<item name="springsprout rod" chance="350"/>
+		<item name="sacred tree amulet" chance="350"/>
+		<item name="swamplair armor" chance="250"/>
 	</loot>
 </monster>

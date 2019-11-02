@@ -85,18 +85,18 @@
 		<item name="Skull Staff" chance="7650"/>
 		<item name="Chaos Mace" chance="2200"/>
 		<item name="Gold Ingot" chance="2800"/>
-		<item id="26199" chance="2500"/> <!-- collar of green plasma-->
-		<item id="7632" chance="2600"/> <!-- Giant Shimmering Pearl -->
+		<item id="26199" chance="2500"/><!-- collar of green plasma-->
+		<item id="7632" chance="2600"/><!-- Giant Shimmering Pearl -->
 		<item name="Blue Gem" chance="2500"/>
 		<item name="Violet Gem" countmax="2" chance="2300"/>
 		<item name="Living Armor" chance="1100"/>
 		<item name="Magic Sulphur" chance="1000"/>
 		<item name="Mastermind Potion" countmax="10" chance="800"/>
-		<item id="26185" chance="800"/> <!-- ring of blue plasma-->
+		<item id="26185" chance="800"/><!-- ring of blue plasma-->
 		<item name="Ring of the Sky" chance="800"/>
 		<item name="Living Vine Bow" chance="750"/>
 		<item name="Abyss Hammer" chance="700"/>
-		<item id="26187" chance="600"/> <!-- ring of green plasma-->
+		<item id="26187" chance="600"/><!-- ring of green plasma-->
 		<item name="Plagueroot Offshoot" chance="500"/>
 		<item name="Turquoise Tendril Lantern" chance="400"/>
 	</loot>

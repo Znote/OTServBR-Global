@@ -23,14 +23,14 @@
 	<defense name="healing" interval="2000" chance="15" min="0" max="250">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
-  </defenses>
+	</defenses>
 	<elements>
 		<element physicalPercent="20"/>
 		<element icePercent="-10"/>
 	</elements>
-   <immunities>
-	<immunity invisible="1"/>
-  </immunities>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
 	<voices interval="2000" chance="7">
 		<voice sentence="SNIFF!"/>
 	</voices>

@@ -57,7 +57,7 @@
 	<loot>
 		<item id="2148" countmax="200" chance="100000"/>	<!-- gold coin -->
 		<item id="2152" countmax="5" chance="100000"/>		<!-- platinum coin -->
-		<item id="23571" countmax="2" chance="100000"/> <!-- moohtant horn -->
+		<item id="23571" countmax="2" chance="100000"/><!-- moohtant horn -->
 		<item id="23570" chance="100000"/><!-- giant pacifier -->
 		<item id="23590" chance="500"/><!-- one hit wonder -->
 		<item id="7591" countmax="5" chance="50000"/>		<!-- great health potion -->

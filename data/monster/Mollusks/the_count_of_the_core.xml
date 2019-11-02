@@ -53,46 +53,46 @@
 		<voice sentence="Shluush!"/>
 	</voices>
 	<loot>
-		<item name="Platinum Coin" countmax="36" chance="10000"/>
-		<item name="Great Mana Potion" countmax="18" chance="10000"/>
-		<item name="Great Spirit Potion" countmax="10" chance="10000"/>
-		<item name="Green Crystal Shard" countmax="4" chance="10000"/>
-		<item name="Huge Chunk of Crude Iron" countmax="2" chance="10000"/>
-		<item name="Magic Sulphur" countmax="2" chance="10000"/>
-		<item name="Mastermind Potion" countmax="2" chance="10000"/>
-		<item name="Small Amethyst" countmax="10" chance="10000"/>
-		<item name="Small Diamond" countmax="10" chance="10000"/>
-		<item name="Small Emerald" countmax="12" chance="10000"/>
-		<item name="Small Ruby" countmax="10" chance="10000"/>
-		<item name="Small Topaz" countmax="10" chance="10000"/>
-		<item name="Ultimate Health Potion" countmax="5" chance="10000"/>
-		<item name="Amber Staff" chance="10000"/>
-		<item name="Blue Gem" chance="10000"/>
-		<item id="30861" chance="10000"/>   <!-- Chitinous Mouth (Count of the Core)-->
-		<item name="Crystal Coin" chance="10000"/>
-		<item name="Crystalline Armor" chance="5000"/>
-		<item name="Dragon Necklace" chance="10000"/>
-		<item name="Fire Axe" chance="10000"/>
-		<item name="Fire Sword" chance="10000"/>
-		<item id="7632" chance="10000"/> <!--Giant Shimmering Pearl-->
-		<item name="Giant Sword" chance="10000"/>
-		<item name="Guardian Axe" chance="10000"/>
-		<item name="Gold Token" chance="10000"/>
-		<item name="Green Gem" chance="10000"/>
-		<item name="Harpoon of a Giant Snail" chance="10000"/>
-		<item name="Huge Spiky Snail Shell" chance="10000"/>
-		<item name="Luminous Orb" chance="10000"/>
-		<item name="Red Gem" chance="10000"/>
-		<item name="Silver Token" chance="1000"/>
-		<item name="Stone Skin Amulet" chance="1000"/>
-		<item name="Twiceslicer" chance="1000"/>
-		<item name="Wand of Inferno" chance="1000"/>
-		<item name="Yellow Gem" chance="1000"/>
-		<item name="Candle Stump" chance="1000"/>
-		<item name="Gnome Shield" chance="1000"/>
-		<item name="Gnome Sword" chance="1000"/>
-		<item name="Mallet Handle" chance="1000"/>
-		<item name="Tinged Pot" chance="1000"/>
-		<item name="Gnome Helmet" chance="100"/>
+		<item name="platinum coin" countmax="36" chance="10000"/>
+		<item name="great mana potion" countmax="18" chance="10000"/>
+		<item name="great spirit potion" countmax="10" chance="10000"/>
+		<item name="green crystal shard" countmax="4" chance="10000"/>
+		<item name="huge chunk of crude iron" countmax="2" chance="10000"/>
+		<item name="magic sulphur" countmax="2" chance="10000"/>
+		<item name="mastermind potion" countmax="2" chance="10000"/>
+		<item name="small amethyst" countmax="10" chance="10000"/>
+		<item name="small diamond" countmax="10" chance="10000"/>
+		<item name="small emerald" countmax="12" chance="10000"/>
+		<item name="small ruby" countmax="10" chance="10000"/>
+		<item name="small topaz" countmax="10" chance="10000"/>
+		<item name="ultimate health potion" countmax="5" chance="10000"/>
+		<item name="amber staff" chance="10000"/>
+		<item name="blue gem" chance="10000"/>
+		<item id="30861" chance="10000"/>	<!-- chitinous mouth (count of the core)-->
+		<item name="crystal coin" chance="10000"/>
+		<item name="crystalline armor" chance="5000"/>
+		<item name="dragon necklace" chance="10000"/>
+		<item name="fire axe" chance="10000"/>
+		<item name="fire sword" chance="10000"/>
+		<item id="7632" chance="10000"/><!--giant shimmering pearl-->
+		<item name="giant sword" chance="10000"/>
+		<item name="guardian axe" chance="10000"/>
+		<item name="gold token" chance="10000"/>
+		<item name="green gem" chance="10000"/>
+		<item name="harpoon of a giant snail" chance="10000"/>
+		<item name="huge spiky snail shell" chance="10000"/>
+		<item name="luminous orb" chance="10000"/>
+		<item name="red gem" chance="10000"/>
+		<item name="silver token" chance="1000"/>
+		<item name="stone skin amulet" chance="1000"/>
+		<item name="twiceslicer" chance="1000"/>
+		<item name="wand of inferno" chance="1000"/>
+		<item name="yellow gem" chance="1000"/>
+		<item name="candle stump" chance="1000"/>
+		<item name="gnome shield" chance="1000"/>
+		<item name="gnome sword" chance="1000"/>
+		<item name="mallet handle" chance="1000"/>
+		<item name="tinged pot" chance="1000"/>
+		<item name="gnome helmet" chance="100"/>
 	</loot>
 </monster>

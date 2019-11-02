@@ -57,7 +57,7 @@
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="45" chance="75050"/>
-		<item id="5934" chance="11890"/> <!-- dead frog -->
+		<item id="5934" chance="11890"/><!-- dead frog -->
 		<item name="blank rune" countmax="3" chance="8030"/>
 		<item name="mana potion" chance="2990"/>
 		<item name="health potion" chance="2870"/>

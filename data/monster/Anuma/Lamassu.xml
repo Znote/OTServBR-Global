@@ -23,7 +23,7 @@
 		<attack name="melee" interval="2000" min="0" max="-550"/>
 		<attack name="holy" interval="2000" chance="20" radius="3" min="-350" max="-490">
 			<attribute key="areaEffect" value="holyarea"/>
-	    </attack>
+		</attack>
 		<attack name="earth" interval="2000" chance="20" range="5" radius="3" target="1" min="-330" max="-410">
 			<attribute key="shootEffect" value="smallearth"/>
 			<attribute key="areaEffect" value="smallplants"/>	
@@ -40,17 +40,17 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-	    <item name="Platinum Coin" chance="100000"/>
+		<item name="Platinum Coin" chance="100000"/>
 		<item name="Lamassu Horn" countmax="5" chance="13400"/>
 		<item name="Red Crystal Fragment" chance="10500"/>
 		<item name="Terra Amulet" chance="10000"/>
 		<item name="Lamassu Hoof" chance="7700"/>
-	    <item name="Violet Crystal Shard" chance="6800"/>
+		<item name="Violet Crystal Shard" chance="6800"/>
 		<item name="Blue Crystal Shard" chance="6500"/>
 		<item name="Red Gem" chance="6200"/>
 		<item name="Terra Hood" chance="5900"/>
 		<item name="Sacred Tree Amulet" chance="2300"/>
-	    <item name="Elven Amulet" chance="2000"/>
-	    <item name="Violet Gem" chance="1700"/>
+		<item name="Elven Amulet" chance="2000"/>
+		<item name="Violet Gem" chance="1700"/>
 	</loot>
 </monster>

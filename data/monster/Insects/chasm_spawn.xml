@@ -19,19 +19,19 @@
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-250"/>
 		<attack name="earth" interval="2000" chance="15" range="7" target="1" min="-5" max="-16">
-		<attribute key="shootEffect" value="poison"/>
+			<attribute key="shootEffect" value="poison"/>
 		</attack>
 		<attack name="death" interval="2000" chance="15" range="7" target="1" min="-30" max="-60">
-		<attribute key="shootEffect" value="death"/>
+			<attribute key="shootEffect" value="death"/>
 		</attack>
 		<attack name="death" interval="2000" chance="15" range="3" length="3" spread="3" min="-70" max="-160">
-		<attribute key="areaEffect" value="mortarea"/>
+			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
 		<attack name="explosion" interval="2000" chance="15" min="-50" max="-170"/>
 		<attack name="manadrain" interval="2000" chance="10" range="7" min="-40" max="-60"/>
 		<attack name="Stone Shower" interval="2000" chance="10" range="7" min="-70" max="-140"/>
 		<attack name="earth" interval="2000" chance="10" length="3" spread="3"  min="-70" max="-140">
-		<attribute key="areaEffect" value="PLANTATTACK"/>
+			<attribute key="areaEffect" value="PLANTATTACK"/>
 		</attack>
 	</attacks>
 	<elements>
@@ -52,22 +52,19 @@
 		<voice sentence="sloap sloap sloap!"/>
 	</voices>
 	<loot>
-	<!--Sempre-->
 		<item name="gold coin" countmax="78" chance="10000"/>
-		<item name="Wood Mushroom" countmax="5" chance="27200"/>
-		<item name="Chasm Spawn Head" chance="33390"/>
-		<item name="Chasm Spawn Abdomen" chance="24710"/>
-		<item name="Chasm Spawn Tail" chance="64890"/>
-		<!--quase sempre-->
-		<item name="Small Enchanted Emerald" countmax="3" chance="11040"/>
-		<item name="Small Enchanted Amethyst" countmax="3" chance="8170"/>
-		<item name="Brown Mushroom" countmax="5" chance="19680"/>
-		<item name="Orange Mushroom" chance="15140"/>
-		<item name="Blue Crystal Shard" chance="7850"/>
-		<item name="Green Crystal Shard" chance="7850"/>
-		<item name="Violet Crystal Shard" chance="4690"/>
-        <!--raro-->
-		<item name="Mushroom Backpack" chance="610"/>
-		<item name="Suspicious Device" chance="520"/>
+		<item name="wood mushroom" countmax="5" chance="27200"/>
+		<item name="chasm spawn head" chance="33390"/>
+		<item name="chasm spawn abdomen" chance="24710"/>
+		<item name="chasm spawn tail" chance="64890"/>
+		<item name="small enchanted emerald" countmax="3" chance="11040"/>
+		<item name="small enchanted amethyst" countmax="3" chance="8170"/>
+		<item name="brown mushroom" countmax="5" chance="19680"/>
+		<item name="orange mushroom" chance="15140"/>
+		<item name="blue crystal shard" chance="7850"/>
+		<item name="green crystal shard" chance="7850"/>
+		<item name="violet crystal shard" chance="4690"/>
+		<item name="mushroom backpack" chance="610"/>
+		<item name="suspicious device" chance="520"/>
 	</loot>
 </monster>

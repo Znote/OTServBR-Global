@@ -28,7 +28,7 @@
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
-		 	<summons maxSummons="1">
+			<summons maxSummons="1">
 		<summon name="Falcon paladin" interval="2000" chance="70"/>
 	</summons>
 	<elements>

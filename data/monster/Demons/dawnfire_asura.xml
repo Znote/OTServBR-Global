@@ -64,7 +64,7 @@
 		<item name="concentrated demonic blood" countmin="1" countmax="2" chance="30440"/>
 		<item name="soul orb" chance="19770"/>
 		<item name="golden lotus brooch" chance="17910"/>
-	    <item name="peacock feather fan" chance="16880"/>
+		<item name="peacock feather fan" chance="16880"/>
 		<item name="demonic essence" chance="15890"/>
 		<item name="great mana potion" countmin="1" countmax="2" chance="12060"/>
 		<item name="small ruby" countmax="3" chance="8330"/>
@@ -72,16 +72,16 @@
 		<item name="small amethyst" chance="4560"/>
 		<item name="small topaz" chance="4560"/>
 		<item name="small emerald" chance="4520"/>
-	    <item name="mystic turban" chance="2860"/>
+		<item name="mystic turban" chance="2860"/>
 		<item name="red piece of cloth" chance="2840"/>
-	    <item name="wand of inferno" chance="1650"/>
-	    <item name="mysterious fetish" chance="1370"/>
+		<item name="wand of inferno" chance="1650"/>
+		<item name="mysterious fetish" chance="1370"/>
 		<item name="red gem" chance="1360"/>
 		<item name="focus cape" chance="1330"/>
 		<item name="magma coat" chance="940"/>
 		<item name="ruby necklace" chance="910"/>
 		<item id="6299" chance="570"/>					<!-- death ring -->
-	    <item name="oriental shoes" chance="410"/>
+		<item name="oriental shoes" chance="410"/>
 		<item name="blue gem" chance="340"/>
 		<item name="spellbook of mind control" chance="250"/>
 	</loot>

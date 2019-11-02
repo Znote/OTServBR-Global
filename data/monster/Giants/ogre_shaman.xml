@@ -55,8 +55,8 @@
 	<voices interval="3000" chance="50">
 		<voice sentence="The spirits hunger!"/>
 		<voice sentence="A sacrifice for Great Hunger!"/>
-	    <voice sentence="Stay here, soul food!"/>
-        <voice sentence="You more delicate than clomp!"/>
+		<voice sentence="Stay here, soul food!"/>
+ 		<voice sentence="You more delicate than clomp!"/>
 	</voices>
 	<summons maxSummons="2">
 		<summon name="Dworc Fleshhunter" interval="2000" chance="20" max="1"/>

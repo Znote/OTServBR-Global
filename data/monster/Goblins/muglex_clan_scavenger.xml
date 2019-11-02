@@ -10,7 +10,7 @@
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="1"/>
-				<flag isBlockable="0"/>
+		<flag isBlockable="0"/>
 		<flag canPushItems="0"/>
 		<flag canPushCreatures="0"/>
 		<flag targetDistance="1"/>
@@ -28,9 +28,9 @@
 		</attack>
 	</attacks>
 	<defenses armor="2" defense="4">
-    		<defense name="healing" interval="2000" chance="1" min="10" max="20">
-      			<attribute key="areaEffect" value="blueshimmer"/>
-    		</defense>
+		<defense name="healing" interval="2000" chance="1" min="10" max="20">
+ 			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
 		<defense name="speed" interval="2000" chance="5" speedchange="140" duration="4000">
 			<attribute key="areaEffect" value="energy"/>
 		</defense>

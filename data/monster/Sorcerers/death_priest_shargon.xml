@@ -41,7 +41,7 @@
 	</immunities>
 	<summons maxSummons="6">
 		<summon name="Lesser Death Minion" interval="2000" chance="30" max="2"/>
-        <summon name="Superior Death Minion" interval="2000" chance="30" max="2"/>
+ 		<summon name="Superior Death Minion" interval="2000" chance="30" max="2"/>
 		<summon name="Greater Death Minion" interval="2000" chance="30" max="2"/>
 	</summons>
 	<loot>

@@ -32,7 +32,7 @@
 		<voice sentence="Grrrrrrr"/>
 	</voices>
 	<loot>
-		<item id="2666" chance="49320"/> <!-- meat -->
+		<item id="2666" chance="49320"/><!-- meat -->
 		<item name="Fox Paw" chance="1350"/>	
 	</loot>
 </monster>

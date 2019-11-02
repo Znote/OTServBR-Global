@@ -31,7 +31,7 @@
 		<attack name="speed" interval="2000" chance="15" radius="6" target="0" speedchange="-800" duration="15000">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
- 		<attack name="lifedrain" interval="2000" chance="10" length="8" spread="0" min="0" max="-800">
+		<attack name="lifedrain" interval="2000" chance="10" length="8" spread="0" min="0" max="-800">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
 	</attacks>
@@ -64,7 +64,7 @@
 		<item name="fishbone" chance="10630"/>
 		<item name="crystal rubbish" chance="10570"/>
 		<item name="ham" chance="10250"/>
-		<item id="5951" chance="10130"/> <!-- fish tail -->
+		<item id="5951" chance="10130"/><!-- fish tail -->
 		<item name="piece of iron" chance="10100"/>
 		<item name="banana skin" chance="9960"/>
 		<item name="remains of a fish" chance="9850"/>

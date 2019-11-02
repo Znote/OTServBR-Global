@@ -46,7 +46,7 @@
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
- 	<summons maxSummons="5">
+	<summons maxSummons="5">
 		<summon name="neutral deepling warrior" interval="1000" chance="70"/>
 	</summons>
 	<elements>

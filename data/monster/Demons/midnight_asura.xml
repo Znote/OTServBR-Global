@@ -64,7 +64,7 @@
 		<item name="platinum coin" countmin="1" countmax="6" chance="100000"/>
 		<item name="soul orb" chance="20040"/>
 		<item name="concentrated demonic blood" chance="19980"/>
-	    <item name="golden lotus brooch" chance="18120"/>
+		<item name="golden lotus brooch" chance="18120"/>
 		<item name="peacock feather fan" chance="15980"/>
 		<item name="demonic essence" chance="15010"/>
 		<item name="great health potion" countmin="1" countmax="2" chance="12020"/>
@@ -81,13 +81,13 @@
 		<item name="tribal mask" chance="2860"/>
 		<item name="silver amulet" chance="1730"/>
 		<item name="yellow gem" chance="1160"/>
-	    <item name="underworld rod" chance="1120"/>
-	    <item name="blue robe" chance="820"/>
-	    <item name="assassin dagger" chance="600"/>
+		<item name="underworld rod" chance="1120"/>
+		<item name="blue robe" chance="820"/>
+		<item name="assassin dagger" chance="600"/>
 		<item name="oriental shoes" chance="570"/>
 		<item id="3007" chance="490"/>
 		<item name="blue gem" chance="330"/>
-	    <item name="skullcracker armor" chance="260"/>
+		<item name="skullcracker armor" chance="260"/>
 		<item name="gold ingot" chance="230"/>
 		<item name="spellbook of mind control" chance="160"/>
 	</loot>

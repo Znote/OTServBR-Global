@@ -45,7 +45,7 @@
 		<immunity earth="1"/>
 	</immunities>
 	<loot>
-        <item name="platinum coin" countmax="4" chance="100000"/>
+ 		<item name="platinum coin" countmax="4" chance="100000"/>
 		<item name="great spirit potion" countmax="2" chance="30910"/>
 		<item name="two handed sword" chance="16500"/>
 		<item name="terra rod" chance="8780"/>
@@ -54,7 +54,7 @@
 		<item name="twin hooks" chance="4570"/>
 		<item name="springsprout rod" chance="3510"/>
 		<item id="30083" chance="1890"/><!-- green ectoplasm -->
-     	<item name="coral brooch" chance="1330"/>
+		<item name="coral brooch" chance="1330"/>
 		<item name="serpent sword" chance="1150"/>
 		<item name="assassin dagger" chance="970"/>
 		<item name="hexagonal ruby" chance="940"/>

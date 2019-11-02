@@ -9,7 +9,7 @@
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
-				<flag isBlockable="0"/>
+		<flag isBlockable="0"/>
 		<flag pushable="1"/>
 		<flag canPushItems="0"/>
 		<flag canPushCreatures="0"/>

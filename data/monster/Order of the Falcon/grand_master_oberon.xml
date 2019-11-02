@@ -5,7 +5,7 @@
 	<targetchange interval="4000" chance="10"/>
 	<flags>
 		<flag preyable="0"/>
-        <flag rewardBoss="1"/>
+		<flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
@@ -24,7 +24,7 @@
 	<script>
 		<event name="OberonHeal"/>
 		<event name="bossfalconfinal"/>
-    </script>
+ 	</script>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-1200"/>
 		<attack name="holy" interval="1200" chance="14" length="8" spread="0" min="-500" max="-650">
@@ -44,7 +44,7 @@
 		</defense>
 	</defenses>
 	<elements>
-	    <element physicalPercent="10"/>
+		<element physicalPercent="10"/>
 		<element deathPercent="55"/>
 	</elements>
 	<immunities>
@@ -53,16 +53,16 @@
 	</immunities>
 	<loot>
 		<item id="32550" chance="100000"/><!-- the spatial warp almanac -->
-		<item name="Grant of Arms" chance="600"/>
-		<item name="Falcon Battleaxe" chance="60"/>
-		<item name="Falcon Bow" chance="60"/>
-		<item name="Falcon Circlet" chance="60"/>
-		<item name="Falcon Coif" chance="60"/>
-		<item name="Falcon Longsword" chance="60"/>
-		<item name="Falcon Mace" chance="60"/>
-		<item name="Falcon Rod" chance="60"/>
-		<item name="Falcon Shield" chance="60"/>
-		<item name="Falcon Greaves" chance="60"/>
-		<item name="Falcon Plate" chance="60"/>
+		<item name="grant of arms" chance="600"/>
+		<item name="falcon battleaxe" chance="60"/>
+		<item name="falcon bow" chance="60"/>
+		<item name="falcon circlet" chance="60"/>
+		<item name="falcon coif" chance="60"/>
+		<item name="falcon longsword" chance="60"/>
+		<item name="falcon mace" chance="60"/>
+		<item name="falcon rod" chance="60"/>
+		<item name="falcon shield" chance="60"/>
+		<item name="falcon greaves" chance="60"/>
+		<item name="falcon plate" chance="60"/>
 	</loot>
 </monster>

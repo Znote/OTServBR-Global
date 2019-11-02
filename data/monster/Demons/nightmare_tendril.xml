@@ -17,8 +17,8 @@
 		<flag runOnHealth="15"/>
 	</flags>
 	<attacks>
-	<attack name="melee" interval="2000" min="0" max="-250"/>
-	    <attack name="drunk" interval="2000" chance="8" target="1" duration="5000">
+		<attack name="melee" interval="2000" min="0" max="-250"/>
+		<attack name="drunk" interval="2000" chance="8" target="1" duration="5000">
 			<attribute key="shootEffect" value="eartharrow"/>
 			<attribute key="areaEffect" value="stun"/>
 		</attack>
@@ -28,9 +28,9 @@
 		</attack>
 	</attacks>
 	<defenses armor="10" defense="10"/>
-	    <defense name="healing" interval="2000" chance="15" min="160" max="235">
-		    <attribute key="areaEffect" value="blueshimmer"/>
-	    </defense>
+		<defense name="healing" interval="2000" chance="15" min="160" max="235">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
 	<elements>
 		<element energyPercent="20"/>
 		<element icePercent="20"/>

@@ -63,7 +63,7 @@
 	</voices>
 	<loot>
 		<item name="gold coin" countmin="1" countmax="225" chance="98770"/>
-	    <item name="werewolf fangs" chance="15000"/>
+		<item name="werewolf fangs" chance="15000"/>
 		<item name="werewolf fur" chance="9800"/>
 		<item name="plate shield" chance="9500"/>
 		<item name="rusted armor" chance="8080"/>
@@ -76,7 +76,7 @@
 		<item name="berserk potion" chance="960"/>
 		<item name="stone skin amulet" chance="940"/>
 		<item name="platinum amulet" chance="800"/>
-		<item id="3053" chance="610"/> <!-- time ring -->
+		<item id="3053" chance="610"/><!-- time ring -->
 		<item name="moonlight crystal" chance="570"/>
 		<item name="epee" chance="470"/>
 		<item name="relic sword" chance="390"/>

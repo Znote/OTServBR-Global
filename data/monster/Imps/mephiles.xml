@@ -56,6 +56,6 @@
 		<item name="stale bread of ancientness" chance="40000"/>
 		<item name="shield of the white knight" chance="40000"/>
 		<item name="poet's fencing quill" chance="20000"/>
-		<item id="9400" chance="10000"/> <!-- rain coat -->
+		<item id="9400" chance="10000"/><!-- rain coat -->
 	</loot>
 </monster>

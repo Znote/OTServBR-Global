@@ -1047,7 +1047,7 @@
 	<monster name="Renegade Orc" file="Orcs/renegade_orc.xml"/>
 	<monster name="Rorc" file="Orcs/rorc.xml"/>
 	<monster name="Scar Tribe Shaman" file="Orcs/scar_tribe_shaman.xml"/>
- 	<monster name="Scar Tribe Warrior" file="Orcs/scar_tribe_warrior.xml"/>
+	<monster name="Scar Tribe Warrior" file="Orcs/scar_tribe_warrior.xml"/>
 	<monster name="The Axeorcist" file="Orcs/the_axeorcist.xml"/>
 	<monster name="Warlord Ruzad" file="Orcs/warlord_ruzad.xml"/>
 

@@ -45,7 +45,7 @@
 		<immunity fire="1"/>
 	</immunities>
 	<loot>
-		<item id="33317" chance="10000"/> <!-- glowing rune -->
+		<item id="33317" chance="10000"/><!-- glowing rune -->
 		<item name="great spirit potion" countmax="3" chance="10000"/>
 		<item name="fire mushroom" countmax="6" chance="10000"/>
 		<item name="small amethyst" countmax="5" chance="90000"/>
@@ -60,13 +60,13 @@
 		<item name="purple tome" chance="6333"/>
 		<item name="great mana potion" countmax="3" chance="10000"/>
 		<item name="demonic essence" chance="4300"/>
-		<item id="33315" chance="10000"/> <!-- Inkwell (Black) -->
+		<item id="33315" chance="10000"/><!-- inkwell (black) -->
 		<item name="small ruby" countmax="5" chance="90000"/>
 		<item name="talon" chance="8990"/>
 		<item name="might ring" chance="4990"/>
 		<item name="devil helmet" chance="6990"/>
 		<item name="demonrage sword" chance="400"/>
-		<item id="7393" chance="390"/> <!-- Demon Trophy -->
+		<item id="7393" chance="390"/><!-- demon trophy -->
 		<item name="giant sword" chance="250"/>
 		<item name="demon shield" chance="250"/>
 		<item name="magic plate armor" chance="150"/>

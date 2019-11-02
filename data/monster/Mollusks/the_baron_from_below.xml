@@ -55,7 +55,7 @@
 		<voice sentence="Krrrk!"/>
 	</voices>
 	<loot>
-		<item name="Platinum Coin" countmax="58" chance="10000"/>
+		<item name="platinum coin" countmax="58" chance="10000"/>
 		<item name="crystal coin" countmax="2" chance="10000"/>
 		<item name="gold ingot" countmax="2" chance="10000"/>
 		<item name="great mana potion" countmax="10" chance="10000"/>
@@ -69,31 +69,31 @@
 		<item name="violet crystal shard" countmax="3" chance="10000"/>
 		<item name="badger boots" chance="10000"/>
 		<item name="blue gem" chance="10000"/>
-		<item name="Calopteryx Cape" chance="10000"/>
-		<item id="30857" chance="10000"/>   <!--chitinous mouth"-->
-		<item name="Crystal Mace" chance="10000"/>
-		<item name="Fire Sword" chance="10000"/>
-		<item name="Green Gem" chance="10000"/>
-		<item name="Huge Chunk of Crude Iron" countmax="2" chance="10000"/>
-		<item name="Huge Shell" chance="10000"/>
-		<item name="Longing Eyes" chance="10000"/>
-		<item name="Luminous Orb" chance="10000"/>
-		<item name="Magic Sulphur" countmax="2" chance="10000"/>
-		<item name="Magma Coat" chance="10000"/>
-		<item name="Red Gem" chance="10000"/>
-		<item id="9820" chance="10000"/>  <!--Rusty helmet-->
-		<item id="9814" chance="10000"/>   <!--Rusty Shield-->
-		<item name="Slimy Leg" chance="10000"/>
-		<item name="Stone Skin Amulet" chance="10000"/>
-		<item name="Violet Gem" chance="10000"/>
-		<item name="Wand of Inferno" chance="10000"/>
-		<item name="Yellow Gem" chance="10000"/>
-		<item name="Gold Token" chance="1000"/>
-		<item name="Silver Token" chance="1000"/>
-		<item name="Mallet Head" chance="1000"/>
-		<item name="Gnome Shield" chance="1000"/>
-		<item name="Gnome Sword" chance="1000"/>
+		<item name="calopteryx cape" chance="10000"/>
+		<item id="30857" chance="10000"/>	<!--chitinous mouth"-->
+		<item name="crystal mace" chance="10000"/>
+		<item name="fire sword" chance="10000"/>
+		<item name="green gem" chance="10000"/>
+		<item name="huge chunk of crude iron" countmax="2" chance="10000"/>
+		<item name="huge shell" chance="10000"/>
+		<item name="longing eyes" chance="10000"/>
+		<item name="luminous orb" chance="10000"/>
+		<item name="magic sulphur" countmax="2" chance="10000"/>
+		<item name="magma coat" chance="10000"/>
+		<item name="red gem" chance="10000"/>
+		<item id="9820" chance="10000"/>	<!--rusty helmet-->
+		<item id="9814" chance="10000"/>	<!--rusty shield-->
+		<item name="slimy leg" chance="10000"/>
+		<item name="stone skin amulet" chance="10000"/>
+		<item name="violet gem" chance="10000"/>
+		<item name="wand of inferno" chance="10000"/>
+		<item name="yellow gem" chance="10000"/>
+		<item name="gold token" chance="1000"/>
+		<item name="silver token" chance="1000"/>
+		<item name="mallet head" chance="1000"/>
+		<item name="gnome shield" chance="1000"/>
+		<item name="gnome sword" chance="1000"/>
 		<item name="plan for a makeshift armour" chance="500"/>
-		<item name="Gnome Armor" chance="500"/>
+		<item name="gnome armor" chance="500"/>
 	</loot>
 </monster>

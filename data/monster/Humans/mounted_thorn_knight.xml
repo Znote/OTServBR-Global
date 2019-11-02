@@ -48,7 +48,7 @@
 			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>
 	</defenses>
-		<elements>
+	<elements>
 		<element energyPercent="80"/>
 		<element holyPercent="80"/>
 		<element earthPercent="100"/>

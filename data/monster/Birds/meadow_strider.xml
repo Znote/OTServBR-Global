@@ -32,11 +32,11 @@
 	<loot>
 		<item name="gold coin" countmax="10" chance="100000"/>
 		<item name="meat" chance="25270"/>
-		<item id="3578" countmax="2" chance="25170"/> <!-- fish -->
+		<item id="3578" countmax="2" chance="25170"/><!-- fish -->
 		<item name="worm" countmax="2" chance="14290"/>
 		<item name="mace" chance="8330"/>
 		<item name="longsword" chance="7640"/>
 		<item name="hatchet" chance="6640"/>
-		<item id="3003" chance="5720"/> <!-- rope -->
+		<item id="3003" chance="5720"/><!-- rope -->
 	</loot>
 </monster>

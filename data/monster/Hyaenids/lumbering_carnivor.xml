@@ -20,15 +20,15 @@
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-150"/>
 		<attack name="lifedrain" interval="2000" chance="50" length="4" spread="0" min="-150" max="-230">
-		<attribute key="areaEffect" value="SMOKE"/>
+			<attribute key="areaEffect" value="SMOKE"/>
 		</attack>
 		<attack name="lifedrain" interval="2000" chance="50" target="1" radius="3" min="-120" max="-230">
-		<attribute key="areaEffect" value="EXPLOSIONAREA"/>
+			<attribute key="areaEffect" value="EXPLOSIONAREA"/>
 		</attack>
-		</attacks>
+	</attacks>
 		<defenses armor="20" defense="20">
 		<defense name="healing" interval="2000" chance="10" min="150" max="200">
-		<attribute key="areaEffect" value="blueshimmer"/>
+			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	</defenses>
 	<elements>
@@ -39,19 +39,19 @@
 	</immunities>
 	<loot>
 		<item name="platinum coin" countmax="3" chance="100000"/>
-		<item name="Blue Glass Plate" countmax="3" chance="100000"/>
-		<item id="2376" chance="15000"/> <!--sword-->
-		<item name="Axe" chance="11550"/>
-		<item name="Ice Rapier" chance="13550"/>
-		<item id="7632" chance="25100"/> <!--Giant Shimmering Pearlz-->
-		<item name="Violet Gem" chance="25000"/>
-		<item name="Green Gem" chance="12800"/>
-		<item name="Blue Gem" chance="12000"/>
-		<item name="Two Handed Sword" chance="30000"/>
-		<item name="Blue Robe" chance="13050"/>
-		<item name="Glorious Axe" chance="12800"/>
-		<item name="Green Crystal Shard" chance="12000"/>
-		<item name="Fur Armor" chance="25000"/>
-		<item name="Focus Cape" chance="800"/>
+		<item name="blue glass plate" countmax="3" chance="100000"/>
+		<item id="2376" chance="15000"/><!--sword-->
+		<item name="axe" chance="11550"/>
+		<item name="ice rapier" chance="13550"/>
+		<item id="7632" chance="25100"/><!--giant shimmering pearlz-->
+		<item name="violet gem" chance="25000"/>
+		<item name="green gem" chance="12800"/>
+		<item name="blue gem" chance="12000"/>
+		<item name="two handed sword" chance="30000"/>
+		<item name="blue robe" chance="13050"/>
+		<item name="glorious axe" chance="12800"/>
+		<item name="green crystal shard" chance="12000"/>
+		<item name="fur armor" chance="25000"/>
+		<item name="focus cape" chance="800"/>
 	</loot>
 </monster>

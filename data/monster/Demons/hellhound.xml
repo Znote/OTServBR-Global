@@ -67,7 +67,7 @@
 	<loot>
 		<item name="amber staff" chance="2000"/>
 		<item name="assassin star" countmax="10" chance="25000"/>
-		<item id="3116" chance="900"/> <!-- big bone -->
+		<item id="3116" chance="900"/><!-- big bone -->
 		<item name="black pearl" countmax="4" chance="9200"/>
 		<item name="blazing bone" chance="12500"/>
 		<item name="concentrated demonic blood" chance="20000"/>

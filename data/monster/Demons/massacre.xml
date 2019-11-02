@@ -32,13 +32,13 @@
 			<attribute key="areaEffect" value="fire"/>
 		</defense>
 	</defenses>
-  	<elements>
-    		<element earthPercent="30"/>
-    		<element icePercent="10"/>
-    		<element deathPercent="-10"/>
-    		<element energyPercent="-7"/>
-    		<element holyPercent="-3"/>
-  	</elements>
+	<elements>
+		<element earthPercent="30"/>
+		<element icePercent="10"/>
+		<element deathPercent="-10"/>
+		<element energyPercent="-7"/>
+		<element holyPercent="-3"/>
+ 	</elements>
 	<immunities>
 		<immunity fire="1"/>
 		<immunity lifedrain="1"/>

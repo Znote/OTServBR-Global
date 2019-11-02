@@ -45,7 +45,7 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-	    <item name="Platinum Coin" countmax="3" chance="100000"/>
+		<item name="Platinum Coin" countmax="3" chance="100000"/>
 		<item name="Sphinx Feather" chance="9300"/>
 		<item name="Magma Amulet" chance="7000"/>
 		<item id="36273" chance="5500"/><!-- Sphinx Tiara -->
@@ -54,7 +54,7 @@
 		<item name="Lightning Headband" chance="3100"/>
 		<item name="Wand of Starstorm" chance="2900"/>
 		<item name="Wand of Defiance" chance="1800"/>
-	    <item name="Magma Monocle" chance="1400"/>
+		<item name="Magma Monocle" chance="1400"/>
 		<item name="Magma Legs" chance="1300"/>
 	</loot>
 </monster>

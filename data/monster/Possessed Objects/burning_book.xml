@@ -39,20 +39,20 @@
 		<immunity fire="1"/>
 	</immunities>
 	<loot>
-			<item name="Platinum Coin" countmax="28" chance="89960"/>
-			<item name="Book Page" countmax="7" chance="3000"/>
-			<item name="Demonic Essence" countmax="5" chance="3000"/>
-			<item name="Concentrated Demonic Blood" countmax="3" chance="3000"/>
-			<item name="Small Amethyst" countmax="4" chance="2000"/>
-			<item id="2419" chance="3000"/> <!-- scimitar -->
-			<item name="Silken Bookmark" countmax="2" chance="2000"/>
-			<item name="Magma Coat" chance="2000"/>
-			<item name="Guardian Shield" chance="1500"/>
-			<item name="Soul Orb" countmax="4" chance="3000"/>
-			<item name="Necrotic Rod" chance="3000"/>
-			<item name="Magma Monocle" chance="1500"/>
-			<item id="6300" chance="1200"/> <!-- death ring -->
-			<item name="Stealth Ring" chance="1800"/>
-			<item name="Shadow Sceptre" chance="8990"/>
+		<item name="platinum coin" countmax="28" chance="89960"/>
+		<item name="book page" countmax="7" chance="3000"/>
+		<item name="demonic essence" countmax="5" chance="3000"/>
+		<item name="concentrated demonic blood" countmax="3" chance="3000"/>
+		<item name="small amethyst" countmax="4" chance="2000"/>
+		<item id="2419" chance="3000"/><!-- scimitar -->
+		<item name="silken bookmark" countmax="2" chance="2000"/>
+		<item name="magma coat" chance="2000"/>
+		<item name="guardian shield" chance="1500"/>
+		<item name="soul orb" countmax="4" chance="3000"/>
+		<item name="necrotic rod" chance="3000"/>
+		<item name="magma monocle" chance="1500"/>
+		<item id="6300" chance="1200"/><!-- death ring -->
+		<item name="stealth ring" chance="1800"/>
+		<item name="shadow sceptre" chance="8990"/>
 	</loot>
 </monster>

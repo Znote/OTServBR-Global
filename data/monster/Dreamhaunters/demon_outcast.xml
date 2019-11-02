@@ -80,7 +80,7 @@
 		<item name="platinum amulet" chance="650"/>
 		<item name="crusader helmet" chance="590"/>
 		<item name="devil helmet" chance="550"/>
-		<item id="5906" chance="550"/> <!-- demon dust -->
+		<item id="5906" chance="550"/><!-- demon dust -->
 		<item name="cluster of solace" chance="50"/>
 		<item name="demon shield" chance="430"/>
 		<item name="crown armor" chance="270"/>

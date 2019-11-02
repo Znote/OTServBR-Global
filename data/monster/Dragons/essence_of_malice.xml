@@ -61,7 +61,7 @@
 		<item name="shockwave amulet" chance="15100"/>
 		<item name="small amethyst" countmax="10" chance="14700"/>
 		<item name="witch hat" chance="9510"/>
-		<item id="23529" chance="8762"/> <!-- ring of blue plasma -->
+		<item id="23529" chance="8762"/><!-- ring of blue plasma -->
 		<item name="lightning legs" chance="8723"/>
 		<item name="blade of corruption" chance="3775"/>
 		<item name="silver token" chance="2732"/>

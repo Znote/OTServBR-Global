@@ -47,7 +47,7 @@
 		<item name="Energy Drink" countmax="4" chance="1200"/>
 		<item name="Odd Organ" countmax="4" chance="1200"/>
 		<item name="Frozen Lightning" countmax="4" chance="1200"/>
-		<item id="33315" countmax="3" chance="1200"/> <!-- inkwell-->
+		<item id="33315" countmax="3" chance="1200"/><!-- inkwell-->
 		<item name="Small Ruby" countmax="4" chance="1200"/>
 		<item name="Violet Gem" countmax="4" chance="1200"/>
 		<item name="Blue Crystal Splinter" countmax="4" chance="1200"/>
@@ -59,11 +59,11 @@
 		<item name="Lightning Pendant" chance="850"/>
 		<item name="Might Ring" chance="1300"/>
 		<item name="Slime Heart" countmax="4" chance="1200"/>
-		<item id="26200" chance="560"/> <!-- collar of red plasma-->
-		<item id="26198" chance="560"/> <!-- collar of blue plasma-->
-		<item id="26199" chance="560"/> <!-- collar of green plasma-->
-		<item id="26189" chance="560"/> <!-- ring of red plasma-->
-		<item id="26185" chance="560"/> <!-- ring of blue plasma-->
-		<item id="26187" chance="560"/> <!-- rinf of green plasma-->
+		<item id="26200" chance="560"/><!-- collar of red plasma-->
+		<item id="26198" chance="560"/><!-- collar of blue plasma-->
+		<item id="26199" chance="560"/><!-- collar of green plasma-->
+		<item id="26189" chance="560"/><!-- ring of red plasma-->
+		<item id="26185" chance="560"/><!-- ring of blue plasma-->
+		<item id="26187" chance="560"/><!-- rinf of green plasma-->
 	</loot>
 </monster>

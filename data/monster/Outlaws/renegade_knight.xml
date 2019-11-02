@@ -20,8 +20,8 @@
 		<flag canWalkOnPoison="0"/>
 	</flags>
 	<attacks>
-	<attack name="yellow spark(exori)" interval="2000" chance="30" min="0" max="-125"/>
-	<attack name="melee" interval="2000" min="0" max="-245"/>
+		<attack name="yellow spark(exori)" interval="2000" chance="30" min="0" max="-125"/>
+		<attack name="melee" interval="2000" min="0" max="-245"/>
 	</attacks>
 	<defenses armor="38" defense="0">
 		<defense name="healing" interval="4000" chance="25" min="200" max="250">

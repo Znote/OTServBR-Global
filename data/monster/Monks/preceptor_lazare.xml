@@ -28,7 +28,7 @@
 		<attack name="physical" interval="1500" chance="20" range="7" min="-300" max="-1100">
 			<attribute key="shootEffect" value="powerbolt"/>
 		</attack>
-			<attack name="physical" interval="1600" chance="20" range="7" min="-100" max="-720">
+		<attack name="physical" interval="1600" chance="20" range="7" min="-100" max="-720">
 			<attribute key="shootEffect" value="energyball"/>
 		</attack>
 		<attack name="holy" interval="1500" chance="14" range="7" radius="4" min="-300" max="-1000">
@@ -50,33 +50,33 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-		<item name="Small Emerald" countmax="3" chance="100000"/>
-		<item name="Small Diamond" countmax="3" chance="100000"/>
-		<item name="Small Amethyst" countmax="3" chance="100000"/>
-		<item name="Platinum Coin" countmax="3" chance="100000"/>
-		<item name="Assassin Star" countmax="5" chance="100000"/>
-		<item name="Great Mana Potion" countmax="3" chance="100000"/>
-		<item name="Great Health Potion" countmax="3" chance="100000"/>
+		<item name="small emerald" countmax="3" chance="100000"/>
+		<item name="small diamond" countmax="3" chance="100000"/>
+		<item name="small amethyst" countmax="3" chance="100000"/>
+		<item name="platinum coin" countmax="3" chance="100000"/>
+		<item name="assassin star" countmax="5" chance="100000"/>
+		<item name="great mana potion" countmax="3" chance="100000"/>
+		<item name="great health potion" countmax="3" chance="100000"/>
 		<item name="gold coin" countmax="60" chance="100000"/>
 		<item name="gold coin" countmax="40" chance="100000"/>
-		<item name="Soul Orb" countmax="5" chance="100000"/>
-		<item name="Demonic Essence" countmax="5" chance="100000"/>
-		<item name="Ham" countmax="2" chance="100000"/>
-		<item name="Small Ruby" countmax="3" chance="700"/>
-		<item name="red Gem" countmax="3" chance="700"/>
-		<item name="Onyx Arrow" countmax="3" chance="700"/>
-		<item name="Small Topaz" countmax="3" chance="700"/>
-		<item name="Small Diamond" countmax="3" chance="7"/>
+		<item name="soul orb" countmax="5" chance="100000"/>
+		<item name="demonic essence" countmax="5" chance="100000"/>
+		<item name="ham" countmax="2" chance="100000"/>
+		<item name="small ruby" countmax="3" chance="700"/>
+		<item name="red gem" countmax="3" chance="700"/>
+		<item name="onyx arrow" countmax="3" chance="700"/>
+		<item name="small topaz" countmax="3" chance="700"/>
+		<item name="small diamond" countmax="3" chance="7"/>
 		<item id="7633" chance="800"/>
-		<item name="Violet Gem" chance="600"/>
-		<item name="Green Gem" chance="600"/>
-		<item name="Knight Armor" chance="600"/>
-		<item name="Titan Axe" chance="600"/>
-		<item name="Spiked Squelcher" chance="600"/>
-		<item name="Patch of Fine Cloth" countmax="3" chance="500"/>
-		<item name="Golden Armor" chance="250"/>
-		<item name="Mastermind Shield" chance="200"/>
-		<item name="Falcon Rod" chance="100"/>
-		<item name="Falcon Greaves" chance="100"/>
+		<item name="violet gem" chance="600"/>
+		<item name="green gem" chance="600"/>
+		<item name="knight armor" chance="600"/>
+		<item name="titan axe" chance="600"/>
+		<item name="spiked squelcher" chance="600"/>
+		<item name="patch of fine cloth" countmax="3" chance="500"/>
+		<item name="golden armor" chance="250"/>
+		<item name="mastermind shield" chance="200"/>
+		<item name="falcon rod" chance="100"/>
+		<item name="falcon greaves" chance="100"/>
 	</loot>
 </monster>

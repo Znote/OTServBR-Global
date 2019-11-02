@@ -18,7 +18,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="-200" max="-550"/>
-	 	<attack name="energy" interval="2000" chance="13" radius="3" min="-200" max="-605">
+		<attack name="energy" interval="2000" chance="13" radius="3" min="-200" max="-605">
 			<attribute key="areaEffect" value="energyarea"/>
 		</attack>
 	</attacks>
@@ -35,7 +35,7 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-	<item name="Platinum Coin" countmax="10" chance="10000"/>
+		<item name="Platinum Coin" countmax="10" chance="10000"/>
 		<item name="Book Page" countmax="5" chance="10000"/>
 		<item name="burnt Scroll" countmax="5" chance="10000"/>
 		<item name="Glowing Rune" countmax="5" chance="10000"/>
@@ -48,6 +48,6 @@
 		<item name="Magma Coat" chance="350"/>
 		<item name="Magma Legs" chance="250"/>
 		<item name="Piece of Hellfire Armor" countmax="5" chance="500"/>
-		<item id="13757" countmax="5" chance="10000"/> <!-- coal -->
+		<item id="13757" countmax="5" chance="10000"/><!-- coal -->
 	</loot>
 </monster>

@@ -18,7 +18,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="-10" max="-550"/>
-	 	<attack name="energy" interval="1000" chance="13" radius="3" min="-100" max="-555">
+		<attack name="energy" interval="1000" chance="13" radius="3" min="-100" max="-555">
 			<attribute key="areaEffect" value="energyarea"/>
 		</attack>
 	</attacks>

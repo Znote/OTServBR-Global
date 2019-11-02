@@ -38,5 +38,5 @@
 	</voices>
 	<loot>
 		<item name="midnight shard" chance="6440" />
-</loot>
+	</loot>
 </monster>

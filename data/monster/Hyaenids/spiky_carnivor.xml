@@ -20,15 +20,15 @@
 		<attacks>
 		<attack name="melee" interval="2000" min="0" max="-205"/>
 		<attack name="lifedrain" interval="2000" chance="50"  length="4" spread="0" min="-150" max="-330">
-		<attribute key="areaEffect" value="SMOKE"/>
+			<attribute key="areaEffect" value="SMOKE"/>
 		</attack>
 		<attack name="lifedrain" interval="2000" chance="50"  length="4" spread="0" min="-150" max="-330">
-		<attribute key="areaEffect" value="POISON"/>
+			<attribute key="areaEffect" value="POISON"/>
 		</attack>
 		<attack name="physical" interval="2000" chance="50" radius="4" min="-150" max="-330">
-		<attribute key="areaEffect" value="GROUNDSHAKER"/>
+			<attribute key="areaEffect" value="GROUNDSHAKER"/>
 		</attack>
-		</attacks>
+	</attacks>
 	<defenses armor="71" defense="20">
 		<defense name="healing" interval="2000" chance="10" min="150" max="200">
 			<attribute key="areaEffect" value="blueshimmer"/>
@@ -42,23 +42,23 @@
 		<immunity paralyze="1"/>
 	</immunities>
 	<loot>
-	    <item name="Platinum Coin" countmax="7" chance="2000"/>
-		<item name="Green Glass Plate" countmax="17" chance="1000"/>
-		<item name="Blue Crystal Splinter" chance="1000"/>
-		<item name="Brown Crystal Splinter" chance="1000"/>
-		<item name="Dark Armor" chance="1000"/>
-		<item name="Guardian Shield" chance="1000"/>
-		<item name="Rainbow Quartz" chance="700"/>
-		<item name="Blue Robe" chance="700"/>
-		<item name="Glacier Amulet" chance="700"/>
-		<item name="Lightning Pendant" chance="700"/>
-		<item name="Prismatic Quartz" chance="700"/>
-		<item name="Talon" chance="700"/>
-		<item name="Terra Amulet" chance="700"/>
-		<item name="Warrior Helmet" chance="700"/>
-		<item name="Shockwave Amulet" chance="450"/>
-		<item name="Terra Mantle" chance="450"/>
-        <item name="Buckle" chance="250"/>
-        <item name="Doublet" chance="250"/>
+		<item name="platinum coin" countmax="7" chance="2000"/>
+		<item name="green glass plate" countmax="17" chance="1000"/>
+		<item name="blue crystal splinter" chance="1000"/>
+		<item name="brown crystal splinter" chance="1000"/>
+		<item name="dark armor" chance="1000"/>
+		<item name="guardian shield" chance="1000"/>
+		<item name="rainbow quartz" chance="700"/>
+		<item name="blue robe" chance="700"/>
+		<item name="glacier amulet" chance="700"/>
+		<item name="lightning pendant" chance="700"/>
+		<item name="prismatic quartz" chance="700"/>
+		<item name="talon" chance="700"/>
+		<item name="terra amulet" chance="700"/>
+		<item name="warrior helmet" chance="700"/>
+		<item name="shockwave amulet" chance="450"/>
+		<item name="terra mantle" chance="450"/>
+ 		<item name="buckle" chance="250"/>
+ 		<item name="doublet" chance="250"/>
 	</loot>
 </monster>

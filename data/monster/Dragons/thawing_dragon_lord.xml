@@ -39,7 +39,7 @@
 		<element deathPercent="50"/>
 		<element energyPercent=""/>
 	</elements>
-		<immunities>
+	<immunities>
 		<immunity physical="0"/>
 		<immunity energy="0"/>
 		<immunity fire="1"/>
@@ -50,8 +50,8 @@
 	</immunities>
 	<loot>
 		<item id="9971" countmax="4" chance="50000"/><!--gold ingot -->
-		<item id="8571" chance="5560"/> <!-- ice cube -->
-		<item id="7377" chance="5560"/> <!-- ice cream cone -->
-		<item id="15515" chance="50"/> <!-- bar of gold -->
+		<item id="8571" chance="5560"/><!-- ice cube -->
+		<item id="7377" chance="5560"/><!-- ice cream cone -->
+		<item id="15515" chance="50"/><!-- bar of gold -->
 	</loot>
 </monster>

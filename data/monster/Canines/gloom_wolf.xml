@@ -31,8 +31,8 @@
 		<element earthPercent="20"/>
 	</elements>
 	<loot>
-	    <item name="gold coin" countmax="15" chance="67310"/>
-	    <item name="ham" chance="40650"/>
+		<item name="gold coin" countmax="15" chance="67310"/>
+		<item name="ham" chance="40650"/>
 		<item name="meat" chance="38280"/>
 		<item name="gloom wolf fur" chance="9890"/>
 		<item name="wolf tooth chain" chance="8390"/>

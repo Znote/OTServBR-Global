@@ -23,20 +23,20 @@
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-530"/>
 		<attack name="fire" interval="2000" chance="50" length="3" spread="0" min="-270" max="-710">
-		<attribute key="areaEffect" value="FIREAREA"/>
+			<attribute key="areaEffect" value="FIREAREA"/>
 		</attack>
 		<attack name="fire" interval="2000" chance="50" range="7" min="-250" max="-300">
-		<attribute key="shootEffect" value="fire"/>
+			<attribute key="shootEffect" value="fire"/>
 		</attack>
 		<attack name="fire" interval="2000" chance="50" target="1" radius="5" min="-350" max="-380">
-		<attribute key="areaEffect" value="explosion"/>
+			<attribute key="areaEffect" value="explosion"/>
 		</attack>
 		<attack name="fire" interval="2000" chance="50" target="1" radius="5" min="-200" max="-350">
-		<attribute key="areaEffect" value="EXPLOSIONAREA"/>
+			<attribute key="areaEffect" value="EXPLOSIONAREA"/>
 		</attack>
 		 </attacks>
- 		<defenses armor="70" defense="20"/>
-			<defense name="healing" interval="2000" chance="14" min="150" max="250">
+		<defenses armor="70" defense="20"/>
+		<defense name="healing" interval="2000" chance="14" min="150" max="250">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
 	<elements>
@@ -53,19 +53,19 @@
 		<voice sentence="Dream or nightmare?"/>
 	</voices>
 	<loot>
-		<item name="Platinum Coin" countmax="12" chance="100000"/>
-		<item name="Ultimate Health Potion" chance="14970"/>
-		<item name="Miraculum" chance="13090"/>
-		<item name="Dream Essence Egg" chance="11980"/>
-		<item name="Wand of Draconia" chance="7700"/>
-		<item name="Holy Orchid" chance="5650"/>
-		<item name="Magma Amulet" chance="5130"/>
-		<item name="Wand of Inferno" chance="4360"/>
-		<item name="Fire Axe" chance="3590"/>
-		<item name="Magma Coat" chance="3340"/>
-		<item name="Wand of Dragonbreath" chance="2650"/>
-		<item name="Sun Fruit" chance="2570"/>
-		<item name="Magma Legs" chance="1200"/>
-		<item name="Magma Monocle" chance="260"/>
+		<item name="platinum coin" countmax="12" chance="100000"/>
+		<item name="ultimate health potion" chance="14970"/>
+		<item name="miraculum" chance="13090"/>
+		<item name="dream essence egg" chance="11980"/>
+		<item name="wand of draconia" chance="7700"/>
+		<item name="holy orchid" chance="5650"/>
+		<item name="magma amulet" chance="5130"/>
+		<item name="wand of inferno" chance="4360"/>
+		<item name="fire axe" chance="3590"/>
+		<item name="magma coat" chance="3340"/>
+		<item name="wand of dragonbreath" chance="2650"/>
+		<item name="sun fruit" chance="2570"/>
+		<item name="magma legs" chance="1200"/>
+		<item name="magma monocle" chance="260"/>
 	</loot>
 </monster>

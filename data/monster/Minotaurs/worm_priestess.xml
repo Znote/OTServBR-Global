@@ -62,7 +62,7 @@
 		<item name="strong mana potion" chance="12270"/>
 		<item name="snakebite rod" chance="11910"/>
 		<item name="taurus mace" chance="5090"/>
-		<item id="2920" chance="4970"/> <!-- torch -->
+		<item id="2920" chance="4970"/><!-- torch -->
 		<item name="minotaur leather" chance="4940"/>
 		<item name="minotaur horn" countmax="2" chance="2900"/>
 		<item name="small amethyst" countmax="2" chance="2600"/>

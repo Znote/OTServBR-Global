@@ -72,4 +72,5 @@
 		<item name="bonebreaker" chance="170"/>
 		<item name="shamanic mask" chance="170"/>
 		<item name="butcher's axe" chance="30"/>
+	</loot>
 </monster>

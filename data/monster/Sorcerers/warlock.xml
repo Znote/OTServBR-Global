@@ -82,7 +82,7 @@
 		<item name="small sapphire" chance="1270"/>
 		<item name="talon" chance="1070"/>
 		<item name="lightning robe" chance="990"/>
-		<item id="3509" chance="900"/> <!-- inkwell -->
+		<item id="3509" chance="900"/><!-- inkwell -->
 		<item id="3007" chance="730"/><!-- crystal ring -->
 		<item name="luminous orb" chance="450"/>
 		<item name="ring of the sky" chance="380"/>

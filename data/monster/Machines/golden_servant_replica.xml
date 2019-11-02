@@ -18,7 +18,7 @@
 		<flag isBlockable="0"/>
 	</flags>
 	<attacks>
-      		<attack name="melee" interval="2000" skill="40" attack="40"/>
+ 		<attack name="melee" interval="2000" skill="40" attack="40"/>
 		<attack name="fire" interval="2000" chance="11" length="5" spread="1" min="-80" max="-110">
 			<attribute key="areaEffect" value="yellowenergy"/>
 		</attack>
