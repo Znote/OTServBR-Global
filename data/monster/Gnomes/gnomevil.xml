@@ -11,11 +11,11 @@
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="1"/>
-		<flag targetdistance="0"/>
-		<flag staticattack="50"/>
-		<flag runonhealth="10000"/>
+		<flag canPushItems="1"/>
+		<flag canPushCreatures="1"/>
+		<flag targetDistance="0"/>
+		<flag staticAttack="50"/>
+		<flag runOnHealth="10000"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="1300" skill="80" attack="140"/>

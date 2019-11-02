@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="The Souldespoiler" nameDescription="The Souldespoiler" race="blood" experience="0" speed="250" script="rewardboss.lua">
+<monster name="The Souldespoiler" nameDescription="The Souldespoiler" race="blood" experience="0" speed="250" script="reward_boss.lua">
 	<health now="50000" max="50000"/>
 	<look type="875" head="11" body="0" legs="94" feet="95" addons="0" corpse="26220"/>
 	<targetchange interval="6000" chance="30"/>
 	<flags>
 		<flag preyable="0"/>
-		<flag rewardboss="1"/>
+		<flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="1"/>
-		<flag targetdistance="1"/>
-		<flag runonhealth="0"/>
+		<flag canPushItems="1"/>
+		<flag canPushCreatures="1"/>
+		<flag targetDistance="1"/>
+		<flag runOnHealth="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-783"/>

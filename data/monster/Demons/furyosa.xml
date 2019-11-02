@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Furyosa" nameDescription="Furyosa" race="blood" experience="11500" speed="270" script="rewardboss.lua">
+<monster name="Furyosa" nameDescription="Furyosa" race="blood" experience="11500" speed="270" script="reward_boss.lua">
 	<health now="25000" max="25000"/>
 	<look type="149" head="94" body="77" legs="96" feet="0" addons="3" corpse="18118"/>
 	<targetchange interval="4000" chance="10"/>
 	<flags>
 		<flag preyable="0"/>
-		<flag rewardboss="1"/>
+		<flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="1"/>
-		<flag targetdistance="1"/>
-		<flag staticattack="70"/>
-		<flag runonhealth="0"/>
+		<flag canPushItems="1"/>
+		<flag canPushCreatures="1"/>
+		<flag targetDistance="1"/>
+		<flag staticAttack="70"/>
+		<flag runOnHealth="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-625"/>

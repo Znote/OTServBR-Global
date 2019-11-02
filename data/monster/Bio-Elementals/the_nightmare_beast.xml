@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="The Nightmare Beast" nameDescription="a The Nightmare Beast" race="blood" experience="255000" speed="250" script="rewardboss.lua">
+<monster name="The Nightmare Beast" nameDescription="a The Nightmare Beast" race="blood" experience="255000" speed="250" script="reward_boss.lua">
 	<health now="22" max="22"/>
 	<look type="1144" corpse="34797"/>
 	<targetchange interval="4000" chance="10"/>
 	<flags>
 	    <flag preyable="0"/>
-        <flag rewardboss="1"/>
+        <flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
-		<flag isblockable="0"/>
+		<flag isBlockable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="1"/>
-		<flag targetdistance="1"/>
-		<flag staticattack="90"/>
-		<flag runonhealth="0"/>
+		<flag canPushItems="1"/>
+		<flag canPushCreatures="1"/>
+		<flag targetDistance="1"/>
+		<flag staticAttack="90"/>
+		<flag runOnHealth="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-250"/>

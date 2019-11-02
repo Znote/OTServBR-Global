@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Weakened Shlorg" nameDescription="Weakened Shlorg" race="venom" experience="6500" speed="270" script="rewardboss.lua">
+<monster name="Weakened Shlorg" nameDescription="Weakened Shlorg" race="venom" experience="6500" speed="270" script="reward_boss.lua">
 	<health now="10000" max="10000"/>
 	<look type="565" corpse="18982"/>
 	<targetchange interval="60000" chance="0"/>
 	<flags>
-        <flag rewardboss="1"/>
+        <flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag staticattack="90"/>
-		<flag lightlevel="0"/>
-		<flag lightcolor="0"/>
-		<flag targetdistance="1"/>
-		<flag runonhealth="0"/>
+		<flag canPushItems="1"/>
+		<flag staticAttack="90"/>
+		<flag lightLevel="0"/>
+		<flag lightColor="0"/>
+		<flag targetDistance="1"/>
+		<flag runOnHealth="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="150" attack="50" poison="180"/>

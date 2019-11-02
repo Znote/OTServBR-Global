@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="The Scourge Of Oblivion" nameDescription="The Scourge Of Oblivion" race="energy" experience="50000" speed="450" script="rewardboss.lua">
+<monster name="The Scourge Of Oblivion" nameDescription="The Scourge Of Oblivion" race="energy" experience="50000" speed="450" script="reward_boss.lua">
 	<health now="800000" max="800000"/>
 	<look type="875" head="79" body="79" legs="60" feet="79" addons="3" corpse="26217"/>
 	<targetchange interval="2000" chance="25"/>
 	<flags>
-		<flag rewardboss="1"/>
+		<flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="1"/>
-		<flag targetdistance="1"/>
-		<flag staticattack="90"/>
-		<flag runonhealth="0"/>
+		<flag canPushItems="1"/>
+		<flag canPushCreatures="1"/>
+		<flag targetDistance="1"/>
+		<flag staticAttack="90"/>
+		<flag runOnHealth="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="250" attack="350"/>

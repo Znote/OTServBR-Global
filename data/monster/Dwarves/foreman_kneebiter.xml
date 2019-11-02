@@ -7,9 +7,9 @@
 		<flag preyable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
-		<flag canpushitems="1"/>
-		<flag targetdistance="1"/>
-		<flag staticattack="90"/>
+		<flag canPushItems="1"/>
+		<flag targetDistance="1"/>
+		<flag staticAttack="90"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="-60" max="-200"/>

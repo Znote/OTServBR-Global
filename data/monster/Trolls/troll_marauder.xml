@@ -6,15 +6,15 @@
 	<flags>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
-				<flag isblockable="0"/>
+				<flag isBlockable="0"/>
 		<flag hostile="1"/>
 		<flag illusionable="1"/>
 		<flag convinceable="0"/>
 		<flag pushable="1"/>
-		<flag canpushitems="0"/>
-		<flag canpushcreatures="0"/>
-		<flag targetdistance="1"/>
-		<flag runonhealth="15"/>
+		<flag canPushItems="0"/>
+		<flag canPushCreatures="0"/>
+		<flag targetDistance="1"/>
+		<flag runOnHealth="15"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="10" attack="25"/>

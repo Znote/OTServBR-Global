@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Brokul" nameDescription="Brokul" race="blood" experience="23000" speed="210" script="rewardboss.lua">
+<monster name="Brokul" nameDescription="Brokul" race="blood" experience="23000" speed="210" script="reward_boss.lua">
 	<health now="50000" max="50000"/>
 	<look type="1076" corpse="33376"/>
 	<targetchange interval="1000" chance="10"/>
 	<flags>
 		<flag preyable="0"/>
-		<flag rewardboss="1"/>
+		<flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="1"/>
 		<flag convinceable="0"/>
 		<flag pushable="1"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="1"/>
-		<flag targetdistance="0"/>
-		<flag staticattack="60"/>
-		<flag runonhealth="60"/>
-		<flag canwalkonenergy="0"/>
-		<flag canwalkonpoison="0"/>
+		<flag canPushItems="1"/>
+		<flag canPushCreatures="1"/>
+		<flag targetDistance="0"/>
+		<flag staticAttack="60"/>
+		<flag runOnHealth="60"/>
+		<flag canWalkOnEnergy="0"/>
+		<flag canWalkOnPoison="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-500"/>

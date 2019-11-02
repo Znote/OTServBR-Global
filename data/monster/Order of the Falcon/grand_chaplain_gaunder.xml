@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Grand Chaplain Gaunder" nameDescription="Grand Chaplain Gaunder" race="blood" experience="14" speed="210" script="rewardboss.lua">
+<monster name="Grand Chaplain Gaunder" nameDescription="Grand Chaplain Gaunder" race="blood" experience="14" speed="210" script="reward_boss.lua">
 	<health now="15000" max="15000"/>
 	<look type="1071" head="57" body="75" legs="38" feet="86" addons="1" corpse="32433"/>
 	<targetchange interval="3000" chance="10"/>
 	<flags>
-		<flag rewardboss="1"/>
+		<flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="1"/>
-		<flag targetdistance="1"/>
-		<flag staticattack="70"/>
-		<flag runonhealth="0"/>
-		<flag canwalkonenergy="0"/>
-		<flag canwalkonfire="0"/>
-		<flag canwalkonpoison="0"/>
+		<flag canPushItems="1"/>
+		<flag canPushCreatures="1"/>
+		<flag targetDistance="1"/>
+		<flag staticAttack="70"/>
+		<flag runOnHealth="0"/>
+		<flag canWalkOnEnergy="0"/>
+		<flag canWalkOnFire="0"/>
+		<flag canWalkOnPoison="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="-150" max="-700"/>

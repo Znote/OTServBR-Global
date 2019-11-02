@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="The Mutated Pumpkin" nameDescription="The Mutated Pumpkin" race="undead" experience="30000" speed="400"  script="rewardboss.lua">
+<monster name="The Mutated Pumpkin" nameDescription="The Mutated Pumpkin" race="undead" experience="30000" speed="400"  script="reward_boss.lua">
 	<health now="500000" max="500000"/>
 	<look type="292" corpse="8132"/>
 	<targetchange interval="5000" chance="8"/>
 	<flags>
 		<flag preyable="0"/>
-		<flag rewardboss="1"/>
+		<flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="1"/>
-		<flag targetdistance="1"/>
-		<flag staticattack="85"/>
-		<flag runonhealth="0"/>
+		<flag canPushItems="1"/>
+		<flag canPushCreatures="1"/>
+		<flag targetDistance="1"/>
+		<flag staticAttack="85"/>
+		<flag runOnHealth="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="105" attack="85"/>

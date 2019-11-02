@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Zamulosh" nameDescription="zamulosh" race="undead" experience="55000" speed="320" script="rewardboss.lua">
+<monster name="Zamulosh" nameDescription="zamulosh" race="undead" experience="55000" speed="320" script="reward_boss.lua">
 	<health now="300000" max="300000"/>
         <look type="862" head="16" body="12" legs="73" feet="55" addons="0" corpse="25151"/>
 	<targetchange interval="5000" chance="8"/>
@@ -11,15 +11,15 @@
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="0"/>
-		<flag targetdistance="1"/>
-		<flag staticattack="90"/>
-		<flag runonhealth="0"/>
-		<flag rewardboss="1"/>
-		<flag canwalkonenergy="1"/>
-		<flag canwalkonfire="1"/>
-		<flag canwalkonpoison="1"/>
+		<flag canPushItems="1"/>
+		<flag canPushCreatures="0"/>
+		<flag targetDistance="1"/>
+		<flag staticAttack="90"/>
+		<flag runOnHealth="0"/>
+		<flag rewardBoss="1"/>
+		<flag canWalkOnEnergy="1"/>
+		<flag canWalkOnFire="1"/>
+		<flag canWalkOnPoison="1"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="3000" min="-1500" max="-2300"/>

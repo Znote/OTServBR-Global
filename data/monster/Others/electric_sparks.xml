@@ -11,14 +11,14 @@
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="0"/>
-		<flag canpushcreatures="0"/>
-		<flag targetdistance="1"/>
-		<flag staticattack="90"/>
-		<flag runonhealth="0"/>
-		<flag hidehealth="1"/>
-		<flag isblockable="0" />
-	<flag canwalkonenergy="1" /><flag canwalkonfire="1" /><flag canwalkonpoison="1" /></flags>
+		<flag canPushItems="0"/>
+		<flag canPushCreatures="0"/>
+		<flag targetDistance="1"/>
+		<flag staticAttack="90"/>
+		<flag runOnHealth="0"/>
+		<flag hideHealth="1"/>
+		<flag isBlockable="0" />
+	<flag canWalkOnEnergy="1" /><flag canWalkOnFire="1" /><flag canWalkOnPoison="1" /></flags>
 	<attacks>
 		<attack name="energy" interval="2000" chance="50" range="1" min="-150" max="-250">
 			<attribute key="shootEffect" value="energy"/>

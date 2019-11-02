@@ -1,5 +1,5 @@
 function onCreatureAppear(self, creature)
-	if self:getType():isRewardBoss() then
+	if self:getType():isrewardBoss() then
 		self:setReward(true)
 	end
 end

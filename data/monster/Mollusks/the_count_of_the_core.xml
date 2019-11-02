@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="The Count Of The Core" nameDescription="The Count Of The Core" race="blood" experience="40000" speed="270" script="rewardboss.lua">
+<monster name="The Count Of The Core" nameDescription="The Count Of The Core" race="blood" experience="40000" speed="270" script="reward_boss.lua">
 	<health now="50000" max="50000"/>
 	<look type="1046" corpse="30872"/>
 	<targetchange interval="5000" chance="10"/>
 	<flags>
-		<flag rewardboss="1"/>
+		<flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="1"/>
-		<flag targetdistance="1"/>
-		<flag staticattack="90"/>
-		<flag runonhealth="0"/>
-		<flag canwalkonenergy="1"/>
-		<flag canwalkonfire="1"/>
-		<flag canwalkonpoison="1"/>
+		<flag canPushItems="1"/>
+		<flag canPushCreatures="1"/>
+		<flag targetDistance="1"/>
+		<flag staticAttack="90"/>
+		<flag runOnHealth="0"/>
+		<flag canWalkOnEnergy="1"/>
+		<flag canWalkOnFire="1"/>
+		<flag canWalkOnPoison="1"/>
 	</flags>
 <attacks>
 		<attack name="melee" interval="2000" min="0" max="-1500"/>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Essence Of Malice" nameDescription="a essence of malice" race="undead" experience="150000" speed="320" script="rewardboss.lua">
+<monster name="Essence Of Malice" nameDescription="a essence of malice" race="undead" experience="150000" speed="320" script="reward_boss.lua">
 	<health now="250000" max="250000"/>
 	<look type="351" corpse="10445"/>
 	<targetchange interval="4000" chance="5"/>
 	<flags>
 		<flag preyable="0"/>
-		<flag rewardboss="1"/>
+		<flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="1"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="1"/>
-		<flag targetdistance="1"/>
-		<flag runonhealth="366"/>
-		<flag canwalkonenergy="0"/>
-		<flag canwalkonfire="0"/>
+		<flag canPushItems="1"/>
+		<flag canPushCreatures="1"/>
+		<flag targetDistance="1"/>
+		<flag runOnHealth="366"/>
+		<flag canWalkOnEnergy="0"/>
+		<flag canWalkOnFire="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-603"/>

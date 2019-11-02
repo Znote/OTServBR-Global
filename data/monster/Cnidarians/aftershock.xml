@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Aftershock" nameDescription="Aftershock" race="energy" experience="20000" speed="380" script="rewardboss.lua">
+<monster name="Aftershock" nameDescription="Aftershock" race="energy" experience="20000" speed="380" script="reward_boss.lua">
 	<health now="105000" max="105000"/>
 	<look type="875" head="114" body="114" legs="0" feet="0" corpse="0"/>
 	<targetchange interval="3000" chance="20"/>
 	<flags>
-		<flag rewardboss="1"/>
+		<flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="1"/>
-		<flag targetdistance="1"/>
-		<flag staticattack="90"/>
-		<flag runonhealth="0"/>
+		<flag canPushItems="1"/>
+		<flag canPushCreatures="1"/>
+		<flag targetDistance="1"/>
+		<flag staticAttack="90"/>
+		<flag runOnHealth="0"/>
 	</flags>
 	<script>
 		<event name="ShocksDeath"/>

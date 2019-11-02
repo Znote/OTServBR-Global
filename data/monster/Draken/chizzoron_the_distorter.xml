@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Chizzoron The Distorter" nameDescription="Chizzoron The Distorter" race="blood" experience="4000" speed="260" script="rewardboss.lua">
+<monster name="Chizzoron The Distorter" nameDescription="Chizzoron The Distorter" race="blood" experience="4000" speed="260" script="reward_boss.lua">
 	<health now="16000" max="16000"/>
 	<look type="340" corpse="10399"/>
 	<targetchange interval="2000" chance="10"/>
 	<flags>
 		<flag preyable="0"/>
-		<flag rewardboss="1"/>
+		<flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="1"/>
-		<flag targetdistance="1"/>
-		<flag staticattack="90"/>
-		<flag runonhealth="0"/>
-		<flag canwalkonenergy="0"/>
-		<flag canwalkonfire="0"/>
+		<flag canPushItems="1"/>
+		<flag canPushCreatures="1"/>
+		<flag targetDistance="1"/>
+		<flag staticAttack="90"/>
+		<flag runOnHealth="0"/>
+		<flag canWalkOnEnergy="0"/>
+		<flag canWalkOnFire="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="60" attack="130"/>

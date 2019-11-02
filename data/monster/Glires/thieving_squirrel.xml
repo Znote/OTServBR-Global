@@ -10,10 +10,10 @@
 		<flag illusionable="1"/>
 		<flag convinceable="1"/>
 		<flag pushable="1"/>
-		<flag canpushitems="0"/>
-		<flag canpushcreatures="0"/>
-		<flag targetdistance="1"/>
-		<flag runonhealth="55"/>
+		<flag canPushItems="0"/>
+		<flag canPushCreatures="0"/>
+		<flag targetDistance="1"/>
+		<flag runOnHealth="55"/>
 	</flags>
 	<defenses armor="5" defense="5">
 		<defense name="invisible" interval="2000" chance="10" duration="3000">

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Ferumbras" nameDescription="Ferumbras" race="venom" experience="12000" speed="320" script="rewardboss.lua">
+<monster name="Ferumbras" nameDescription="Ferumbras" race="venom" experience="12000" speed="320" script="reward_boss.lua">
 	<health now="50000" max="50000"/>
 	<look type="229" corpse="6078"/>
 	<targetchange interval="5000" chance="8"/>
 	<flags>
 		<flag preyable="0"/>
-		<flag rewardboss="1"/>
+		<flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="1"/>
-		<flag targetdistance="2"/>
-		<flag staticattack="90"/>
-		<flag runonhealth="2500"/>
+		<flag canPushItems="1"/>
+		<flag canPushCreatures="1"/>
+		<flag targetDistance="2"/>
+		<flag staticAttack="90"/>
+		<flag runOnHealth="2500"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-350"/>

@@ -7,15 +7,15 @@
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
-		<flag isblockable="0"/>
+		<flag isBlockable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushcreatures="1"/>
-		<flag canpushitems="1"/>
-		<flag lightlevel="0"/>
-		<flag lightcolor="0"/>
-		<flag targetdistance="1"/>
-		<flag runonhealth="0"/>
+		<flag canPushCreatures="1"/>
+		<flag canPushItems="1"/>
+		<flag lightLevel="0"/>
+		<flag lightColor="0"/>
+		<flag targetDistance="1"/>
+		<flag runOnHealth="0"/>
 	</flags>
 	<defenses armor="55" defense="55">
 	</defenses>

@@ -9,9 +9,9 @@
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag targetdistance="1"/>
-		<flag canwalkonfire="0"/>
+		<flag canPushItems="1"/>
+		<flag targetDistance="1"/>
+		<flag canWalkOnFire="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-80"/>

@@ -5,22 +5,22 @@
   	<targetchange interval="5000" chance="8"/>
   	<flags>
 		<flag preyable="0"/>
-    		<flag summonable="0"/>
-    		<flag attackable="1"/>
-    		<flag hostile="1"/>
-    		<flag illusionable="0"/>
-    		<flag convinceable="0"/>
-    		<flag pushable="0"/>
-    		<flag canpushitems="1"/>
-    		<flag canpushcreatures="1"/>
-    		<flag targetdistance="1"/>
-    		<flag staticattack="90"/>
-    		<flag runonhealth="800"/>
-			<flag canwalkonenergy="1"/>
-			<flag canwalkonfire="1"/>
-			<flag canwalkonpoison="1"/>
-	<flag preyable="0"/></flags>
-		<script>
+    	<flag summonable="0"/>
+    	<flag attackable="1"/>
+    	<flag hostile="1"/>
+    	<flag illusionable="0"/>
+    	<flag convinceable="0"/>
+    	<flag pushable="0"/>
+    	<flag canPushItems="1"/>
+    	<flag canPushCreatures="1"/>
+    	<flag targetDistance="1"/>
+    	<flag staticAttack="90"/>
+    	<flag runOnHealth="800"/>
+		<flag canWalkOnEnergy="1"/>
+		<flag canWalkOnFire="1"/>
+		<flag canWalkOnPoison="1"/>
+	</flags>
+	<script>
 		<event name="TentacleDeep"/>
 	</script>
   	<attacks>

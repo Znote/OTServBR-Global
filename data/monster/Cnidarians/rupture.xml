@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Rupture" nameDescription="Rupture" race="energy" experience="112000" speed="450" script="rewardboss.lua">
+<monster name="Rupture" nameDescription="Rupture" race="energy" experience="112000" speed="450" script="reward_boss.lua">
 	<health now="290000" max="290000"/>
 	<look type="875" head="77" body="98" legs="3" feet="85" corpse="26220"/>
 	<targetchange interval="2000" chance="25"/>
 	<flags>
-		<flag rewardboss="1"/>
+		<flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="1"/>
-		<flag targetdistance="1"/>
-		<flag staticattack="90"/>
-		<flag runonhealth="0"/>
+		<flag canPushItems="1"/>
+		<flag canPushCreatures="1"/>
+		<flag targetDistance="1"/>
+		<flag staticAttack="90"/>
+		<flag runOnHealth="0"/>
 	</flags>
 	<script>
 		<event name="RuptureResonance"/>

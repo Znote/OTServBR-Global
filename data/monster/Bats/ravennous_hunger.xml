@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Ravennous Hunger" nameDescription="Ravennous Hunger" race="blood" experience="0" speed="280" script="rewardboss.lua">
+<monster name="Ravennous Hunger" nameDescription="Ravennous Hunger" race="blood" experience="0" speed="280" script="reward_boss.lua">
 	<health now="100000" max="100000"/>
 	<look type="556" corpse="6323"/>
 	<targetchange interval="4000" chance="20"/>
 	<flags>
 		<flag preyable="0"/>
-		<flag rewardboss="1"/>
+		<flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
-		<flag canpushitems="1"/>
-		<flag canpushcreatures="1"/>
-		<flag targetdistance="0"/>
-		<flag runonhealth="0"/>
+		<flag canPushItems="1"/>
+		<flag canPushCreatures="1"/>
+		<flag targetDistance="0"/>
+		<flag runOnHealth="0"/>
 	</flags>
 	<script>
 		<event name="healLeiden"/>
