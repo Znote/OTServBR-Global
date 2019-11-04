@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Ghost Wolf" nameDescription="a ghost wolf" race="blood" experience="65" speed="135" manacost="420">
+<monster name="Ghost Wolf" nameDescription="a ghost wolf" race="blood" experience="65" speed="135">
 	<health now="160" max="160"/>
 	<look type="730" corpse="22081"/>
 	<targetchange interval="4000" chance="0"/>
@@ -8,8 +8,9 @@
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="1"/>
-		<flag convinceable="1"/>
+		<flag convinceable="0"/>
 		<flag pushable="0"/>
+		<flag isBlockable="1"/>
 		<flag canPushItems="1"/>
 		<flag canPushCreatures="0"/>
 		<flag targetDistance="1"/>
@@ -22,7 +23,7 @@
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-80"/>
 	</attacks>
-		<attack name="lifedrain" interval="1000" chance="15" range="1" min="-20" max="-30">
+		<attack name="lifedrain" interval="1000" chance="15" range="1" min="-30" max="-60">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
 		<attack name="death" interval="2000" chance="50" range="7" min="-30" max="-60">

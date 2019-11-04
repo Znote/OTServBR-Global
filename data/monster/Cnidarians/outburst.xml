@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Outburst" nameDescription="Outburst" race="energy" experience="120000" speed="500" script="reward_boss.lua">
+<monster name="Outburst" nameDescription="Outburst" race="energy" experience="110000" speed="500" script="reward_boss.lua">
 	<health now="290000" max="290000"/>
-	<look type="876" head="79" body="0" legs="94" feet="0" addons="3" corpse="26220"/>
+	<look type="876" head="79" body="0" legs="94" feet="0" addons="3" corpse="23564"/>
 	<targetchange interval="2000" chance="25"/>
 	<flags>
-		<flag rewardBoss="1"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
+		<flag isBlockable="0"/>
 		<flag canPushItems="1"/>
 		<flag canPushCreatures="1"/>
 		<flag targetDistance="1"/>
 		<flag staticAttack="90"/>
 		<flag runOnHealth="0"/>
+		<flag canwalkonenergy="1"/>
+		<flag canwalkonfire="1"/>
+		<flag canwalkonpoison="1"/>
 	</flags>
 	<script>
 		<event name="HeartBossDeath"/>
@@ -38,27 +41,35 @@
 		<attack name="anomaly break" interval="2000" chance="40"/>
 	</attacks>
 	<defenses armor="100" defense="100"/>
+	<elements>
+		<element icePercent="-20"/>
+		<element energyPercent="-20"/>
+		<element physicalPercent="-20"/>
+	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="200" chance="100000"/><!-- gold coin -->
-		<item id="2152" countmax="10" chance="100000"/><!-- platinum coin -->
-		<item id="18413" countmax="3" chance="8000"/><!-- blue crystal shard -->
-		<item id="7590" countmax="10" chance="8000"/><!-- great mana potion -->
-		<item id="18415" countmax="3" chance="8000"/><!-- green crystal shard -->
-		<item id="2150" countmax="10" chance="8000"/><!-- small amethyst -->
-		<item id="2146" countmax="5" chance="8000"/><!-- small sapphire -->
-		<item id="8473" countmax="5" chance="8000"/><!-- ultimate health potion -->
-		<item id="18414" countmax="3" chance="8000"/><!-- violet crystal shard -->
-		<item id="25377" chance="100000"/><!-- gold token -->
-		<item id="26165" chance="100000"/><!-- mysterious remains -->
-		<item id="2155" chance="8000"/><!-- green gem -->
-		<item id="7427" chance="6000"/><!-- chaos mace -->
-		<item id="26189" chance="5000"/><!-- ring of red plasma -->
-		<item id="26130" unique="1" chance="2000"/><!-- tiara of power -->
-		<item id="26133" unique="1" chance="2000"/><!-- void boots -->
-		<item id="18450" unique="1" chance="2000"/><!-- crystalline sword -->
+		<item name="gold coin" countmax="100" chance="100000"/>
+		<item name="mysterious remains" chance="100000"/>
+		<item name="gold token" countmax="4" chance="100000"/>
+		<item name="energy ball" chance="100000"/>
+		<item name="energy bar" countmax="3" chance="100000"/>
+		<item name="instable proto matter" chance="100000"/>
+		<item name="great spirit potion" countmax="5" chance="70000"/>
+		<item name="blue crystal shard" countmax="3" chance="70000"/>
+		<item name="green crystal shard" countmax="3" chance="60000"/>
+		<item name="violet crystal shard" countmax="3" chance="50000"/>
+		<item name="great mana potion" countmax="5" chance="40000"/>
+		<item id="23529" chance="30000"/><!-- ring of blue plasma -->
+		<item name="small amethyst" countmax="10" chance="30000"/>
+		<item name="green gem" chance="30000"/>
+		<item name="small sapphire" countmax="10" chance="20000"/>
+		<item name="lightning headband" chance="10000"/>
+		<item id="23544" chance="10000"/><!-- collar of red plasma -->
+		<item name="tiara of power" chance="10000"/>
+		<item name="red gem" chance="10000"/>
+		<item name="void boots" chance="5000"/>
 	</loot>
 </monster>

@@ -1203,7 +1203,7 @@
 	<instant name="generator" words="###427" aggressive="1" blockwalls="1" needlearn="1" script="monster/generator.lua"/>
 	<instant name="maxxenTeleport" words="###428" aggressive="1" blockwalls="1" needlearn="1" script="monster/maxxen teleport.lua"/>
 	<instant name="tenebris summon" words="###429" aggressive="1" blockwalls="1" needlearn="1" script="monster/tenebris summon.lua"/>
-	<instant name="tenebris ultimate" words="###430" aggressive="1" blockwalls="1" needlearn="1" script="monster/tenebris ultimate.lua"/>
+	<instant name="death ultimate explosion" words="###430" aggressive="1" blockwalls="1" needlearn="1" script="monster/tenebris ultimate.lua"/>
 	<instant name="soulcatcher summon" words="###431" aggressive="1" blockwalls="1" needlearn="1" script="monster/soulcatcher summon.lua"/>
 	<instant name="lloyd wave" words="###432" aggressive="1" blockwalls="1" needlearn="1" direction="1" script="monster/lloyd wave.lua"/>
 	<instant name="lloyd wave2" words="###433" aggressive="1" blockwalls="1" needlearn="1" direction="1" script="monster/lloyd wave2.lua"/>

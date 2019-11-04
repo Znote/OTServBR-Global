@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Breach Brood" nameDescription="a breach brood" race="energy" experience="2200" speed="135">
 	<health now="3500" max="3500"/>
-	<look type="878" corpse="26048"/>
+	<look type="878" corpse="23392"/>
 	<targetchange interval="2000" chance="20"/>
 	<flags>
 		<flag summonable="0"/>
@@ -10,32 +10,38 @@
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
+		<flag isBlockable="0"/>
 		<flag canPushItems="1"/>
 		<flag canPushCreatures="1"/>
 		<flag targetDistance="1"/>
 		<flag staticAttack="90"/>
 		<flag runOnHealth="0"/>
+		<flag canWalkOnFire="1"/>
+		<flag canWalkOnEnergy="1"/>
+		<flag canWalkOnPoison="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-350"/>
-		<attack name="energy" interval="2000" chance="25" target="1" range="6" min="-200" max="-400">
+		<attack name="melee" interval="2000" min="0" max="-300"/>
+		<attack name="energy" interval="2000" chance="25" target="1" range="6" min="-250" max="-500">
 			<attribute key="shootEffect" value="flasharrow"/>
 			<attribute key="areaEffect" value="stun"/>
 		</attack>
-		<attack name="lifedrain" interval="2000" chance="20" radius="5" min="-150" max="-350">
+		<attack name="lifedrain" interval="2000" chance="20" radius="5" min="-250" max="-400">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</attack>
-		<attack name="breach brood reducer" interval="2000" chance="20"/>
+		<attack name="breach brood reducer" interval="2000" chance="20"/><!-- reduce magic level -->
 	</attacks>
-	<defenses armor="52" defense="52"/>
+	<defenses armor="53" defense="53"/>
 	<elements>
-		<element earthPercent="-20"/>
-		<element deathPercent="10"/>
-		<element icePercent="30"/>
-		<element firePercent="40"/>
+		<element physicalPercent="-5"/>
+		<element holyPercent="-5"/>
+		<element deathPercent="-5"/>
+		<element earthPercent="-5"/>
+		<element firePercent="10"/>
+		<element icePercent="25"/>
+		<element energyPercent="80"/>
 	</elements>
 	<immunities>
-		<immunity energy="1"/>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
@@ -43,23 +49,23 @@
 		<voice sentence="Hisss!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
-		<item id="2152" countmax="5" chance="100000"/><!-- platinum coin -->
-		<item id="26191" chance="15000"/><!-- energy bar -->
-		<item id="26201" chance="15000"/><!-- energy drink -->
-		<item id="26174" chance="15000"/><!-- spark sphere -->
-		<item id="7591" chance="12200"/><!-- great health potion -->
-		<item id="7590" chance="12000"/><!-- great mana potion -->
-		<item id="8472" chance="11700"/><!-- great spirit potion -->
-		<item id="26163" chance="11500"/><!-- crystallized anger -->
-		<item id="26167" chance="10600"/><!-- curious matter -->
-		<item id="26170" chance="9600"/><!-- volatile proto matter -->
-		<item id="26162" chance="9600"/><!-- plasma pearls -->
-		<item id="18418" countmax="2" chance="7400"/><!-- blue crystal splinter -->
-		<item id="18419" chance="6500"/><!-- cyan crystal fragment -->
-		<item id="18413" chance="4400"/><!-- blue crystal shard -->
-		<item id="18415" chance="4100"/><!-- green crystal shard -->
-		<item id="26200" chance="470"/><!-- collar of red plasma -->
-		<item id="26198" chance="470"/><!-- collar of blue plasma -->
+		<item name="gold coin" countmax="100" chance="100000"/>
+		<item name="platinum coin" countmax="3" chance="100000"/>
+		<item name="energy bar" chance="18650"/>
+		<item name="energy drink" chance="17610"/>
+		<item name="spark sphere" chance="14570"/>
+		<item name="great mana potion" countmax="2" chance="12200"/>
+		<item name="great health potion" countmax="2" chance="11910"/>
+		<item name="great spirit potion" countmax="2" chance="11730"/>
+		<item name="crystallized anger" chance="10690"/>
+		<item name="curious matter" chance="10460"/>
+		<item name="volatile proto matter" chance="10190"/>
+		<item name="plasma pearls" chance="10010"/>
+		<item name="blue crystal splinter" countmax="2" chance="7280"/>
+		<item name="cyan crystal fragment" chance="5540"/>
+		<item name="blue crystal shard" chance="4220"/>
+		<item name="green crystal shard" chance="4010"/>
+		<item id="23542" chance="470"/><!-- collar of blue plasma -->
+		<item id="23544" chance="380"/><!-- collar of red plasma -->
 	</loot>
 </monster>

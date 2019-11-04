@@ -42,8 +42,8 @@ function onTargetTile(creature, pos)
     if #creatureTable ~= nil and #creatureTable > 0 then
         for r = 1, #creatureTable do
             if creatureTable[r] ~= creature then
-                local min = 2200
-                local max = 2500
+                local min = 2100
+                local max = 2700
                 local player = Player(creatureTable[r])
 
                 if isPlayer(creatureTable[r]) == true and isInArray(voc, player:getVocation():getId()) then

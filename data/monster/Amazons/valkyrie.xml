@@ -10,6 +10,7 @@
 		<flag illusionable="1"/>
 		<flag convinceable="1"/>
 		<flag pushable="0"/>
+		<flag isBlockable="1"/>
 		<flag canPushItems="1"/>
 		<flag canPushCreatures="0"/>
 		<flag targetDistance="1"/>
@@ -27,11 +28,11 @@
 	</attacks>
 	<defenses armor="12" defense="12"/>
 	<elements>
-		<element icePercent="10"/>
-		<element firePercent="10"/>
-		<element holyPercent="5"/>
-		<element deathPercent="-5"/>
 		<element physicalPercent="-10"/>
+		<element deathPercent="-5"/>
+		<element holyPercent="5"/>
+		<element firePercent="10"/>
+		<element icePercent="10"/>
 	</elements>
 	<voices interval="5000" chance="10">
 		<voice sentence="Another head for me!"/>

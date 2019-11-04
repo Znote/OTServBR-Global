@@ -12,6 +12,9 @@
 *.dll
 *.ini
 *.otb
+*.txt
+*.exe
+*.otbm
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -355,8 +358,4 @@ MigrationBackup/
 docker/**/otserver
 
 ## CUSTOM
-
-theforgottenserver.exe
-data/world/otservbr.otbm
 config.lua
-tfs.exe

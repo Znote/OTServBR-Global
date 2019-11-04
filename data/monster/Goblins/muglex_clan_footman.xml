@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Muglex Clan Footman" nameDescription="a muglex clan footman" race="blood" experience="25" speed="60">
+<monster name="Muglex Clan Footman" nameDescription="a muglex clan footman" race="blood" experience="25" speed="60" manacost="290">
 	<health now="50" max="50"/>
 	<look type="61" corpse="6002"/>
 	<targetchange interval="2000" chance="0"/>
@@ -8,7 +8,7 @@
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
-		<flag convinceable="0"/>
+		<flag convinceable="1"/>
 		<flag pushable="1"/>
 		<flag isBlockable="0"/>
 		<flag canPushItems="0"/>
@@ -16,26 +16,31 @@
 		<flag targetDistance="1"/>
 		<flag staticAttack="90"/>
 		<flag runOnHealth="15"/>
+		<flag canWalkOnFire="0"/>
+		<flag canWalkOnEnergy="0"/>
+		<flag canWalkOnPoison="0"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="10" attack="10"/>
-		<attack name="physical" interval="2000" chance="8" range="7" min="0" max="-22">
+		<attack name="melee" interval="2000" min="0" max="-10"/>
+		<attack name="physical" interval="2000" chance="8" range="7" min="0" max="-7">
 			<attribute key="shootEffect" value="smallstone"/>
 		</attack>
 	</attacks>
-	<defenses armor="2" defense="4"/>
+	<defenses armor="6" defense="6"/>
+	<elements>
+		<element deathPercent="-10"/>
+	</elements>
 	<loot>
-		<item id="2230" chance="1410"/><!-- bone -->
-		<item id="2449" chance="9440"/><!-- bone club -->
-		<item id="2379" chance="17040"/><!-- dagger -->
-		<item id="2667" countmax="2" chance="159200"/><!-- fish -->
-		<item id="12495" chance="1130"/><!-- goblin ear -->
-		<item id="2148" countmax="6" chance="100000"/><!-- gold coin -->
-		<item id="2467" chance="6060"/><!-- leather armor -->
-		<item id="2461" chance="2680"/><!-- leather helmet -->
-		<item id="2235" chance="850"/><!-- moldy cheese -->
-		<item id="2406" chance="9720"/><!-- short sword -->
-		<item id="2559" chance="7750"/><!-- small axe -->
-		<item id="1294" chance="15210"/><!-- small stone -->
+		<item name="gold coin" countmax="6" chance="100000"/>
+		<item name="dagger" chance="17310"/>
+		<item id="3578" chance="16140"/><!-- fish -->
+		<item name="small stone" chance="15800"/>
+		<item name="short sword" chance="10220"/>
+		<item name="bone club" chance="9410"/>
+		<item name="small axe" chance="8250"/>
+		<item name="leather armor" chance="6040"/>
+		<item name="leather helmet" chance="2900"/>
+		<item id="3115" chance="1510"/><!-- bone -->
+		<item name="mouldy cheese" chance="700"/>
 	</loot>
 </monster>

@@ -24,18 +24,18 @@
 		<event name="HealthForgotten"/>
 	</script>
 	<attacks>
-		<attack name="melee" interval="2000" min="-800" max="-1300"/>
-		<attack name="death" interval="2000" chance="13" length="8" spread="0" min="-1200" max="-1500">
+		<attack name="melee" interval="2000" min="-0" max="-1300"/>
+		<attack name="death" interval="2000" chance="13" length="8" spread="0" min="-500" max="-1200">
 			<attribute key="areaEffect" value="mortarea"/>
 		</attack>
-		<attack name="death" interval="2000" chance="13" radius="4" target="1" min="-400" max="-600">
+		<attack name="death" interval="2000" chance="13" radius="4" target="1" min="-200" max="-600">
 			<attribute key="shootEffect" value="death"/>
 			<attribute key="areaEffect" value="smallclouds"/>
 		</attack>
 		<attack name="tenebris summon" interval="2000" chance="14"/>
-		<attack name="tenebris ultimate" interval="2000" chance="30"/>
+		<attack name="death ultimate explosion" interval="2000" chance="30"/>
 	</attacks>
-	<defenses armor="55" defense="65">
+	<defenses armor="55" defense="55">
 		<defense name="healing" interval="3000" chance="25" min="600" max="2700">
 			<attribute key="areaEffect" value="blueshimmer"/>
 		</defense>
@@ -60,40 +60,41 @@
 		<voice sentence="May the embrace of darkness kill you!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="50" chance="10000"/><!-- gold coin -->
-		<item id="2152" countmax="50" chance="10000"/><!-- platinum coin -->
-		<item id="2150" countmax="10" chance="10000"/><!-- small amethyst -->
-		<item id="2145" countmax="10" chance="10000"/><!-- small diamond -->
-		<item id="2147" countmax="10" chance="10000"/><!-- small ruby -->
-		<item id="9970" countmax="10" chance="10000"/><!-- small topaz -->
-		<item id="7590" countmax="100" chance="10000"/><!-- great mana potions -->
-		<item id="8472" countmax="100" chance="10000"/><!-- great spirit potions -->
-		<item id="22396" countmax="2" chance="2000"/><!-- cluster of solace -->
-		<item id="18413" countmax="3" chance="2000"/><!-- blue crystal shard -->
-		<item id="18415" countmax="5" chance="5000"/><!-- green crystal shard -->
-		<item id="22396" countmax="2" chance="2000"/><!-- cluster of solace -->
-		<item id="18414" countmax="3" chance="5000"/><!-- violet crystal shard -->
-		<item id="7632" chance="6000"/><!-- giant shimmering pearl -->
-		<item id="2155" chance="2000"/><!-- green gem -->
-		<item id="7440" chance="2000"/><!-- mastermind potion -->
-		<item id="24851" chance="2000"/><!-- onyx pendant -->
-		<item id="2156" chance="1000"/><!-- red gem -->
-		<item id="2123" chance="2000"/><!-- ring of the sky -->
-		<item id="7451" chance="2000"/><!-- shadow sceptre -->
-		<item id="8903" chance="1000"/><!-- spellbook of lost souls -->
-		<item id="8901" chance="1000"/><!-- spellbook of warding -->
-		<item id="2436" chance="1000"/><!-- skull staff -->
-		<item id="2154" chance="1000"/><!-- yellow gem -->
-		<item id="18390" chance="1000"/><!-- wand of defiance -->
-		<item id="25377" chance="100000"/><!-- gold token -->
-		<item id="25172" chance="100000"/><!-- silver token -->
-		<item id="2453" chance="200"/><!-- arcane staff -->
-		<item id="27641" chance="200"/><!-- shadow mask -->
-		<item id="27642" chance="200"/><!-- shadow paint -->
-		<item id="25411" chance="200"/><!-- book of lies -->
-		<item id="22422" chance="200"/><!-- crude umbral spellbook -->
-		<item id="27625" chance="500" unique="1"/><!-- part of a rune (four) -->
-		<item id="2138" chance="200"/><!-- sapphire amulet -->
-		<item id="22423" chance="200"/><!-- umbral spellbook -->
+		<item name="gold coin" countmax="200" chance="100000"/>
+		<item name="ring of healing" chance="100000"/>
+		<item name="mastermind potion" chance="100000"/>
+		<item name="platinum coin" countmax="25" chance="100000"/>
+		<item name="skull staff" chance="85710"/>
+		<item name="violet crystal shard" countmax="3" chance="71430"/>
+		<item name="green crystal shard" countmax="3" chance="71430"/>
+		<item name="great mana potion" countmax="5" chance="42860"/>
+		<item name="gold token" chance="42860"/>
+		<item name="blue crystal shard" countmax="3" chance="71430"/>
+		<item name="red gem" chance="42860"/>
+		<item name="blue gem" chance="28570"/>
+		<item name="small topaz" countmax="10" chance="28570"/>
+		<item name="small diamond" countmax="10" chance="28570"/>
+		<item name="onyx pendant" chance="28570"/>
+		<item name="green gem" chance="14290"/>
+		<item name="small ruby" countmax="10" chance="14290"/>
+		<item name="small amethyst" countmax="10" chance="14290"/>
+		<item name="sapphire amulet" chance="14290"/>
+		<item name="wand of defiance" chance="12290"/>
+		<!-- unconfirmed chances -->
+		<item name="282" chance="12290"/><!-- giant shimmering pearl -->
+		<item name="great spirit potion" countmax="10" chance="12290"/>
+		<item name="shadow maskarcane staff" chance="11550"/>
+		<item name="shadow sceptre" chance="11550"/>
+		<item name="spellbook of warding" chance="11550"/>
+		<item name="cluster of solace" chance="11550"/>
+		<item name="yellow gem" chance="11550"/>
+		<item name="ring of the sky" chance="11550"/>
+		<item name="book of lies" chance="11550"/>
+		<item name="crude umbral spellbook" chance="11550"/>
+		<item name="umbral spellbook" chance="11550"/>
+		<item id="24957" chance="11550"/><!-- part of a rune (four) -->
+		<item name="silver token" chance="11550"/>
+		<item name="shadow paint" chance="11550"/>
+		<!-- unconfirmed chances -->
 	</loot>
 </monster>

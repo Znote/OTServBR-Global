@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Malofur Mangrinder" nameDescription="a Malofur Mangrinder" race="blood" experience="55000" speed="250" script="reward_boss.lua">
-	<health now="20000" max="20000"/><!-- revisar, não tem informações sobre a life nos fansites... -->
+	<health now="200000" max="200000"/><!-- need revision, do not have information on the fansites -->
 	<look type="1120" head="19" body="22" legs="76" feet="22" corpse="34655"/>
 	<targetchange interval="4000" chance="10"/>
 	<flags>
