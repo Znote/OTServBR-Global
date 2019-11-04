@@ -260,6 +260,7 @@
 	<monster name="Aftershock" file="Cnidarians/aftershock.xml"/>
 	<monster name="Anomaly" file="Cnidarians/anomaly.xml"/>
 	<monster name="Breach Brood" file="Cnidarians/breach_brood.xml"/>
+	<monster name="Buster" file="Cnidarians/buster.xml"/>
 	<monster name="Charged Anomaly" file="Cnidarians/charged_anomaly.xml"/>
 	<monster name="Charged Disruption" file="Cnidarians/charged_disruption.xml"/>
 	<monster name="Charger" file="Cnidarians/charger.xml"/>
@@ -268,7 +269,9 @@
 	<monster name="Damage Resonance" file="Cnidarians/damage_resonance.xml"/>
 	<monster name="Depolarized Crackler" file="Cnidarians/depolarized_crackler.xml"/>
 	<monster name="Disruption" file="Cnidarians/disruption.xml"/>
+	<monster name="Dreadful Disruptor" file="Cnidarians/dreadful_disruptor.xml"/>
 	<monster name="Eradicator" file="Cnidarians/eradicator.xml"/>
+	<monster name="Eradicator Strong" file="Cnidarians/Eradicator Strong.xml"/>
 	<monster name="Foreshock" file="Cnidarians/foreshock.xml"/>
 	<monster name="Frenzy" file="Cnidarians/frenzy.xml"/>
 	<monster name="Greed" file="Cnidarians/greed.xml"/>
@@ -430,6 +433,7 @@
 
 	<!-- Dragons -->
 	<monster name="Baby Dragon" file="Dragons/baby dragon.xml"/>
+	<monster name="Baby Pet Of Chayenne" file="Dragons/baby_pet_of_chayenne.xml"/>
 	<monster name="Death Dragon" file="Dragons/death_dragon.xml"/>
 	<monster name="Demodras" file="Dragons/demodras.xml"/>
 	<monster name="Dracola" file="Dragons/dracola.xml"/>
@@ -452,11 +456,13 @@
 	<monster name="Fury of the Emperor" file="Dragons/fury_of_the_emperor.xml"/>
 	<monster name="Gelidrazah the Frozen" file="Dragons/gelidrazah_the_frozen.xml"/>
 	<monster name="Ghastly Dragon" file="Dragons/ghastly_dragon.xml"/>
+	<monster name="Ghastly Pet of Chayenne" file="Dragons/ghastly_pet_of_chayenne.xml"/>
 	<monster name="Glitterscale" file="Dragons/glitterscale.xml"/>
 	<monster name="Grand Mother Foulscale" file="Dragons/grand_mother_foulscale.xml"/>
 	<monster name="Haunted Dragon" file="Dragons/haunted_dragon.xml"/>
 	<monster name="Ice Dragon" file="Dragons/ice_dragon.xml"/>
 	<monster name="Kalyassa" file="Dragons/kalyassa.xml"/>
+	<monster name="Noble Pet of Chayenne" file="Dragons/noble_pet_of_chayenne.xml"/>
 	<monster name="Pinata Dragon" file="Dragons/pinata_dragon.xml"/>
 	<monster name="Pythius The Rotten" file="Dragons/pythius_the_rotten.xml"/>
 	<monster name="Scorn of the Emperor" file="Dragons/scorn_of_the_emperor.xml"/>
@@ -467,6 +473,7 @@
 	<monster name="The First Dragon" file="Dragons/the_first_dragon.xml"/>
 	<monster name="Unbeatable Dragon" file="Dragons/unbeatable_dragon.xml"/>
 	<monster name="Undead Dragon" file="Dragons/undead_dragon.xml"/>
+	<monster name="Undead Pet of Chayenne" file="Dragons/undead_pet_of_chayenne.xml"/>
 	<monster name="Wounded Cave Draptor" file="Dragons/wounded_cave_draptor.xml"/>
 	<monster name="Wrath of the Emperor" file="Dragons/wrath_of_the_emperor.xml"/>
 	<monster name="Zanakeph" file="Dragons/zanakeph.xml"/>
