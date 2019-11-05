@@ -34463,10 +34463,10 @@
 		<attribute key="description" value="The young dragons have just hatched."/>
 	</item>
 	<item id="22677" article="a" name="unknown item"/>
-	<item id="22678" article="an" name="Opticorder analyser">
+	<item id="22678" article="an" name="opticorder analyser">
 		<attribute key="description" value="A strangely shaped hollow rests in the center of a desk."/>
 	</item>
-	<item id="22679" article="an" name="Opticorder analyser">
+	<item id="22679" article="an" name="opticorder analyser">
 		<attribute key="description" value="A strangely shaped hollow rests in the center of a desk."/>
 	</item>
 	<item id="22680" article="a" name="large pliers">
@@ -35838,9 +35838,23 @@
 		<attribute key="decayto" value="0"/>
 		<attribute key="duration" value="60"/>
 	</item>
-	<item id="23572" article="a" name="complete opticording sphere"/>
-	<item id="23573" article="a" name="broken opticording sphere"/>
+	<item fromid="23567" toid="23569" article="a" name="slain Realityquake"/>
+	<item id="23570" article="a" name="rift jag"/>
+	<item id="23571" article="a" name="wrecked opticorder forge">
+		<attribute key="description" value="A strangely shaped hollow rests in the center of this broken workbench. You can see several broken devices beneath its socket."/>
+	</item><!-- Opticording Sphere Quest -->
+	<item id="23572" article="a" name="complete opticording sphere">
+		<attribute key="description" value="This strange box holds a dark sphere. The sphere has been adjusted and its key mechanism aligned and is complete."/>
+		<attribute key="weight" value="200"/>
+	</item><!-- Opticording Sphere Quest -->
+	<item id="23573" article="a" name="broken opticording sphere">
+		<attribute key="description" value="This strange box holds a dark sphere. It is broken and crumbles into dust any second now - but the vital key mechanism seems to be in a pristine condition."/>
+		<attribute key="weight" value="180"/>
+	</item><!-- Opticording Sphere Quest -->
 	<item id="23574" article="a" name="vortex"/>
+	<item fromid="23575" toid="23576" name="unknown item (animation?)"/>
+	<item fromid="23577" toid="23667" name="DEPRECATED WEAPONS (MAYHEM AND REMEDY)"/>
+	<item fromid="23668" toid="23675" name="RESERVED SPRITE"/>
 	<item id="23676" name="hand puppets">
 		<attribute key="description" value="Souvenir from Thais Museum."/>
 		<attribute key="weight" value="5"/>
@@ -35889,74 +35903,76 @@
 		<attribute key="slottype" value="ammo"/>
 		<attribute key="weight" value="560"/>
 	</item>
+	<item fromid="23688" toid="23690" name="RESERVED SPRITE"/>
 	<item id="23691" article="a" name="fish in a tank">
 		<attribute key="description" value="A small fish is minding his own business in this tank."/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
+	<item id="23692" name="RESERVED SPRITE"/>
 	<item id="23693" article="a" name="rustic chair">
-		<attribute key="rotateto" value="26350"/>
+		<attribute key="rotateto" value="23694"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
 	<item id="23694" article="a" name="rustic chair">
-		<attribute key="rotateto" value="26351"/>
+		<attribute key="rotateto" value="23695"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
 	<item id="23695" article="a" name="rustic chair">
-		<attribute key="rotateto" value="26352"/>
+		<attribute key="rotateto" value="23696"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
 	<item id="23696" article="a" name="rustic chair">
-		<attribute key="rotateto" value="26349"/>
+		<attribute key="rotateto" value="23693"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
 	<item id="23697" article="a" name="dog house">
 		<attribute key="description" value="This dog is waiting quite eagerly for attention."/>
-		<attribute key="decayto" value="26359"/>
+		<attribute key="decayto" value="23703"/>
 		<attribute key="duration" value="4"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
 	<item id="23698" article="a" name="rustic table">
-		<attribute key="rotateto" value="26355"/>
+		<attribute key="rotateto" value="23699"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
 	<item id="23699" article="a" name="rustic table">
-		<attribute key="rotateto" value="26354"/>
+		<attribute key="rotateto" value="23698"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
 	<item id="23700" article="a" name="rustic cabinet">
 		<attribute key="containersize" value="8"/>
-		<attribute key="rotateto" value="26357"/>
+		<attribute key="rotateto" value="23701"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
 	<item id="23701" article="a" name="rustic cabinet">
 		<attribute key="containersize" value="8"/>
-		<attribute key="rotateto" value="26356"/>
+		<attribute key="rotateto" value="23700"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
 	<item id="23702" article="a" name="rustic trunk">
 		<attribute key="containersize" value="10"/>
-		<attribute key="rotateto" value="26360"/>
+		<attribute key="rotateto" value="23704"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
 	<item id="23703" article="a" name="dog house">
 		<attribute key="description" value="This dog is waiting quite eagerly for attention."/>
-		<attribute key="decayto" value="26364"/>
+		<attribute key="decayto" value="23708"/>
 		<attribute key="duration" value="2"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
 	<item id="23704" article="a" name="rustic trunk">
 		<attribute key="containersize" value="10"/>
-		<attribute key="rotateto" value="26361"/>
+		<attribute key="rotateto" value="23705"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
 	<item id="23705" article="a" name="rustic trunk">
 		<attribute key="containersize" value="10"/>
-		<attribute key="rotateto" value="26362"/>
+		<attribute key="rotateto" value="23706"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
 	<item id="23706" article="a" name="rustic trunk">
 		<attribute key="containersize" value="10"/>
-		<attribute key="rotateto" value="26358"/>
+		<attribute key="rotateto" value="23702"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
 	<item id="23707" article="a" name="crimson carpet">
@@ -35969,7 +35985,7 @@
 	</item>
 	<item id="23709" article="a" name="dog house">
 		<attribute key="description" value="This dog is waiting quite eagerly for attention."/>
-		<attribute key="decayto" value="26353"/>
+		<attribute key="decayto" value="23697"/>
 		<attribute key="duration" value="2"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
@@ -36022,10 +36038,10 @@
 		<attribute key="description" value="A infinity bag where you can hold coins."/>
 	</item>
 	<item id="23722" article="a" name="gold converter">
-		<attribute key="weight" value="1800"/>
-		<attribute key="wrapableTo" value="23398"/>
 		<attribute key="charges" value="500"/>
 		<attribute key="showcharges" value="1"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="weight" value="1800"/>
 	</item>
 	<item id="23723" article="a" name="golden dragon tapestry">
 		<attribute key="wrapableTo" value="23398"/>
@@ -36036,9 +36052,7 @@
 	<item id="23725" article="a" name="brocade tapestry">
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
-	<item article="a" name="vortex" id="23726"/>
-	<item article="a" name="vortex" id="23727"/>
-	<item article="a" name="vortex" id="23728"/>
+	<item fromid="23726" toid="23728" article="a" name="vortex"/>
 	<item id="23729" article="a" name="lost time"/>
 	<item id="23730" article="an" name="old desk">
 		<attribute key="description" value="It is cluttered with old parchments and writing utensils and partly covered in spider webs. A strange moan seems to emerge from this desk and one of the drawers is partly open."/>
@@ -36068,8 +36082,10 @@
 		<attribute key="description" value="It is made of a filigree silver braces and delicate indigo glass. But it is dark at the moment."/>
 		<attribute key="weight" value="600"/>
 	</item>
-	<item id="23740" name="brass-shod chest"/>
-	<item id="23741" name="brass-shod chest"/>
+	<item id="23739" name="unknown wall"/>
+	<item id="23740" name="brass-shod chest"/><!-- Forgotten Knowledge Quest -->
+	<item id="23741" name="brass-shod chest"/><!-- Forgotten Knowledge Quest -->
+	<item fromid="23742" toid="23809" name="RESERVED SPRITE"/>
 	<item id="23810" article="a" name="phial of fresh water">
 		<attribute key="description" value="The phial contains fresh, clean water. It also looks like it sparkles. The flask is so thin and finely crated that the water seems to pour out little by little."/>
 		<attribute key="weight" value="300"/>
@@ -36089,56 +36105,17 @@
 	<item id="23814" article="a" name="fertile soil">
 		<attribute key="description" value="This soil looks moist and fertile."/>
 	</item>
-	<item id="23815" article="a" name="blooming birch"/>
-	<item id="23816" article="a" name="small blooming birch"/>
-	<item article="a" name="wall" id="23817"/>
-	<item article="a" name="wall" id="23818"/>
-	<item article="a" name="wall" id="23819"/>
-	<item article="a" name="wall" id="23820"/>
-	<item article="a" name="wall" id="23821"/>
-	<item article="a" name="wall" id="23822"/>
-	<item article="a" name="wall" id="23823"/>
-	<item article="a" name="wall" id="23824"/>
-	<item article="a" name="wall" id="23825"/>
-	<item article="a" name="wall" id="23826"/>
-	<item article="a" name="wall" id="23827"/>
-	<item article="a" name="wall" id="23828"/>
-	<item article="a" name="wall" id="23829"/>
-	<item article="a" name="wall" id="23830"/>
-	<item article="a" name="wall" id="23831"/>
-	<item article="a" name="wall" id="23832"/>
-	<item article="a" name="wall" id="23833"/>
-	<item article="a" name="wall" id="23834"/>
-	<item article="a" name="wall" id="23835"/>
-	<item article="a" name="wall" id="23836"/>
-	<item article="a" name="wall" id="23837"/>
-	<item article="a" name="wall" id="23838"/>
-	<item article="a" name="wall" id="23839"/>
-	<item article="a" name="wall" id="23840"/>
-	<item article="a" name="wall" id="23841"/>
-	<item article="a" name="wall" id="23842"/>
-	<item article="a" name="wall" id="23843"/>
-	<item article="a" name="wall" id="23844"/>
-	<item article="a" name="wall" id="23845"/>
-	<item article="a" name="wall" id="23846"/>
-	<item article="a" name="wall" id="23847"/>
-	<item article="a" name="wall" id="23848"/>
-	<item article="a" name="wall" id="23849"/>
-	<item article="a" name="wall" id="23850"/>
-	<item article="a" name="wall" id="23851"/>
-	<item article="a" name="wall" id="23852"/>
-	<item name="monument door" id="23853">
+	<item id="23815" article="a" name="blooming birch">
+		<attribute key="description" value="This birch is in full bloom."/>
+	</item>
+	<item id="23816" article="a" name="growing birch">
+		<attribute key="description" value="This small birch needs water to grow."/>
+	</item>
+	<item fromid="23817" toid="23852" article="a" name="wall"/>
+	<item fromid="23853" toid="23854" name="monument door">
 		<attribute key="type" value="door"/>
 	</item>
-	<item name="monument door" id="23854">
-		<attribute key="type" value="door"/>
-	</item>
-	<item article="a" name="monument door" id="23855">
-		<attribute key="type" value="door"/>
-		<attribute key="blockprojectile" value="1"/>
-		<attribute key="description" value="It is locked."/>
-	</item>
-	<item article="a" name="monument door" id="23856">
+	<item fromid="23855" toid="23856" article="a" name="monument door">
 		<attribute key="type" value="door"/>
 		<attribute key="blockprojectile" value="1"/>
 		<attribute key="description" value="It is locked."/>
@@ -36159,286 +36136,147 @@
 	<item id="23864" article="a" name="ramp">
 		<attribute key="floorchange" value="south"/>
 	</item>
-	<item article="a" name="monument broken wall" id="23865"/>
-	<item article="a" name="monument broken wall" id="23866"/>
-	<item article="a" name="monument broken wall" id="23867"/>
-	<item article="a" name="monument broken wall" id="23868"/>
-	<item article="a" name="monument broken wall" id="23869"/>
-	<item article="a" name="monument broken wall" id="23870"/>
-	<item article="a" name="monument broken wall" id="23871"/>
-	<item article="a" name="monument broken wall" id="23872"/>
-	<item article="a" name="monument door" id="23873">
+	<item fromid="23865" toid="23872" article="a" name="monument broken wall"/>
+	<item fromid="23873" toid="23876" article="a" name="monument door">
 		<attribute key="type" value="door"/>
 		<attribute key="blockprojectile" value="1"/>
 		<attribute key="description" value="It is locked."/>
 	</item>
-	<item article="a" name="monument door" id="23874">
-		<attribute key="type" value="door"/>
-		<attribute key="blockprojectile" value="1"/>
-		<attribute key="description" value="It is locked."/>
-	</item>
-	<item article="a" name="monument door" id="23875">
-		<attribute key="type" value="door"/>
-		<attribute key="blockprojectile" value="1"/>
-		<attribute key="description" value="It is locked."/>
-	</item>
-	<item article="a" name="monument door" id="23876">
-		<attribute key="type" value="door"/>
-		<attribute key="blockprojectile" value="1"/>
-		<attribute key="description" value="It is locked."/>
-	</item>
-	<item name="monument door" id="23877">
+	<item fromid="23877" toid="23878" name="monument door">
 		<attribute key="type" value="door"/>
 	</item>
-	<item name="monument door" id="23878">
-		<attribute key="type" value="door"/>
-	</item>
-	<item article="a" name="slant" id="23879"/>
-	<item article="a" name="slant" id="23880"/>
-	<item article="a" name="slant" id="23881"/>
-	<item article="a" name="slant" id="23882"/>
-	<item article="a" name="slant" id="23883"/>
-	<item article="a" name="stone floor" id="23897"/>
-	<item article="a" name="stone floor" id="23898"/>
-	<item article="a" name="stone floor" id="23899"/>
-	<item article="a" name="stone floor" id="23900"/>
-	<item article="a" name="stone floor" id="23901"/>
-	<item article="a" name="stone floor" id="23902"/>
-	<item article="a" name="stone floor" id="23903"/>
-	<item article="a" name="stone floor" id="23904"/>
-	<item article="a" name="stone floor" id="23905"/>
-	<item article="a" name="stone floor" id="23906"/>
-	<item article="a" name="stone floor" id="23907"/>
-	<item article="a" name="stone floor" id="23908"/>
-	<item article="a" name="stone floor" id="23909"/>
-	<item article="a" name="stone floor" id="23910"/>
-	<item article="a" name="stone floor" id="23911"/>
-	<item article="a" name="stone floor" id="23912"/>
-	<item article="a" name="stone floor" id="23913"/>
-	<item article="a" name="stone floor" id="23914"/>
-	<item article="a" name="stone floor" id="23915"/>
-	<item article="a" name="stone floor" id="23916"/>
-	<item article="a" name="stone floor" id="23917"/>
-	<item article="a" name="stone floor" id="23918"/>
-	<item article="a" name="stone floor" id="23919"/>
-	<item article="a" name="stone floor" id="23920"/>
-	<item article="a" name="stone floor" id="23921"/>
-	<item article="a" name="stone floor" id="23922"/>
-	<item article="a" name="stone floor" id="23923"/>
-	<item article="a" name="stone floor" id="23924"/>
-	<item article="a" name="stone floor" id="23925"/>
-	<item article="a" name="stone floor" id="23926"/>
-	<item article="a" name="stone floor" id="23927"/>
-	<item article="a" name="stone floor" id="23928"/>
-	<item article="a" name="stone floor" id="23949"/>
-	<item article="a" name="stone floor" id="23950"/>
-	<item article="a" name="stone floor" id="23951"/>
-	<item article="a" name="stone floor" id="23952"/>
-	<item article="a" name="stone floor" id="23953"/>
-	<item article="a" name="stone floor" id="23954"/>
-	<item article="a" name="stone floor" id="23955"/>
-	<item article="a" name="stone floor" id="23956"/>
-	<item article="a" name="stone floor" id="23957"/>
-	<item article="a" name="stone floor" id="23958"/>
-	<item article="a" name="stone floor" id="23959"/>
-	<item article="a" name="stone floor" id="23960"/>
-	<item article="a" name="stone floor" id="23961"/>
-	<item article="a" name="stone floor" id="23962"/>
-	<item article="a" name="stone floor" id="23963"/>
-	<item article="a" name="stone floor" id="23964"/>
-	<item article="a" name="stone floor" id="23965"/>
-	<item article="a" name="stone floor" id="23966"/>
-	<item article="a" name="stone floor" id="23967"/>
-	<item article="a" name="stone floor" id="23968"/>
-	<item article="a" name="stone floor" id="23969"/>
-	<item article="a" name="stone floor" id="23970"/>
-	<item article="a" name="stone floor" id="23971"/>
-	<item article="a" name="stone floor" id="23972"/>
-	<item article="a" name="stone floor" id="23973"/>
-	<item article="a" name="stone floor" id="23974"/>
-	<item article="a" name="stone floor" id="23975"/>
-	<item article="a" name="stone floor" id="23976"/>
-	<item article="a" name="stone floor" id="23977"/>
-	<item article="a" name="stone floor" id="23978"/>
-	<item article="a" name="stone floor" id="23979"/>
-	<item article="a" name="stone floor" id="23980"/>
-	<item article="a" name="monument wall" id="23981"/>
-	<item article="a" name="monument wall" id="23982"/>
-	<item article="a" name="monument wall" id="23983"/>
-	<item article="a" name="monument wall" id="23984"/>
+	<item fromid="23879" toid="23883" article="a" name="slant"/>
+	<item fromid="23897" toid="23980" article="a" name="stone floor"/>
+	<item fromid="23981" toid="23984" article="a" name="monument wall"/>
 	<item id="23985" article="an" name="old tome">
 		<attribute key="weight" value="2000"/>
 	</item>
 	<item id="23986" article="a" name="heavy old tome">
 		<attribute key="weight" value="1000"/>
 	</item>
-	<item article="a" name="column" id="23987"/>
-	<item article="a" name="column" id="23988"/>
-	<item article="a" name="column" id="23989"/>
-	<item article="a" name="column" id="23990"/>
-	<item article="a" name="column" id="23991"/>
-	<item article="a" name="column" id="23992"/>
-	<item article="a" name="column" id="23993"/>
-	<item article="a" name="column" id="23994"/>
-	<item article="a" name="column" id="23995"/>
-	<item article="a" name="column" id="23996"/>
-	<item article="a" name="column" id="23997"/>
-	<item article="a" name="column" id="23998"/>
-	<item article="a" name="column" id="23999"/>
-	<item article="a" name="column" id="24000"/>
-	<item article="a" name="column" id="24001"/>
-	<item article="a" name="column" id="24002"/>
-	<item article="a" name="column" id="24003"/>
-	<item article="a" name="column" id="24004"/>
-	<item article="a" name="column" id="24005"/>
-	<item article="a" name="column" id="24006"/>
-	<item article="a" name="column" id="24007"/>
-	<item article="a" name="column" id="24008"/>
-	<item article="a" name="column" id="24009"/>
-	<item article="a" name="column" id="24010"/>
-	<item article="a" name="column" id="24011"/>
-	<item article="a" name="column" id="24012"/>
-	<item article="a" name="column" id="24013"/>
-	<item article="a" name="column" id="24014"/>
-	<item article="a" name="tree" id="24015"/>
-	<item article="a" name="tree" id="24016"/>
-	<item article="a" name="tree" id="24017"/>
-	<item article="a" name="tree" id="24018"/>
-	<item article="a" name="tree" id="24019"/>
-	<item article="a" name="tree" id="24020"/>
-	<item article="a" name="tree" id="24021"/>
-	<item article="a" name="tree" id="24022"/>
-	<item article="a" name="tree" id="24023"/>
-	<item article="a" name="tree" id="24024"/>
-	<item article="a" name="tree" id="24025"/>
-	<item article="a" name="tree" id="24026"/>
-	<item article="a" name="tree" id="24027"/>
-	<item article="a" name="tree" id="24028"/>
-	<item article="a" name="tree" id="24029"/>
-	<item article="a" name="tree" id="24030"/>
-	<item article="a" name="tree" id="24031"/>
-	<item article="a" name="tree" id="24032"/>
-	<item article="a" name="tree" id="24033"/>
-	<item article="a" name="tree" id="24034"/>
-	<item article="a" name="tree" id="24035"/>
-	<item article="a" name="tree" id="24036"/>
-	<item article="a" name="tree" id="24037"/>
-	<item article="a" name="tree" id="24038"/>
-	<item article="a" name="tree" id="24039"/>
-	<item article="a" name="tree" id="24040"/>
+	<item fromid="23987" toid="24090" article="a" name="broken obelisk"/>
+	<item fromid="23991" toid="24092" article="a" name="obelisk"/>
+	<item fromid="23993" toid="24096" article="a" name="column"/>
+	<item fromid="23997" toid="24000" article="a" name="broken column"/>
+	<item fromid="24001" toid="24012" article="a" name="column"/>
+	<item fromid="24013" toid="24014" article="a" name="monument"/>
+	<item fromid="24015" toid="24016" article="an" name="overgrown monument"/>
+	<item fromid="24017" toid="24020" article="an" name="small trimmed tree"/>
+	<item fromid="24021" toid="24026" article="an" name="trimmed tree"/>
+	<item fromid="24027" toid="24036" article="a" name="untended trimmed tree"/>
+	<item id="24037" article="a" name="red bladed agave"/>
+	<item id="24038" article="a" name="small yellow pincher bush"/>
+	<item id="24039" article="a" name="yellow pincher bush"/>
+	<item id="24040" article="a" name="unknown item (tree)"/><!-- position 32834,32761,11 at global-->
 	<item id="24041" article="an" name="autumn sparkle blossom"/>
-	<item article="a" name="tree" id="24042"/>
-	<item article="a" name="tree" id="24043"/>
-	<item article="a" name="tree" id="24044"/>
-	<item article="a" name="tree" id="24045"/>
-	<item article="a" name="tree" id="24046"/>
-	<item article="a" name="tree" id="24047"/>
-	<item article="a" name="tree" id="24048"/>
-	<item article="a" name="tree" id="24049"/>
-	<item article="a" name="tree" id="24050"/>
-	<item article="a" name="tree" id="24051"/>
-	<item article="a" name="tree" id="24052"/>
-	<item article="a" name="tree" id="24053"/>
-	<item article="a" name="tree" id="24054"/>
-	<item article="a" name="tree" id="24055"/>
-	<item article="a" name="tree" id="24056"/>
-	<item article="a" name="tree" id="24057"/>
-	<item article="a" name="tree" id="24058"/>
-	<item article="a" name="tree" id="24059"/>
-	<item article="a" name="tree" id="24060"/>
-	<item article="a" name="tree" id="24061"/>
-	<item article="a" name="tree" id="24062"/>
-	<item article="a" name="tree" id="24063"/>
-	<item article="a" name="tree" id="24064"/>
-	<item article="a" name="tree" id="24065"/>
-	<item article="a" name="tree" id="24066"/>
-	<item article="a" name="tree" id="24067"/>
-	<item article="a" name="tree" id="24068"/>
-	<item article="a" name="tree" id="24069"/>
-	<item article="a" name="tree" id="24070"/>
-	<item article="a" name="tree" id="24071"/>
-	<item article="a" name="tree" id="24072"/>
-	<item article="a" name="tree" id="24073"/>
-	<item article="a" name="tree" id="24074"/>
-	<item article="a" name="tree" id="24075"/>
-	<item article="a" name="tree" id="24076"/>
-	<item article="a" name="tree" id="24077"/>
-	<item article="a" name="tree" id="24078"/>
-	<item article="a" name="tree" id="24079"/>
-	<item article="a" name="tree" id="24080"/>
-	<item article="a" name="tree" id="24081"/>
-	<item article="a" name="tree" id="24082"/>
-	<item article="a" name="tree" id="24083"/>
-	<item article="a" name="tree" id="24084"/>
-	<item article="a" name="tree" id="24085"/>
-	<item article="a" name="tree" id="24086"/>
-	<item article="a" name="tree" id="24087"/>
-	<item article="a" name="tree" id="24088"/>
-	<item article="a" name="tree" id="24089"/>
-	<item article="a" name="tree" id="24090"/>
-	<item article="a" name="tree" id="24091"/>
-	<item article="a" name="tree" id="24092"/>
-	<item article="a" name="tree" id="24093"/>
-	<item article="a" name="tree" id="24094"/>
-	<item article="a" name="tree" id="24095"/>
-	<item article="a" name="tree" id="24096"/>
-	<item article="a" name="tree" id="24097"/>
-	<item article="a" name="tree" id="24098"/>
-	<item article="a" name="tree" id="24099"/>
-	<item article="a" name="tree" id="24100"/>
-	<item article="a" name="tree" id="24101"/>
-	<item article="a" name="tree" id="24102"/>
-	<item article="a" name="tree" id="24103"/>
-	<item article="a" name="tree" id="24104"/>
-	<item article="a" name="tree" id="24105"/>
-	<item article="a" name="tree" id="24106"/>
-	<item article="a" name="water stream" id="24144"/>
-	<item article="a" name="water stream" id="24145"/>
-	<item article="a" name="water stream" id="24146"/>
-	<item article="a" name="water stream" id="24147"/>
-	<item article="a" name="water stream" id="24148"/>
-	<item article="a" name="water stream" id="24149"/>
-	<item id="24193" article="a" name="symbol of Fardos">
-		<attribute key="description" value="The hand represents Fardos the Creator, one of the Tibian gods."/>
+	<item id="24042" article="a" name="golden path"/>
+	<item fromid="24043" toid="24051" article="a" name="unknown item (tree)"/>
+	<item fromid="24052" toid="24059" article="an" name="empty plant tub"/>
+	<item fromid="24060" toid="24067" article="an" name="plant tub"/>
+	<item fromid="24068" toid="24075" article="an" name="empty ruined plant tub"/>
+	<item fromid="24076" toid="24083" article="an" name="ruined plant tub"/>
+	<item fromid="24084" toid="24087" article="a" name="large wooden cone"/>
+	<item id="24088" article="a" name="ruined sculpture"/>
+	<item fromid="24089" toid="24107" article="a" name="cut grass"/>
+	<item fromid="24108" toid="24119" article="a" name="milky azure crystal"/>
+	<item fromid="24120" toid="24131" article="a" name="broken azure crystal"/>
+	<item fromid="24132" toid="24137" article="a" name="waterway"/>
+	<item fromid="24138" toid="24143" article="a" name="empty waterway"/>
+	<item fromid="24144" toid="24149" article="a" name="waterway"/>
+	<item fromid="24150" toid="24161" article="a" name="mossy wall"/>
+	<item id="24162" article="a" name="waterway"/>
+	<item fromid="24163" toid="24186" article="a" name="mossy wall"/>
+	<item id="24187" name="RESERVED SPRITE"/>
+	<item fromid="24188" toid="24191" article="a" name="mossy wall"/>
+	<item id="24192" article="a" name="monument wall">
+		<attribute key="description" value="This wall seems quite fragile."/>
 	</item>
-	<item id="24200" article="a" name="sign of Uman and Zathroth">
-		<attribute key="description" value="The scroll and the thunderbolt represent the unity of Uman the Wise and Zathroth the Destroyer, two of the Tibian gods."/>
+	<item fromid="24193" toid="24194" article="a" name="symbol of Fardos">
+		<attribute key="description" value="It represents Fardos the Creator, one of the Tibian gods."/>
 	</item>
-	<item id="24201" article="a" name="symbol of Tibia">
-		<attribute key="description" value="The plant represents Tibia the Earth, one of the Tibian elemental gods."/>
+	<item fromid="24195" toid="24196" article="a" name="sign of Uman">
+		<attribute key="description" value="It represents Uman the Wise, one of the Tibian gods."/>
 	</item>
-	<item id="24203" article="a" name="symbol of Sula">
-		<attribute key="description" value="The drop over the wave represents Sula the Water, one of the Tibian elemental gods."/>
+	<item fromid="24197" toid="24198" article="a" name="sign of Zathroth">
+		<attribute key="description" value="It represents Zathroth the Destroyer, one of the Tibian gods."/>
 	</item>
-	<item id="24205" article="a" name="symbol of Fire">
-		<attribute key="description" value="The flames represent the Fire, one of the Tibian elemental gods."/>
+	<item fromid="24199" toid="24200" article="a" name="sign of Uman and Zathroth">
+		<attribute key="description" value="It represents the unity of Uman the Wise and Zathroth the Destroyer, two of the Tibian gods."/>
 	</item>
-	<item id="24207" article="a" name="symbol of Air">
-		<attribute key="description" value="The whirls represent the Air, one of the Tibian elemental gods."/>
+	<item fromid="24201" toid="24202" article="a" name="symbol of Tibia">
+		<attribute key="description" value="It represents Tibia the Earth, one of the Tibian elemental gods."/>
 	</item>
-	<item id="24213" article="a" name="symbol of Suon and Fafnar">
-		<attribute key="description" value="The aureola and the corona combined represent Suon the Benevolent Sun and Fafnar the Destroying Sun, the Tibian sun gods."/>
+	<item fromid="24203" toid="24204" article="a" name="symbol of Sula">
+		<attribute key="description" value="It represents Sula the Water, one of the Tibian elemental gods."/>
 	</item>
-	<item id="24215" article="a" name="symbol of Crunor">
-		<attribute key="description" value="The tree represents Crunor the First Tree, one the Tibian gods."/>
+	<item fromid="24205" toid="24206" article="a" name="symbol of Fire">
+		<attribute key="description" value="It represents the Fire, one of the Tibian elemental gods."/>
 	</item>
-	<item id="24217" article="a" name="symbol of Nornur">
-		<attribute key="description" value="The eye represents Nornur, the Tibian god of Fate."/>
+	<item fromid="24207" toid="24208" article="a" name="symbol of Air">
+		<attribute key="description" value="It represents the Air, one of the Tibian elemental gods."/>
 	</item>
-	<item id="24219" article="a" name="symbol of Bastesh">
-		<attribute key="description" value="The wave represents Bastesh, Mistress of the Sea, one of the Tibian gods."/>
+	<item fromid="24209" toid="24210" article="a" name="symbol of Fafnar">
+		<attribute key="description" value="It represents Fafnar the Destroying Sun, the Tibian sun gods."/>
 	</item>
-	<item id="24221" article="a" name="symbol of Urgith">
-		<attribute key="description" value="The skull represents Urgith, Lord of Undeath, one of the Tibian gods."/>
+	<item fromid="24211" toid="24212" article="a" name="symbol of Suon">
+		<attribute key="description" value="It represents Suon the Benevolent Sun, the Tibian sun gods."/>
 	</item>
-	<item id="24223" article="a" name="symbol of Toth">
-		<attribute key="description" value="The hand sheltering a human represents Toth, Guardian of the Dead, one of the Tibian gods."/>
+	<item fromid="24213" toid="24214" article="a" name="symbol of Suon and Fafnar">
+		<attribute key="description" value="It represents Suon the Benevolent Sun and Fafnar the Destroying Sun, the Tibian sun gods."/>
 	</item>
-	<item id="24225" article="an" name="astral glyph"/>
-	<item id="24226" article="a" name="shielded astral glyph"/>
+	<item fromid="24215" toid="24216" article="a" name="symbol of Crunor">
+		<attribute key="description" value="It represents Crunor the First Tree, one the Tibian gods."/>
+	</item>
+	<item fromid="24217" toid="24218" article="a" name="symbol of Nornur">
+		<attribute key="description" value="It represents Nornur, the Tibian god of Fate."/>
+	</item>
+	<item fromid="24219" toid="24220" article="a" name="symbol of Bastesh">
+		<attribute key="description" value="It represents Bastesh, Mistress of the Sea, one of the Tibian gods."/>
+	</item>
+	<item fromid="24221" toid="24222" article="a" name="symbol of Urgith">
+		<attribute key="description" value="It represents Urgith, Lord of Undeath, one of the Tibian gods."/>
+	</item>
+	<item fromid="24223" toid="24224" article="a" name="symbol of Toth">
+		<attribute key="description" value="It represents Toth, Guardian of the Dead, one of the Tibian gods."/>
+	</item>
+	<item id="24225" article="an" name="astral glyph"/><!-- looktype -->
+	<item id="24226" article="a" name="shielded astral glyph"/><!-- looktype -->
 	<item id="24227" article="an" name="animated sword"/>
 	<item id="24228" article="an" name="astral source"/>
 	<item id="24229" article="the" name="distorted astral source"/>
+	<item fromid="24230" toid="24233" article="a" name="broken wooden cone"/>
+	<item fromid="24234" toid="24235" name="unknown item"/><!-- position(32878,32807,9) -->
+	<item fromid="24236" toid="24243" article="a" name="waterway cataract"/>
+	<item id="24244" name="RESERVED SPRITE"/>
+	<item id="24245" article="a" name="empty plant tub"/>
+	<item id="24246" article="a" name="plant tub"/>
+	<item id="24247" article="a" name="empty ruined plant tub"/>
+	<item id="24249" name="RESERVED SPRITE"/>
+	<item fromid="24250" toid="24255" name="unknown item"/>
+	<item id="24256" name="unknown item"/>
+	<item id="24258" article="a" name="waterway"/>
+	<item fromid="24259" toid="24285" name="RESERVED SPRITE"/>
+	<item fromid="24286" toid="24309" article="a" name="stone floor"/>
+	<item fromid="24310" toid="24312" name="RESERVED SPRITE"/>
+	<item id="24313" article="a" name="dead Lloyd">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="24314" />
+		<attribute key="duration" value="10" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item id="24314" article="a" name="dead Lloyd">
+		<attribute key="containerSize" value="30" />
+		<attribute key="decayTo" value="24927" />
+		<attribute key="duration" value="300" />
+		<attribute key="corpseType" value="blood" />
+		<attribute key="fluidSource" value="blood" />
+	</item>
+	<item fromid="24315" toid="24316" article="a" name="waterway"/>
+	<item id="24317" article="a" name="cut grass"/>
+	<item fromid="24318" toid="24356" name="RESERVED SPRITE"/>
+	<item fromid="24357" toid="24358" name="unknown item"/>
+	<item fromid="24359" toid="24379" name="RESERVED SPRITE"/>
 	<item id="24380" article="a" name="bone toothpick">
 		<attribute key="weight" value="2000"/>
 	</item>
@@ -36446,8 +36284,8 @@
 		<attribute key="weight" value="3500"/>
 	</item>
 	<item id="24382" name="bug meat" plural="bug meat">
-		<attribute key="weight" value="1100"/>
 		<attribute key="showcount" value="0"/>
+		<attribute key="weight" value="1100"/>
 	</item>
 	<item id="24383" article="a" name="cave turnip" plural="cave turnips">
 		<attribute key="weight" value="250"/>
@@ -36480,37 +36318,39 @@
 		<attribute key="weight" value="650"/>
 	</item>
 	<item id="24393" article="a" name="pillow backpack">
-		<attribute key="weight" value="1450"/>
 		<attribute key="containersize" value="24"/>
-		<attribute key="slottype" value="backpack"/>
 		<attribute key="imbuingslots" value="1"/>
+		<attribute key="slottype" value="backpack"/>
+		<attribute key="weight" value="1450"/>
 	</item>
 	<item id="24394" article="an" name="orclops santa">
 		<attribute key="weight" value="650"/>
 	</item>
 	<item id="24395" article="a" name="birthday backpack">
 		<attribute key="containersize" value="20"/>
-		<attribute key="weight" value="1500"/>
 		<attribute key="description" value="It was awarded during the festivities of Tibia's 20th anniversary."/>
-		<attribute key="slottype" value="backpack"/>
 		<attribute key="imbuingslots" value="1"/>
+		<attribute key="slottype" value="backpack"/>
+		<attribute key="weight" value="1500"/>
 	</item>
 	<item id="24396" article="a" name="birthday cake">
-		<attribute key="weight" value="500"/>
 		<attribute key="description" value="It was created by Tibia's finest bakers for the celebration of 20 years of Tibia."/>
+		<attribute key="weight" value="500"/>
 	</item>
 	<item id="24397" article="a" name="Ferumbras' Candy Hat">
 		<attribute key="armor" value="1"/>
-		<attribute key="weight" value="850"/>
 		<attribute key="description" value="It is a sweet candy replica of the famous Ferumbras' hat."/>
 		<attribute key="slottype" value="head"/>
+		<attribute key="weight" value="850"/>
 	</item>
+	<item fromid="24398" toid="24401" name="plate layered archway"/>
 	<item id="24402" article="a" name="chocolatey dragon scale legs">
 		<attribute key="armor" value="2"/>
 		<attribute key="weight" value="1800"/>
 		<attribute key="description" value="This is a chocolate replica of the famous dragon scale legs."/>
 		<attribute key="slottype" value="legs"/>
 	</item>
+	<item id="24403" name="plate layered wall"/>
 	<item id="24404" article="a" name="tatty dragon scale legs">
 		<attribute key="armor" value="2"/>
 		<attribute key="weight" value="3800"/>
@@ -36523,11 +36363,17 @@
 		<attribute key="description" value="It's the Helmet of Hermes but it clearly has seen better days."/>
 		<attribute key="slottype" value="head"/>
 	</item>
+	<item id="24406" name="plate layered wall"/>
+	<item fromid="24407" toid="24408" name="plate layered corner"/>
 	<item id="24409" name="filthy bunnyslippers">
 		<attribute key="armor" value="0"/>
 		<attribute key="weight" value="600"/>
 		<attribute key="description" value="They clearly have seen better days."/>
 		<attribute key="slottype" value="feet"/>
+	</item>
+	<item fromid="24410" toid="24413" name="plate layered archway"/>
+	<item id="24414" article="a" name="sewing table">
+		<attribute key="description" value="It has to be magical. The needles and scissors are moving by themselves."/>
 	</item>
 	<item id="24415" article="an" name="old rag">
 		<attribute key="weight" value="300"/>
@@ -36596,10 +36442,7 @@
 		<attribute key="type" value="carpet"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
-	<item article="a" name="parrot" id="24432">
-		<attribute key="wrapableTo" value="23398"/>
-	</item>
-	<item article="a" name="parrot" id="24433">
+	<item fromid="24432" toid="24433" article="a" name="parrot">
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
 	<item id="24434" article="a" name="lit skull lamp">
@@ -36609,7 +36452,7 @@
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
 	<item id="24436" article="a" name="lit skull lamp">
-		<attribute key="decayto" value="27103"/>
+		<attribute key="decayto" value="24435"/>
 		<attribute key="duration" value="1"/>
 	</item>
 	<item id="24437" article="a" name="sand"/>
@@ -36619,56 +36462,120 @@
 	<item id="24439" article="a" name="shell" plural="shells">
 		<attribute key="weight" value="100"/>
 	</item>
-	<item id="24808" article="a" name="ramp">
+	<item fromid="24440" toid="24441" name="RESERVED SPRITE"/>
+	<item fromid="24442" toid="24449" name="colourful bunting"/>
+	<item fromid="24450" toid="24457" article="an" name="emblem"/>
+	<item fromid="24458" toid="24475" article="a" name="market stand"/>
+	<item id="24477" name="ten cans"/>
+	<item id="24477" name="nine cans"/>
+	<item id="24478" name="eight cans"/>
+	<item id="24479" name="seven cans"/>
+	<item id="24480" name="six cans"/>
+	<item id="24481" name="five cans"/>
+	<item id="24482" name="four cans"/>
+	<item id="24483" name="three cans"/>
+	<item id="24484" name="two cans"/>
+	<item id="24485" article="a" name="can"/>
+	<item fromid="24486" toid="24488" name="unknown item"/>
+	<item id="24489" name="candied fruit"/><!-- unconfirmed -->
+	<item id="24490" name="apples"/>
+	<item id="24491" name="bunting"/>
+	<item id="24492" name="roasted meat"/>
+	<item id="24493" name="candied fruit"/>
+	<item id="24494" name="candy canes"/>
+	<item id="24495" name="firework rockets"/>
+	<item id="24496" name="paper streamers"/>
+	<item id="24497" name="unknown item"/>
+	<item fromid="24498" toid="24802" name="old tibia item"/>
+	<item fromid="24803" toid="24805" name="old stone wall"/>
+	<item id="24806" article="a" name="old ramp">
+		<attribute key="floorchange" value="east"/>
+	</item>
+	<item id="24807" article="a" name="old ramp"/>
+	<item id="24808" article="a" name="old ramp">
 		<attribute key="floorchange" value="west"/>
 	</item>
-	<item article="a" name="treasure chest" id="24861">
+	<item id="24809" article="a" name="old ramp"/>
+	<item id="24810" article="a" name="old ramp">
+		<attribute key="floorchange" value="north"/>
+	</item>
+	<item id="24811" article="a" name="old ramp"/>
+	<item id="24812" article="a" name="old ramp">
+		<attribute key="floorchange" value="south"/>
+	</item>
+	<item id="24813" article="a" name="old ramp"/>
+	<item fromid="24814" toid="24821" name="old stone wall"/>
+	<item fromid="24822" toid="24838" name="old mountain tile"/>
+	<item id="24839" article="a" name="grass"/>
+	<item id="24840" article="a" name="dry flower"/> <!-- First Dragon Quest -->
+	<item id="24841" article="a" name="flower bowl"/> <!-- First Dragon Quest -->
+	<item id="24842" article="a" name="sewing table">
+		<attribute key="description" value="It has to be magical. The needles and scissors are moving by themselves."/>
+	</item>
+	<item fromid="24843" toid="24844" article="an" name="ancient inscription">
+		<attribute key="description" value="It displays a dragon relief and strange runes. It is already heavily weathered."/>
+	</item>
+	<item fromid="24845" toid="24860" name="flower petals"/>
+	<item fromid="24861" toid="24864" article="a" name="treasure chest">
 		<attribute key="containersize" value="10"/>
 		<attribute key="weight" value="9500"/>
 	</item>
-	<item article="a" name="treasure chest" id="24862">
-		<attribute key="containersize" value="10"/>
-		<attribute key="weight" value="9500"/>
-	</item>
-	<item article="a" name="treasure chest" id="24863">
-		<attribute key="containersize" value="10"/>
-		<attribute key="weight" value="1500"/>
-	</item>
-	<item article="a" name="treasure chest" id="24864">
-		<attribute key="containersize" value="10"/>
-		<attribute key="weight" value="1500"/>
-	</item>
+	<item id="24865" name="RESERVED SPRITE"/>
+	<item fromid="24866" toid="24872" name="old tibia item"/>
 	<item id="24873" article="a" name="blurred transcript">
 		<attribute key="weight" value="200"/>
-	</item>
+	</item><!-- First Dragon Quest -->
+	<item id="24874" article="a" name="stone floor"/>
 	<item id="24875" article="a" name="dragon chest"/>
+	<item id="24876" name="RESERVED SPRITE"/>
 	<item id="24877" article="a" name="dragon chest"/>
+	<item id="24878" name="RESERVED SPRITE"/>
+	<item fromid="24879" toid="24886" name="unknown item"/>
+	<item id="24887" name="RESERVED SPRITE"/>
+	<item id="24888" article="a" name="platform rising from water"/>
+	<item id="24889" article="a" name="platform rising into water"/>
+	<item id="24890" article="a" name="platform rising from water"/>
+	<item fromid="24891" toid="24893" article="a" name="platform under water"/>
+	<item fromid="24894" toid="24897" article="a" name="platform rising from water"/>
+	<item fromid="24898" toid="24899" article="a" name="platform rising into water"/>
+	<item fromid="24900" toid="24902" article="a" name="platform rising from water"/>
+	<item id="24903" article="a" name="door">
+		<attribute key="type" value="door"/>
+		<attribute key="blockprojectile" value="1"/>
+	</item>
+	<item fromid="24904" toid="24911" article="a" name="stone tile"/>
+	<item id="24912" name="RESERVED SPRITE"/>
+	<item fromid="24913" toid="24923" name="unknown item"/>
+	<item fromid="24924" toid="24925" article="an" name="opticorder analyser"/><!-- unconfirmed name -->
+	<item id="24903" article="a" name="monument">
+		<attribute key="description" value="This wall seems quite fragile."/>
+	</item>
 	<item id="24927" article="a" name="dead lloyd">
-		<attribute key="containersize" value="20"/>
 		<attribute key="decayto" value="0"/>
-		<attribute key="duration" value="600"/>
+		<attribute key="duration" value="60"/>
 		<attribute key="corpsetype" value="blood"/>
 		<attribute key="fluidsource" value="blood"/>
 	</item>
 	<item id="24928" article="a" name="remains of an observer eye">
 		<attribute key="containersize" value="15"/>
 		<attribute key="decayto" value="0"/>
-		<attribute key="duration" value="500"/>
+		<attribute key="duration" value="100"/>
 		<attribute key="corpsetype" value="blood"/>
 	</item>
 	<item id="24929" article="a" name="lightsphere">
-		<attribute key="weight" value="100"/>
 		<attribute key="description" value="You can hear something rattling inside but there seems to be no way to open it."/>
+		<attribute key="weight" value="100"/>
 	</item>
 	<item id="24930" article="a" name="lit lightsphere">
-		<attribute key="weight" value="100"/>
 		<attribute key="description" value="It floats quietly, yet emits a dim light. You can hear something rattling inside but there seems to be no way to open it."/>
+		<attribute key="weight" value="100"/>
 	</item>
-	<item id="24932" article="a" name="unknown tp"/>
-	<item id="24933" article="a" name="large glowing emerald"/>
-	<item id="24934" article="a" name="large glowing ruby"/>
-	<item id="24935" article="a" name="large glowing sapphire"/>
-	<item id="24936" article="a" name="large glowing amethyst"/>
+	<item id="24931" name="RESERVED SPRITE"/>
+	<item id="24932" article="a" name="unknown teleport"/><!-- overcharged disruption looktype -->
+	<item id="24933" article="a" name="large glowing emerald"/><!-- First Dragon Quest -->
+	<item id="24934" article="a" name="large glowing ruby"/><!-- First Dragon Quest -->
+	<item id="24935" article="a" name="large glowing sapphire"/><!-- First Dragon Quest -->
+	<item id="24936" article="a" name="large glowing amethyst"/><!-- First Dragon Quest -->
 	<item id="24937" article="a" name="dragon blood">
 		<attribute key="weight" value="350"/>
 	</item>
@@ -36687,16 +36594,7 @@
 	<item id="24942" name="bones of Zorvorax">
 		<attribute key="weight" value="800"/>
 	</item>
-	<item article="a" name="part of an old map" id="24943">
-		<attribute key="weight" value="100"/>
-	</item>
-	<item article="a" name="part of an old map" id="24944">
-		<attribute key="weight" value="100"/>
-	</item>
-	<item article="a" name="part of an old map" id="24945">
-		<attribute key="weight" value="100"/>
-	</item>
-	<item article="a" name="part of an old map" id="24946">
+	<item fromid="24943" toid="24946" article="a" name="part of an old map">
 		<attribute key="weight" value="100"/>
 	</item>
 	<item id="24947" article="an" name="old map">
@@ -36717,22 +36615,8 @@
 		<attribute key="weight" value="3800"/>
 	</item>
 	<item id="24952" article="a" name="dark stone"/>
-	<item article="a" name="part of a rune" id="24954">
-		<attribute key="weight" value="850"/>
-	</item>
-	<item article="a" name="part of a rune" id="24955">
-		<attribute key="weight" value="850"/>
-	</item>
-	<item article="a" name="part of a rune" id="24956">
-		<attribute key="weight" value="850"/>
-	</item>
-	<item article="a" name="part of a rune" id="24957">
-		<attribute key="weight" value="850"/>
-	</item>
-	<item article="a" name="part of a rune" id="24958">
-		<attribute key="weight" value="850"/>
-	</item>
-	<item article="a" name="part of a rune" id="24959">
+	<item id="24953" name="RESERVED SPRITE"/>
+	<item fromid="24954" toid="24959" article="a" name="part of a rune">
 		<attribute key="weight" value="850"/>
 	</item>
 	<item id="24960" article="an" name="astral shaper rune">
@@ -36790,36 +36674,10 @@
 	<item id="24978" name="coal eyes">
 		<attribute key="weight" value="650"/>
 	</item>
-	<item article="a" name="dark stone" id="24981"/>
-	<item article="a" name="dark stone" id="24982"/>
-	<item article="a" name="dark stone" id="24983"/>
-	<item article="a" name="dark stone" id="24984"/>
-	<item article="a" name="dark stone" id="24985"/>
-	<item article="a" name="dark stone" id="24986"/>
-	<item article="a" name="dark stone" id="24987"/>
-	<item article="a" name="dark stone" id="24988"/>
-	<item article="a" name="dark stone" id="24989"/>
-	<item article="a" name="dark stone" id="24990"/>
-	<item article="a" name="dark stone" id="24991"/>
-	<item article="a" name="dark stone" id="24992"/>
-	<item article="a" name="dragon lair wall" id="24993"/>
-	<item article="a" name="dragon lair wall" id="24994"/>
-	<item article="a" name="dragon lair wall" id="24995"/>
-	<item article="a" name="dragon lair wall" id="24996"/>
-	<item article="a" name="dragon lair wall" id="24997"/>
-	<item article="a" name="dragon lair wall" id="24998"/>
-	<item article="a" name="dragon lair wall" id="24999"/>
-	<item article="a" name="dragon lair wall" id="25000"/>
-	<item article="a" name="dragon lair wall" id="25001"/>
-	<item article="a" name="dragon lair wall" id="25002"/>
-	<item article="a" name="dragon lair wall" id="25003"/>
-	<item article="a" name="dragon lair wall" id="25004"/>
-	<item article="a" name="dragon lair wall" id="25005"/>
-	<item article="a" name="dragon lair wall" id="25006"/>
-	<item article="a" name="dragon lair wall" id="25007"/>
-	<item article="a" name="dragon lair wall" id="25008"/>
-	<item article="a" name="dragon lair wall" id="25009"/>
-	<item article="a" name="dragon lair wall" id="25010"/>
+	<item fromid="24979" toid="24980" name="RESERVED SPRITE"/>
+	<item fromid="24981" toid="24992" article="a" name="dark stone"/>
+	<item fromid="24993" toid="25010" article="a" name="dragon lair wall"/>
+	<item fromid="25011" toid="25014" name="RESERVED SPRITE"/>
 	<item id="25015" article="a" name="ramp"/>
 	<item id="25016" article="a" name="ramp">
 		<attribute key="floorchange" value="north"/>
@@ -36836,75 +36694,48 @@
 	<item id="25022" article="a" name="ramp">
 		<attribute key="floorchange" value="south"/>
 	</item>
+	<item fromid="25023" toid="25036" name="RESERVED SPRITE"/>
 	<item id="25037" article="a" name="dragon lair wall"/>
-	<item article="a" name="portal of black energy" id="25047">
+	<item fromid="25038" toid="25045" name="RESERVED SPRITE"/>
+	<item id="25046" name="unknown item"/>
+	<item fromid="25047" toid="25048" article="a" name="death portal">
 		<attribute key="description" value="You can see the other side through it."/>
 		<attribute key="type" value="teleport"/>
 	</item>
-	<item article="a" name="portal of black energy" id="25048">
+	<item fromid="25049" toid="25050" article="an" name="earth portal">
 		<attribute key="description" value="You can see the other side through it."/>
 		<attribute key="type" value="teleport"/>
 	</item>
-	<item article="a" name="portal of green energy" id="25049">
+	<item fromid="25051" toid="25052" article="an" name="energy portal">
 		<attribute key="description" value="You can see the other side through it."/>
 		<attribute key="type" value="teleport"/>
 	</item>
-	<item article="a" name="portal of green energy" id="25050">
+	<item fromid="25053" toid="25054" article="a" name="fire portal">
 		<attribute key="description" value="You can see the other side through it."/>
 		<attribute key="type" value="teleport"/>
 	</item>
-	<item article="a" name="portal of violet energy" id="25051">
+	<item fromid="25055" toid="25056" article="a" name="holy portal">
 		<attribute key="description" value="You can see the other side through it."/>
 		<attribute key="type" value="teleport"/>
 	</item>
-	<item article="a" name="portal of violet energy" id="25052">
-		<attribute key="description" value="You can see the other side through it."/>
-		<attribute key="type" value="teleport"/>
-	</item>
-	<item article="a" name="portal of orange energy" id="25053">
-		<attribute key="description" value="You can see the other side through it."/>
-		<attribute key="type" value="teleport"/>
-	</item>
-	<item article="a" name="portal of orange energy" id="25054">
-		<attribute key="description" value="You can see the other side through it."/>
-		<attribute key="type" value="teleport"/>
-	</item>
-	<item article="a" name="portal of golden energy" id="25055">
-		<attribute key="description" value="You can see the other side through it."/>
-		<attribute key="type" value="teleport"/>
-	</item>
-	<item article="a" name="portal of golden energy" id="25056">
-		<attribute key="description" value="You can see the other side through it."/>
-		<attribute key="type" value="teleport"/>
-	</item>
-	<item article="a" name="portal of blue energy" id="25057">
-		<attribute key="description" value="You can see the other side through it."/>
-		<attribute key="type" value="teleport"/>
-	</item>
-	<item article="a" name="portal of blue energy" id="25058">
+	<item fromid="25057" toid="25058" article="a" name="ice portal">
 		<attribute key="description" value="You can see the other side through it."/>
 		<attribute key="type" value="teleport"/>
 	</item>
 	<item id="25059" article="an" name="inert astral shaper rune">
-		<attribute key="weight" value="850"/>
 		<attribute key="description" value="The rune has become inert and will need some hours to regain full strength."/>
+		<attribute key="weight" value="850"/>
 	</item>
-	<item id="25060" article="an" name="imbuing shrine"/>
-	<item id="25061" article="an" name="imbuing shrine"/>
-	<item id="25062" article="a" name="Pinata Dragon"/>
-	<item id="25063" article="a" name="dead pinata king">
+	<item fromid="25060" toid="25061" article="an" name="imbuing shrine"/>
+	<item id="25062" article="a" name="Piñata Dragon"/>
+	<item id="25063" article="a" name="dead Pinata Dragon">
 		<attribute key="containersize" value="10"/>
-		<attribute key="decayto" value="27732"/>
-		<attribute key="duration" value="600"/>
-		<attribute key="corpsetype" value="blood"/>
-		<attribute key="fluidsource" value="blood"/>
+		<attribute key="decayto" value="25064"/>
+		<attribute key="duration" value="10"/>
 	</item>
-	<item id="25064" article="a" name="dead pinata dragon">
-		<attribute key="containersize" value="10"/>
+	<item id="25064" article="a" name="dead Pinata Dragon">
 		<attribute key="decayto" value="0"/>
-		<attribute key="duration" value="6000"/>
-		<attribute key="corpsetype" value="blood"/>
-		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
 	</item>
 	<item id="25065" article="a" name="dead dragon king">
 		<attribute key="containersize" value="20"/>
@@ -47810,4 +47641,8 @@
 		<attribute key="duration" value="10"/>
 		<attribute key="corpsetype" value="blood"/>
 	</item>
+	<attribute key="rotateto"/>
+	<attribute key="decayto"/>
+	<attribute key="transformdeequipto"/>
+	<attribute key="transformequipto"/>
 </items>
