@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <monster name="Gelidrazah the Frozen" nameDescription="Gelidrazah the Frozen" race="undead" experience="9000" speed="250">
 	<health now="10000" max="10000"/>
-	<look type="947" head="57" body="30" legs="57" feet="57" addons="3" corpse="27733"/>
+	<look type="947" head="57" body="30" legs="57" feet="57" addons="3" corpse="25185"/>
 	<targetchange interval="4000" chance="10"/>
 	<flags>
-		<flag preyable="0"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
-		<flag isBlockable="0"/>
 		<flag pushable="0"/>
+		<flag isBlockable="0"/>
 		<flag canPushItems="1"/>
 		<flag canPushCreatures="1"/>
 		<flag targetDistance="1"/>
+		<flag runOnHealth="500"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonpoison="1"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-400"/>
@@ -49,34 +52,35 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element firePercent="-10"/>
-		<element deathPercent="-10"/>
+		<element deathPercent="10"/>
 	</elements>
 	<immunities>
+		<immunity earth="1"/>
+		<immunity holy="1"/>
+		<immunity ice="1"/>
+		<immunity invisible="1"/>
 		<immunity lifedrain="1"/>
 		<immunity paralyze="1"/>
-		<immunity invisible="1"/>
-		<immunity ice="1"/>
-		<immunity earth="1"/>
 	</immunities>
 	<loot>
-		<item id="27605" chance="100000"/><!-- dragon blood -->
-		<item id="2672" countmax="3" chance="80000"/><!-- dragon ham -->
-		<item id="27606" chance="100000"/><!-- dragon tongue -->
-		<item id="2167" chance="5000"/><!-- energy ring -->
-		<item id="8887" chance="500"/><!-- frozen plate -->
-		<item id="18412" chance="2000"/><!-- glacial rod -->
-		<item id="7888" chance="25000"/><!-- glacier amulet -->
-		<item id="7902" chance="8000"/><!-- glacier mask  -->
-		<item id="2148" countmax="130" chance="90000"/><!-- gold coin -->
-		<item id="2033" chance="3000"/><!-- golden mug -->
-		<item id="7441" chance="5000"/><!-- ice cube -->
-		<item id="21696" chance="7000"/><!-- icicle bow -->
-		<item id="7409" chance="100"/><!-- northern star -->
-		<item id="2152" countmax="3" chance=""/><!-- platinum coin -->
-		<item id="21697" chance="7000"/><!-- runic ice shield -->
-		<item id="27607" chance="100000"/><!-- scale of Gelidrazah -->
-		<item id="7290" chance="30000"/><!-- shard -->
-		<item id="2146" chance="10000"/><!-- small sapphire -->
+		<item name="dragon blood" countmax="2" chance="100000"/>
+		<item name="dragon tongue" chance="100000"/>
+		<item name="scale of gelidrazah" chance="100000"/>
+		<item name="gold coin" countmax="129" chance="89600"/>
+		<item name="dragon ham" chance="80350"/>
+		<item name="platinum coin" countmax="3" chance="67050"/>
+		<item name="shard" chance="30640"/>
+		<item name="glacier amulet" chance="27170"/>
+		<item name="small sapphire" chance="12140"/>
+		<item name="glacier mask" chance="11560"/>
+		<item name="icicle bow" chance="7510"/>
+		<item name="energy ring" chance="6360"/>
+		<item name="runic ice shield" chance="6360"/>
+		<item name="ice cube" chance="5780"/>
+		<item name="glacial rod" chance="3470"/>
+		<item name="golden mug" chance="3470"/>
+		<item name="frozen plate" chance="1730"/>
+		<item name="northern star" chance="1160"/>
+		<item name="life crystal" chance="1160"/>
 	</loot>
 </monster>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Broken Shaper" nameDescription="a broken shaper" race="blood" experience="1600" speed="155" manacost="290">
+<monster name="Broken Shaper" nameDescription="a broken shaper" race="blood" experience="1600" speed="155">
 	<health now="2200" max="2200"/>
-	<look type="932" head="132" body="95" legs="0" feet="121" corpse="27736"/>
+	<look type="932" head="132" body="95" legs="0" feet="121" corpse="25068"/>
 	<targetchange interval="5000" chance="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -10,12 +10,13 @@
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
+		<flag isBlockable="1"/>
 		<flag canPushItems="1"/>
 		<flag canPushCreatures="1"/>
 		<flag staticAttack="98"/>
 		<flag targetDistance="1"/>
 		<flag runOnHealth="0"/>
-		<flag canWalkOnEnergy="0"/>
+		<flag canWalkOnEnergy="1"/>
 		<flag canWalkOnFire="0"/>
 		<flag canWalkOnPoison="0"/>
 	</flags>
@@ -28,7 +29,7 @@
 			<attribute key="areaEffect" value="rednote"/>
 	</attack>
 	</attacks>
-	<defenses armor="25" defense="25">
+	<defenses armor="37" defense="37">
 		<defense name="speed" interval="2000" chance="10" speedchange="336" duration="2000">
 			<attribute key="areaEffect" value="redshimmer"/>
 		</defense>
@@ -37,36 +38,48 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element energyPercent="-20"/>
-		<element earthPercent="20"/>
+		<element energyPercent="-15"/>
 		<element firePercent="-15"/>
+		<element physicalPercent="20"/>
+		<element holyPercent="20"/>
+		<element icePercent="20"/>
+		<element earthPercent="30"/>
 	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
 	<voices interval="2000" chance="7">
-		<voice sentence="&lt;grunt&gt;"/>
+		<voice sentence="<grunt>"/>
 		<voice sentence="Raar!!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="165" chance="100320"/><!-- gold coin -->
-		<item id="2152" countmax="2" chance="70320"/><!-- platinun coin -->
-		<item id="27051" countmax="2" chance="20000"/><!-- cave turnip -->
-		<item id="27052" chance="17000"/><!-- Ancient Belt Buckle -->
-		<item id="27053" chance="20000"/><!-- Cracked Alabaster Vase -->
-		<item id="27054" chance="13000"/><!-- Rhino Horn Carving -->
-		<item id="27058" chance="4000"/><!--  Ancient Coin -->
-		<item id="2260" chance="15000"/><!-- Blank Rune -->
-		<item id="2666" countmax="2" chance="50320"/><!-- Meats -->
-		<item id="5022" countmax="2" chance="5000"/><!-- Orichalcum Pearl -->
-		<item id="5912" countmax="2" chance="1000"/><!--  Blue Piece of Cloth -->
-		<item id="5913" countmax="2" chance="5000"/><!--   Brown Piece of Cloth -->
-		<item id="5914" countmax="2" chance="2000"/><!--   yellow Piece of Cloth -->
-		<item id="2195" chance="230"/><!-- boh -->
-		<item id="7591" chance="7000"/><!--  Great Health Potion-->
-		<item id="2396" chance="1000"/><!-- ice rapier -->
-		<item id="2162" chance="1000"/><!-- Magic Light Wand -->
-		<item id="24849" chance="4200"/><!-- Onyx Chip -->
-		<item id="2214" chance="2000"/><!-- ring of healing -->
- 		<item id="2147" chance="3000"/><!-- small ruby -->
-		<item id="2146" chance="5000"/><!-- small sapphire -->
-		<item id="2789" countmax="5" chance="6500"/><!-- Brown Mushroom -->
+		<item name="gold coin" countmin="1" countmax="172" chance="100000"/>
+		<item name="platinum coin" countmax="2" chance="74630"/>
+		<item name="cave turnip" countmax="2" chance="20340"/>
+		<item name="cracked alabaster vase" chance="20110"/>
+		<item name="ancient belt buckle" chance="17840"/>
+		<item name="rhino horn carving" chance="13700"/>
+		<item name="meat" chance="9680"/>
+		<item name="blank rune" chance="8160"/>
+		<item name="great health potion" chance="7110"/>
+		<item name="brown mushroom" countmax="2" chance="6190"/>
+		<item name="small sapphire" chance="5050"/>
+		<item name="orichalcum pearl" countmax="3" chance="4930"/>
+		<item name="brown piece of cloth" chance="4520"/>
+		<item name="onyx chip" chance="4370"/>
+		<item name="ancient coin" chance="4270"/>
+		<item name="small ruby" chance="3780"/>
+		<item name="rusted armor" chance="2890"/>
+		<item name="ring of healing" chance="2410"/>
+		<item name="yellow piece of cloth" chance="2070"/>
+		<item name="coral brooch" chance="1660"/>
+		<item name="ice rapier" chance="1160"/>
+		<item name="blue piece of cloth" chance="1030"/>
+		<item name="white piece of cloth" chance="980"/>
+		<item id="3046" chance="940"/><!-- magic light wand -->
+		<item name="green piece of cloth" chance="690"/>
+		<item name="red piece of cloth" chance="480"/>
+		<item name="boots of haste" chance="210"/>
 	</loot>
 </monster>

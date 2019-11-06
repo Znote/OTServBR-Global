@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Lloyd" nameDescription="Lloyd" race="energy" experience="50000" speed="400" script="reward_boss.lua">
+<monster name="Lloyd" nameDescription="Lloyd" race="energy" experience="66000" speed="400" script="reward_boss.lua">
 	<health now="64000" max="64000"/>
-	<look type="940" corpse="27595"/>
+	<look type="940" corpse="24313"/>
 	<targetchange interval="4000" chance="20"/>
 	<flags>
 		<flag summonable="0"/>
@@ -10,6 +10,7 @@
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
+		<flag isBlockable="0"/>
 		<flag canPushItems="1"/>
 		<flag canPushCreatures="1"/>
 		<flag targetDistance="1"/>
@@ -19,13 +20,12 @@
 		<flag canWalkOnEnergy="1"/>
 		<flag canWalkOnFire="1"/>
 		<flag canWalkOnPoison="1"/>
-		<flag preyable="0"/>
 	</flags>
 	<script>
 		<event name="Lloyd"/>
 	</script>
 	<attacks>
-		<attack name="melee" interval="2000" skill="70" min="-200" max="-1400"/>
+		<attack name="melee" interval="2000" skill="70" min="-0" max="-2000"/>
 		<attack name="energy" interval="2000" chance="12" length="6" spread="0" min="-130" max="-460">
 			<attribute key="areaEffect" value="purpleenergy"/>
 		</attack>
@@ -37,53 +37,54 @@
 		<defense name="healing" interval="2000" chance="15" min="180" max="250"/>
 	</defenses>
 	<elements>
-		<element physicalPercent="0"/>
 		<element deathPercent="50"/>
-		<element energyPercent="0"/>
-		<element earthPercent="0"/>
-		<element icePercent="0"/>
-		<element holyPercent="50"/>
 	</elements>
 	<immunities>
-		<immunity fire="1"/>
-		<immunity drown="1"/>
-		<immunity lifedrain="1"/>
-		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
+		<immunity paralyze="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="200" chance="97000"/><!-- gold coin -->
-		<item id="2152" countmax="30" chance="90000"/><!-- platinum coin -->
-		<item id="7590" countmax="3" chance="22120"/><!-- great mana potion -->
-		<item id="8473" countmax="3" chance="19500"/><!-- ultimate health potion -->
-		<item id="2493" chance="1000"/><!-- demon helmet -->
-		<item id="18413" countmax="5" chance="9660"/><!-- blue crystal shard -->
-		<item id="18414" countmax="5" chance="9660"/><!-- green crystal shard-->
-		<item id="18415" countmax="5" chance="9660"/><!-- violet crystal shard -->
-		<item id="2149" countmax="5" chance="9660"/><!-- small emerald -->
-		<item id="2147" countmax="5" chance="7360"/><!-- small ruby -->
-		<item id="9970" countmax="5" chance="7350"/><!-- small topaz -->
-		<item id="2150" countmax="5" chance="7150"/><!-- small amethyst -->
-		<item id="5888" countmax="2" chance="5888"/><!--  Piece of Hell Steel -->
-		<item id="5887" countmax="2" chance="5909"/><!--  Piece of Royal Steel -->
-		<item id="7424" chance="5000"/><!-- Lunar Staff -->
-		<item id="2158" chance="5000"/><!-- Blue Gem -->
-		<item id="2155" chance="5000"/><!-- Green Gem -->
-		<item id="2154" chance="5000"/><!-- yellow Gem -->
-		<item id="2195" chance="5000"/><!-- boh -->
-		<item id="26182" chance="5000"/><!-- collar of blue plasma -->
-		<item id="5891" chance="5000"/><!-- enchanted chicken wing -->
-		<item id="7895" chance="5000"/><!--  Lightning Legs -->
-		<item id="12410" chance="5000"/><!--  luminous orb -->
-		<item id="7440" chance="5000"/><!--  Mastermind Potion -->
-		<item id="5904" chance="5000"/><!--  Magic Sulphur -->
-		<item id="27627" chance="500" unique="1"/><!--  part of a rune(six) -->
-		<item id="2214" chance="1970"/><!-- ring of healing -->
-		<item id="8920" chance="1970"/><!--  Wand of Starstorm -->
-		<item id="8900" chance="1970"/><!--   Spellbook of Enlightenment -->
-		<item id="11355" chance="1970"/><!--   Spellweaver's Robe -->
-		<item id="25383" chance="1970"/><!--   Rift Lance -->
-		<item id="25377" chance="100000"/><!-- Gold Token -->
-		<item id="25172" chance="100000"/><!-- Silver Token -->
+		<item name="gold coin" countmax="200" chance="100000"/>
+		<item name="wand of starstorm" chance="1000"/>
+		<item name="small topaz" countmax="5" chance="100000"/>
+		<item name="green crystal shard" countmax="3" chance="66670"/>
+		<item name="violet crystal shard " countmax="3" chance="66670"/>
+		<item name="blue crystal shard" countmax="3" chance="66670"/>
+		<item id="23542" chance="66670"/><!-- collar of blue plasma -->
+		<item name="great spirit potion" chance="66670"/>
+		<item name="mastermind potion" chance="33330"/>
+		<item name="enchanted chicken wing" chance="33330"/>
+		<item name="white piece of cloth" countmax="3" chance="33330"/>
+		<item name="rusty armor" chance="33330"/>
+		<item name="luminous orb" chance="33330"/>
+		<item id="282" chance="33330"/><!-- giant shimmering pearl -->
+		<item name="green gem" chance="33330"/>
+		<item name="great mana potion" countmin="5" countmax="10" chance="33330"/>
+		<item name="red gem" chance="33330"/>
+		<!-- unconfirmed chances -->
+		<item name="lightning legs" chance="33330"/>
+		<item name="blue gem" chance="33330"/>
+		<item name="yellow gem" chance="33330"/>
+		<item name="platinum coin" countmin="25" countmax="30" chance="33330"/>
+		<item name="small emerald" count="10" chance="33330"/>
+		<item name="boots of haste" chance="33330"/>
+		<item name="rift lance" chance="33330"/>
+		<item name="lunar staff" chance="33330"/>
+		<item name="small diamond" countmax="10" chance="33330"/>
+		<item name="small amethyst" countmax="10" chance="33330"/>
+		<item name="piece of royal steel" countmax="2" chance="33330"/>
+		<item name="small ruby" countmax="10" chance="33330"/>
+		<item name="magic sulphur" chance="33330"/>
+		<item name="ring of healing" chance="33330"/>
+		<item name="spellbook of enlightenment" chance="33330"/>
+		<item name="spellbook of enlightenment" chance="33330"/>
+		<item name="spellweaver's robe" chance="33330"/>
+		<item name="ultimate health potion" countmin="5" countmax="10" chance="33330"/>
+		<item name="demon helmet" chance="10000"/>
+		<item name="silver token" countmax="2" chance="5000"/>
+		<item name="gold token" chance="3000"/>
+		<item id="24959" chance="5000"/><!-- part of a rune (six) -->
+		<item name="pillow backpack" chance="1000"/>
+		<!-- unconfirmed chances -->
 	</loot>
 </monster>

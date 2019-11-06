@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="The Time Guardian" nameDescription="the time guardian" race="undead" experience="50000" speed="340"  script="reward_boss.lua">
+<monster name="The Time Guardian" nameDescription="The Time Guardian" race="undead" experience="50000" speed="340"  script="reward_boss.lua">
 	<health now="150000" max="150000"/>
 	<look type="945" corpse="27753"/>
 	<targetchange interval="2000" chance="5"/>
@@ -10,6 +10,7 @@
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
+		<flag isBlockable="0"/>
 		<flag canPushItems="1"/>
 		<flag canPushCreatures="1"/>
 		<flag targetDistance="1"/>
@@ -18,11 +19,9 @@
 		<flag canWalkOnEnergy="1"/>
 		<flag canWalkOnFire="1"/>
 		<flag canWalkOnPoison="1"/>
-		<flag preyable="0"/>
-		<flag rewardBoss="1"/>
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="190" attack="300"/>
+		<attack name="melee" interval="2000" min="-600" max="-780"/>
 		<attack name="death" interval="2000" chance="15" range="7" radius="4" target="1" min="-600" max="-780">
 			<attribute key="shootEffect" value="energy"/>
 			<attribute key="areaEffect" value="energy"/>
@@ -45,58 +44,57 @@
 		<defense name="time guardiann" interval="2000" chance="10"/>
 	</defenses>
 	<elements>
-		<element earthPercent="70"/>
-		<element icePercent="70"/>
-		<element energyPercent="70"/>
-		<element firePercent="70"/>
-		<element holyPercent="70"/>
-		<element deathPercent="70"/>
-		<element physicalPercent="70"/>
+		<element earthPercent="20"/>
+		<element icePercent="20"/>
+		<element energyPercent="20"/>
+		<element firePercent="20"/>
+		<element holyPercent="20"/>
+		<element deathPercent="20"/>
+		<element physicalPercent="20"/>
 	</elements>
 	<immunities>
 		<immunity name="paralyze"/>
-		<immunity name="drunk"/>
 		<immunity name="invisible"/>
 	</immunities>
 	<voices interval="2000" chance="5">
 		<voice sentence="This place is sacred!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
-		<item id="2148" countmax="100" chance="100000"/><!-- gold coin -->
-		<item id="2152" countmax="25" chance="100000"/><!-- platinum coin -->
-		<item id="2150" countmax="10" chance="100000"/><!-- small amethyst -->
-		<item id="2145" countmax="10" chance="100000"/><!-- small diamond -->
-		<item id="2149" countmax="10" chance="100000"/><!-- small emerald -->
-		<item id="2147" countmax="10" chance="100000"/><!-- small ruby -->
-		<item id="9970" countmax="10" chance="100000"/><!-- small topaz -->
-		<item id="7590" countmax="5" chance="100000"/><!-- great mana potion -->
-		<item id="8472" countmax="10" chance="100000"/><!-- great spirit potion -->
-		<item id="8473" countmax="10" chance="100000"/><!-- ultimate health potion -->
-		<item id="18413" countmax="3" chance="100000"/><!-- blue crystal shard -->
-		<item id="18415" countmax="3" chance="100000"/><!-- green crystal shard -->
-		<item id="18414" countmax="3" chance="100000"/><!-- blue crystal shard -->
-		<item id="7439" chance="100000"/><!-- berserk potion -->
-		<item id="2158" chance="100000"/><!-- blue gem -->
-		<item id="2155" chance="100000"/><!-- green gem -->
-		<item id="13293" chance="2000"/><!-- leather whip -->
-		<item id="12410" chance="2000"/><!-- luminous orb -->
-		<item id="5904" chance="2000"/><!-- magic sulphur -->
-		<item id="7894" chance="1000"/><!-- magma legs -->
-		<item id="7440" chance="2000"/><!-- mastermind potion -->
-		<item id="2214" chance="2000"/><!-- ring of healing -->
-		<item id="2153" chance="2000"/><!-- violet gem -->
-		<item id="2154" chance="2000"/><!-- yellow gem -->
-		<item id="11240" chance="1000"/><!-- guardian boots -->
-		<item id="2436" chance="1000"/><!-- skull staff -->
-		<item id="2197" chance="1000"/><!-- stone skin amulet -->
-		<item id="11240" chance="1000"/><!-- guardian boots -->
-		<item id="27624" chance="500" unique="1"/><!-- Part of a Rune(terceira) -->
-		<item id="8904" chance="1000"/><!-- Spellscroll of Prophecies -->
-		<item id="5809" chance="100" unique="1"/><!-- Soul Stone -->
-		<item id="2539" chance="100"/><!-- Phoenix Shield -->
-		<item id="7417" chance="100"/><!-- Runed Sword -->
-		<item id="25377" chance="100000"/><!-- Gold Token -->
-		<item id="25172" chance="100000"/><!-- Silver Token -->
+		<item name="gold coin" countmax="200" chance="100000"/>
+		<item name="mastermind potion" chance="100000"/>
+		<item name="platinum coin" countmax="30" chance="100000"/><!-- platinum coin -->
+		<item name="ring of healing" chance="100000"/>
+		<item name="skull staff" chance="100000"/>
+		<item name="green crystal shard" countmax="3" chance="80000"/><!--  -->
+		<item name="great mana potion" countmax="5" chance="80000"/><!--  -->
+		<item name="great spirit potion" countmax="10" chance="80000"/>
+		<item name="violet crystal shard" countmax="3" chance="60000"/><!--  -->
+		<item name="stone skin amulet" subtype="5" chance="60000"/><!--  -->
+		<item name="blue crystal shard" countmax="3" chance="60000"/><!--  -->
+		<item name="luminous orb" chance="60000"/>
+		<item name="ultimate health potion" countmax="10" chance="40000"/><!--  -->
+		<item name="small ruby" countmax="10" chance="40000"/><!--  -->
+		<item name="gold token" chance="40000"/>
+		<item name="violet gem" chance="20000"/>
+		<item name="green gem" chance="20000"/>
+		<item name="yellow gem" chance="20000"/>
+		<item name="small amethyst" countmax="10" chance="20000"/>
+		<item name="silver token" chance="20000"/>
+		<item name="blue gem" chance="20000"/>
+		<!-- unconfirmed chances -->
+		<item name="small topaz" countmax="10" chance="20000"/>
+		<item name="small diamond" countmax="10" chance="20000"/>
+		<item name="leather whip" chance="10000"/>
+		<item name="ancient watch" chance="10000"/>
+		<item name="spellscroll of prophecies" chance="10000"/>
+		<item name="soul stone" chance="10000"/>
+		<item name="magic sulphur" chance="10000"/>
+		<item name="magma legs" chance="10000"/>
+		<item name="24956" chance="10000"/><!-- part of a rune (three) -->
+		<item name="phoenix shield" chance="10000"/>
+		<item name="time guardian boots" chance="10000"/>
+		<item name="runed sword" chance="10000"/>
+		<item name="berserk potion" chance="10000"/>
+		<!-- unconfirmed chances -->
 	</loot>
 </monster>

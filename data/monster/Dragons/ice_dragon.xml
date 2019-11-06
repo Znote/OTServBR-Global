@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Ice Dragon" nameDescription="an ice dragon" race="undead" experience="2300" speed="106">
 	<health now="2500" max="2500"/>
-	<look type="947" head="9" body="9" legs="9" feet="0" corpse="27853"/>
+	<look type="947" head="9" body="9" legs="9" feet="0" corpse="25185"/>
 	<targetchange interval="2000" chance="5"/>
 	<flags>
 		<flag summonable="0"/>
@@ -10,12 +10,15 @@
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
+		<flag isBlockable="0"/>
 		<flag canPushItems="1"/>
 		<flag canPushCreatures="1"/>
 		<flag targetDistance="1"/>
 		<flag staticAttack="90"/>
-		<flag runOnHealth="350"/>
-		<flag isBlockable="0"/>
+		<flag runOnHealth="300"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonpoison="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="78" attack="50"/>
@@ -49,23 +52,21 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="165" chance="50320"/><!-- gold coin -->
-		<item id="2152" countmax="2" chance="50320"/><!-- platinun coin -->
-		<item id="2789" countmax="2" chance="50320"/><!-- Brown Mushrooms -->
-		<item id="2666" countmax="2" chance="50320"/><!-- Meats -->
-		<item id="27051" countmax="2" chance="20000"/><!-- cave turnip -->
-		<item id="5022" countmax="2" chance="50320"/><!-- Orichalcum Pearl -->
-		<item id="2230" chance="1130"/><!-- bone -->
-		<item id="2449" chance="4900"/><!-- bone club -->
-		<item id="2379" chance="1800"/><!-- dagger -->
-		<item id="2667" chance="12750"/><!-- fish -->
-		<item id="2467" chance="2510"/><!-- leather armor -->
-		<item id="2461" chance="1940"/><!-- leather helmet -->
-		<item id="2235" chance="1000"/><!-- moldy cheese -->
-		<item id="2406" chance="8870"/><!-- short sword -->
-		<item id="2559" chance="9700"/><!-- small axe -->
-		<item id="1294" countmax="3" chance="15290"/><!-- small stone -->
-		<item id="12495" chance="910"/><!-- Goblin Ear Gingerbreadman -->
-		<item id="6501" chance="910"/><!-- Goblin Ear Gingerbreadman -->
+		<item name="gold coin" countmin="2" countmax="209" chance="99440"/>
+		<item name="dragon ham" chance="73740"/>
+		<item name="dragon blood" chance="21230"/>
+		<item name="dragon tongue" chance="11170"/>
+		<item name="shiver arrow" countmin="1" countmax="9" chance="8940"/>
+		<item id="7441" chance="5030"/><!-- ice cube -->
+		<item name="golden mug" chance="3910"/>
+		<item name="hailstorm rod" chance="3910"/>
+		<item name="energy ring" chance="3350"/>
+		<item name="small sapphire" chance="3350"/>
+		<item name="great mana potion" countmin="1" countmax="2" chance="2790"/>
+		<item name="glacier amulet" chance="1680"/>
+		<item name="life crystal" chance="1120"/>
+		<item name="glacier mask" chance="560"/>
+		<item name="shard" chance="560"/>
+		<item name="dragon scale mail" chance="250"/>
 	</loot>
 </monster>

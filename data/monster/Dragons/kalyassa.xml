@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <monster name="Kalyassa" nameDescription="Kalyassa" race="blood" experience="9000" speed="250">
 	<health now="10000" max="10000"/>
-	<look type="947" head="114" body="113" legs="0" feet="57" addons="3" corpse="5984"/>
+	<look type="947" head="114" body="113" legs="0" feet="57" addons="3" corpse="25188"/>
 	<targetchange interval="4000" chance="10"/>
 	<flags>
-		<flag preyable="0"/>
 		<flag summonable="0"/>
 		<flag attackable="1"/>
-		<flag hostile="1"/>
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
+		<flag hostile="1"/>
 		<flag isBlockable="0"/>
 		<flag pushable="0"/>
 		<flag canPushItems="1"/>
 		<flag canPushCreatures="1"/>
 		<flag targetDistance="1"/>
+		<flag runOnHealth="500"/>
+		<flag canwalkonenergy="1"/>
+		<flag canwalkonfire="1"/>
+		<flag canwalkonpoison="1"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-500"/>
@@ -46,20 +49,18 @@
 		<summon name="dragon lord" interval="2000" chance="30" max="2"/>
 	</summons>
 	<loot>
-		<item id="27605" countmax="2" chance="100000"/><!-- dragon blood -->
-		<item id="2672" countmax="10" chance="75000"/><!-- dragon ham -->
-		<item id="2492" chance="5000"/><!-- dragon scale mail -->
-		<item id="27606" chance="100000"/><!-- dragon tongue -->
-		<item id="2167" chance="20000"/><!-- energy ring -->
-		<item id="2392" chance="8000"/><!-- fire sword -->
-		<item id="7591" countmax="2" chance="9000"/><!-- great health potion -->
-		<item id="7590" countmax="2" chance="9000"/><!-- great mana potion -->
-		<item id="27609" chance="100000"/><!-- horn of Kalyassa -->
-		<item id="2177" chance="1000"/><!-- life crystal -->
-		<item id="7365" countmax="10" chance="10000"/><!-- onyx arrow -->
-		<item id="2152" countmax="10" chance="100000"/><!-- platinum coin -->
-		<item id="2547" countmax="10" chance="50000"/><!-- power bolt -->
-		<item id="5948" chance="100000"/><!-- red dragon leather -->
-		<item id="2498" chance="5000"/><!-- royal helmet -->
-	</loot>
+		<item name="platinum coin" countmax="25" chance="100000"/>
+		<item name="horn of kalyassa" chance="100000"/>
+		<item name="dragon tongue" chance="100000"/>
+		<item name="dragon blood" countmax="2" chance="100000"/>
+		<item name="red dragon leather" chance="98020"/>
+		<item name="dragon ham" countmax="9" chance="71290"/>
+		<item name="power bolt" countmax="10" chance="56440"/>
+		<item name="energy ring" chance="16830"/>
+		<item name="onyx arrow" countmax="10" chance="10890"/>
+		<item name="fire sword" chance="9900"/>
+		<item name="great mana potion" countmax="2" chance="9900"/>
+		<item name="royal helmet" chance="3960"/>
+		<item name="dragon scale mail" chance="2970"/>
+		<item name="life crystal" chance="1980"/>
 </monster>

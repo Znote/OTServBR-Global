@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="A Shielded Astral Glyph" nameDescription="a shielded astral glyph" race="undead" experience="0" speed="470">
+<monster name="A Shielded Astral Glyph" nameDescription="A Shielded Astral Glyph" race="undead" experience="0" speed="470">
 	<health now="50000" max="50000"/>
-	<look typeex="26894" corpse="0"/>
+	<look typeex="24226" corpse="0"/>
 	<targetchange interval="2000" chance="0"/>
 	<flags>
 		<flag preyable="0"/>
@@ -11,6 +11,7 @@
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="1"/>
+		<flag isBlockable="0"/>
 		<flag canPushItems="1"/>
 		<flag canPushCreatures="1"/>
 		<flag targetDistance="1"/>
@@ -30,19 +31,16 @@
 		</attack>
 	</attacks>
 	<defenses armor="199" defense="199"/>
+	<elements>
+		<element deathPercent="80"/>
+		<element firePercent="80"/>
+		<element physicalPercent="80"/>
+		<element icePercent="80"/>
+		<element earthPercent="80"/>
+	</elements>
 	<immunities>
-		<immunity physical="1"/>
 		<immunity energy="1"/>
-		<immunity fire="1"/>
-		<immunity poison="1"/>
-		<immunity ice="1"/>
-		<immunity holy="1"/>
-		<immunity death="1"/>
-		<immunity lifedrain="1"/>
-		<immunity manadrain="1"/>
 		<immunity paralyze="1"/>
-		<immunity drunk="1"/>
-		<immunity outfit="1"/>
 		<immunity invisible="1"/>
 	</immunities>
 </monster>

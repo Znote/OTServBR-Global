@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Realityquake" nameDescription="Realityquake" race="energy" experience="80000" speed="400" script="reward_boss.lua">
-	<health now="110000" max="110000"/>
-	<look typeex="1387" corpse="26223"/>
+	<health now="200000" max="200000"/>
+	<look typeex="1387" corpse="23567"/>
 	<targetchange interval="3000" chance="20"/>
 	<flags>
 		<flag rewardBoss="1"/>
@@ -11,11 +11,15 @@
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
+		<flag isBlockable="0"/>
 		<flag canPushItems="1"/>
 		<flag canPushCreatures="1"/>
 		<flag targetDistance="1"/>
 		<flag staticAttack="90"/>
 		<flag runOnHealth="0"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonpoison="0"/>
 	</flags>
 	<script>
 		<event name="HeartBossDeath"/>
@@ -49,31 +53,27 @@
 			<attribute key="areaEffect" value="poff"/>
 		</defense>
 	</defenses>
+		<elements>
+		<element deathPercent="-20"/>
+		<element physicalPercent="20"/>
+		<element holyPercent="20"/>
+	</elements>
 	<immunities>
 		<immunity paralyze="1"/>
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-		<item id="2148" countmax="200" chance="100000"/><!-- gold coin -->
-		<item id="7590" countmax="5" chance="8000"/><!-- great mana potion -->
-		<item id="8472" countmax="5" chance="8000"/><!-- great spirit potion -->
-		<item id="8473" countmax="5" chance="8000"/><!-- ultimate health potion -->
-		<item id="26191" countmax="5" chance="8000"/><!-- energy bar -->
-		<item id="18413" countmax="3" chance="8000"/><!-- blue crystal shard -->
-		<item id="18415" countmax="3" chance="8000"/><!-- green crystal shard -->
-		<item id="2149" countmax="5" chance="8000"/><!-- small emerald -->
-		<item id="2147" countmax="5" chance="8000"/><!-- small ruby -->
-		<item id="18414" countmax="3" chance="8000"/><!-- violet crystal shard -->
-		<item id="26163" chance="8000"/><!-- crystallized anger -->
-		<item id="26164" chance="8000"/><!-- energy vein -->
-		<item id="2156" chance="8000"/><!-- red gem -->
-		<item id="25377" chance="100000"/><!-- gold token -->
-		<item id="26165" chance="100000"/><!-- mysterious remains -->
-		<item id="26166" chance="100000"/><!-- odd organ -->
-		<item id="7632" chance="4000"/><!-- giant shimmering pearl -->
-		<item id="7633" chance="4000"/><!-- giant shimmering pearl -->
-		<item id="2189" chance="8000"/><!-- wand of cosmic energy -->
-		<item id="26187" chance="6000"/><!-- ring of green plasma -->
-		<item id="26189" chance="6000"/><!-- ring of red plasma -->
+		<item name="crystallized anger" chance="100000"/>
+		<item name="energy bar" chance="15510"/>
+		<item name="gold coin" countmax="200" chance="100000"/>
+		<item name="gold token" countmax="4" chance="100000"/>
+		<item name="mysterious remains" chance="100000"/>
+		<item name="platinum coin" countmax="25" chance="100000"/>
+		<item name="red gem" chance="25000"/>
+		<item name="void boots" chance="12500"/>
+		<item name="nightmare blade" chance="8560"/>
+		<item name="violet gem" chance="7885"/>
+		<item name="tiara of power" chance="5646"/>
+		<item id="23543" chance="1540"/><!-- collar of green plasma -->
 	</loot>
 </monster>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Dragonking Zyrtarch" nameDescription="dragonking zyrtarch" race="fire" experience="1600" speed="280" manacost="290">
+<monster name="Dragonking Zyrtarch" nameDescription="dragonking zyrtarch" race="fire" experience="1600" speed="280">
 	<health now="150000" max="150000"/>
-	<look type="938" corpse="27733"/>
+	<look type="938" corpse="25065"/>
 	<targetchange interval="5000" chance="0"/>
 	<flags>
 		<flag summonable="0"/>
@@ -10,6 +10,7 @@
 		<flag illusionable="0"/>
 		<flag convinceable="0"/>
 		<flag pushable="0"/>
+		<flag isBlockable="0"/>
 		<flag canPushItems="1"/>
 		<flag canPushCreatures="1"/>
 		<flag staticAttack="90"/>
@@ -18,7 +19,6 @@
 		<flag canWalkOnEnergy="1"/>
 		<flag canWalkOnFire="1"/>
 		<flag canWalkOnPoison="1"/>
-		<flag preyable="0"/>
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="112" attack="85"/>
@@ -43,7 +43,7 @@
 			<attribute key="areaEffect" value="fire"/>
 		</attack>
 	</attacks>
-	<defenses armor="52" defense="64"/>
+	<defenses armor="52" defense="52"/>
 	<immunities>
 		<immunity fire="1"/>
 		<immunity drown="1"/>

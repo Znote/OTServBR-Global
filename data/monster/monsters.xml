@@ -1428,7 +1428,7 @@
 	
 	<!-- Ungulates -->
 	<monster name="Animated Clomp" file="Ungulates/animated_clomp.xml"/>
-	<monster name="Animated Rhino" file="Ungulates/animated_rhino.xml"/>
+	<monster name="Museum Stone Rhino" file="Ungulates/museum_stone_rhino.xml"/>
 	<monster name="Black Sheep" file="Ungulates/black_sheep.xml"/>
 	<monster name="Boar" file="Ungulates/boar.xml"/>
 	<monster name="Brown Horse" file="Ungulates/brown_horse.xml"/>
